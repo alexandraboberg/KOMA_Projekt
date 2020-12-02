@@ -1,0 +1,30 @@
+{
+  "recepies": [
+    {
+      "id": "jag är unik",
+      "drink_name": "pärondrink",
+      "picture": "",
+      "description": "",
+      "spirits": [ "Vodka" , "Gin"],
+      "taste": "",
+      "color": "",
+      "ingridients": [
+        {
+          "ingridient_name": "Vatten",
+          "quantity": "2",
+          "measurement": "cl"
+        },
+        {
+          "ingridient_name": "Vatten",
+          "quantity": "2",
+          "measurement": "cl"
+        }
+      ],
+      "instructions": [
+        { "step": "Gör såhär..." },
+        { "step": "Gör såhär..." }
+      ]
+    }
+  ]
+}
+           

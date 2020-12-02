@@ -1,0 +1,47 @@
+//Don't fuck with this
+
+{
+    "recepies": [
+      {
+        "id": "jag är unik",
+        "title": "pärondrink",
+        "taste": "god",
+        "spirit": "Vodka",
+        "tags": [ "vodka", "sur" ],
+        "ingredients": [
+          {
+            "name": "Vatten",
+            "quantity": "2",
+            "measurement": "cl"
+          }
+        ],
+        "steps": [
+          { "description": "Gör såhär..." }
+        ]
+      }
+    ]
+  }
+       //Don't fuck with this
+
+{
+    "recepies": [
+      {
+        "id": "jag är unik",
+        "title": "pärondrink",
+        "taste": "god",
+        "spirit": "Vodka",
+        "tags": [ "vodka", "sur" ],
+        "ingredients": [
+          {
+            "name": "Vatten",
+            "quantity": "2",
+            "measurement": "cl"
+          }
+        ],
+        "steps": [
+          { "description": "Gör såhär..." }
+        ]
+      }
+    ]
+  }
+       

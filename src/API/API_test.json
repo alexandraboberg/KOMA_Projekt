@@ -1,0 +1,93 @@
+[
+    {
+        "id": "DqaOO",
+        "drink_name": "Rhububble",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/rhububble-860x860.jpg",
+        "description": "Rhububble är en läskande bubbeldrink med relativt låg alkoholhalt. Den passar perfekt som fördrink eller välkomstdrink.",
+        "spirits": [
+            "Champagne"
+        ],
+        "taste": "Fruktig",
+        "color": "Gul",
+        "ingridients": [
+            {
+                "ingridient_name": "Rabarbersockerlag",
+                "quantity": "3",
+                "measurement": "cl"
+            },
+            {
+                "ingridient_name": "Citronjuice",
+                "quantity": "2",
+                "measurement": "cl"
+            },
+            {
+                "ingridient_name": "Champagne",
+                "quantity": "10",
+                "measurement": "cl"
+            }
+        ],
+        "instructions": [
+            {
+                "step": "Börja med att göra rabarbersockerlag."
+            },
+            {
+                "step": "Kyl gärna glaset i frysen i någon timme före servering."
+            },
+            {
+                "step": "Häll alla ingredienser i glaset och rör om lite lätt."
+            },
+            {
+                "step": "Garnera med rabarber."
+            }
+        ]
+    },
+    {
+        "id": "q2aPj",
+        "drink_name": "Raspberry Bellini",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/raspberry-bellini-860x860.jpg",
+        "description": "Raspberry Bellini är en frisk och fruktig champagnedrink. Den passar väldigt bra som fördrink eller välkomstdrink.",
+        "spirits": [
+            "Champagne",
+            "Likör"
+        ],
+        "taste": "Fruktig",
+        "color": "Rosa",
+        "ingridients": [
+            {
+                "ingridient_name": "Hallonlikör",
+                "quantity": "1",
+                "measurement": "cl"
+            },
+            {
+                "ingridient_name": "Champagne",
+                "quantity": "",
+                "measurement": ""
+            },
+            {
+                "ingridient_name": "Hallon",
+                "quantity": "",
+                "measurement": ""
+            }
+        ],
+        "instructions": [
+            {
+                "step": "Lägg några färska hallon i en lämplig behållare."
+            },
+            {
+                "step": "Muddla/mosa dem ordentligt och sila av det till en hallonjuice (utan kärnor)."
+            },
+            {
+                "step": "Häll 3 cl hallonjuice i ett glas."
+            },
+            {
+                "step": "Tillsätt hallonlikör."
+            },
+            {
+                "step": "Fyll upp med lagom mängd Champagne och rör om lite lätt."
+            },
+            {
+                "step": "Garnera på valfritt vis."
+            }
+        ]
+    }
+]

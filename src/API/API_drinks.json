@@ -1,0 +1,5074 @@
+
+{
+    "recipes": [
+      {
+        "id": "DqaOO",
+        "drink_name": "Rhububble",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/rhububble-860x860.jpg",
+        "description": "Rhububble är en läskande bubbeldrink med relativt låg alkoholhalt. Den passar perfekt som fördrink eller välkomstdrink.",
+        "spirits": [ "Champagne" ],
+        "taste": "Fruktig",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Rabarbersockerlag",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Champagne",
+            "quantity": "10",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Börja med att göra rabarbersockerlag." },
+          { "step": "Kyl gärna glaset i frysen i någon timme före servering." },
+          { "step": "Häll alla ingredienser i glaset och rör om lite lätt." },
+          { "step": "Garnera med rabarber." }
+        ]
+      },
+  
+      {
+        "id": "q2aPj",
+        "drink_name": "Raspberry Bellini",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/raspberry-bellini-860x860.jpg",
+        "description": "Raspberry Bellini är en frisk och fruktig champagnedrink. Den passar väldigt bra som fördrink eller välkomstdrink.",
+        "spirits": [ "Champagne", "Likör" ],
+        "taste": "Fruktig",
+        "color": "Rosa",
+        "ingridients": [
+          {
+            "ingridient_name": "Hallonlikör",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Champagne",
+            "quantity": "",
+            "measurement": ""
+          },
+          {
+            "ingridient_name": "Hallon",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Lägg några färska hallon i en lämplig behållare." },
+          { "step": "Muddla/mosa dem ordentligt och sila av det till en hallonjuice (utan kärnor)." },
+          { "step": "Häll 3 cl hallonjuice i ett glas." },
+          { "step": "Tillsätt hallonlikör." },
+          { "step": "Fyll upp med lagom mängd Champagne och rör om lite lätt." },
+          { "step": "Garnera på valfritt vis." }
+        ]
+      },
+  
+      {
+        "id": "ytUht",
+        "drink_name": "Hugo",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/hugo-860x860.jpg",
+        "description": "Hugo är en härligt frisk och god drink. Få drinkar passar bättre en varm sommardag än den här törstsläckaren.",
+        "spirits": [ "Champagne", "Likör" ],
+        "taste": "Fräsch",
+        "color": "Vit",
+        "ingridients": [
+          {
+            "ingridient_name": "Champagne",
+            "quantity": "15",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Fläderlikör",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Mynta",
+            "quantity": "ca. 8",
+            "measurement": "blad"
+          }
+        ],
+        "instructions": [
+          { "step": "Lägg ca. 8 myntablad i ett relativt stort glas på fot." },
+          { "step": "Tillsätt fläderlikör." },
+          { "step": "Stöt myntan lätt för att frigöra aromerna." },
+          { "step": "Fyll glaset med is." },
+          { "step": "Tillsätt Champagne." },
+          { "step": "Rör om lätt." },
+          { "step": "Garnera med mynta, en limeklyfta och stoppa i ett sugrör." }
+        ]
+      },
+  
+      {
+        "id": "vm7J5",
+        "drink_name": "Kir Royal",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/kir-royal-1-860x860.jpg",
+        "description": "Kir Royal är en klassisk och enkel champagnedrink. Passar bra som välkomstdrink eller fördrink.",
+        "spirits": [ "Champagne", "Likör" ],
+        "taste": "",
+        "color": "Röd",
+        "ingridients": [
+          {
+            "ingridient_name": "Svartvinbärslikör (Crème de Cassis)",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Champagne",
+            "quantity": "2",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll upp svartvinbärslikör i ett champagneglas." },
+          { "step": "Fyll upp glaset med champagne." },
+          { "step": "Rör om försiktigt och garnera på valfritt sätt." }
+        ]
+      },
+  
+      {
+        "id": "zsZI2",
+        "drink_name": "Mojito Royal",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/mojito-royal-1-860x860.jpg",
+        "description": "Mojito Royal är precis som en vanlig mojito, fast i en lite lyxigare tappning. Här är sodavattnet utbytt mot champagne.",
+        "spirits": [ "Champagne", "Rom" ],
+        "taste": "god",
+        "color": "",
+        "ingridients": [
+          {
+            "ingridient_name": "Ljus rom",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Champagne",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Mynta",
+            "quantity": "ca. 12",
+            "measurement": "blad"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll limejuice och sockerlag i ett glas." },
+          { "step": "Lägg myntan (ca 12 st blad) i ena handen och klappa ihop med din andra hand för att frigöra aromer. Lägg sedan myntabladen i glaset." },
+          { "step": "Stöt myntabladen försiktigt med en muddlare eller något trubbigt redskap. De ska inte muddlas för hårt eller krossas så att de går sönder. Då blir drinken lätt besk." },
+          { "step": "Tillsätt rom och fyll lite mer än halva glaset med krossad is." },
+          { "step": "Rör om med en sked så att allt blandar sig." },
+          { "step": "Tillsätt champagne och fyll resten av glaset med krossad is." },
+          { "step": "Garnera." }
+        ]
+      },
+  
+      {
+        "id": "YZe2r",
+        "drink_name": "Kir Imperial",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/kir-imperal-860x860.jpg",
+        "description": "Kir Imperial är en enkel och god champagnedrink som fungerar utmärkt som välkomstdrink eller fördrink.",
+        "spirits": [ "Champagne", "Likör" ],
+        "taste": "",
+        "color": "Röd",
+        "ingridients": [
+          {
+            "ingridient_name": "Hallonlikör",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Champagne",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Häll hallonlikör i ett glas." },
+          { "step": "Fyll upp med champagne och rör om försiktigt." },
+          { "step": "Garnera med ett hallon." }
+        ]
+      },
+  
+      {
+        "id": "UCa1g",
+        "drink_name": "Jayne Mansfield",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/jayne-mansfield-860x860.jpg",
+        "description": "Jayne Mansfield är en festlig och god jordgubb- & champagnedrink.",
+        "spirits": [ "Champagne", "Rom", "Likör" ],
+        "taste": "",
+        "color": "Röd",
+        "ingridients": [
+          {
+            "ingridient_name": "Ljus rom",
+            "quantity": "2.5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Jordgubbslikör",
+            "quantity": "2.5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "0.5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Champagne",
+            "quantity": "10",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Jordgubbar",
+            "quantity": "4",
+            "measurement": "st"
+          }
+        ],
+        "instructions": [
+          { "step": "Muddla jordgubbarna i en shaker." },
+          { "step": "Tillsätt ljus rom, jordgubbslikör, citronjuice och sockerlag." },
+          { "step": "Fyll upp shakern med is och skaka." },
+          { "step": "Sila upp i ett glas och toppa med champagne." },
+          { "step": "Rör om lite försiktigt och garnera." }
+        ]
+      },
+  
+      {
+        "id": "Oe3ae",
+        "drink_name": "The St-Germain Cocktail",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/the-st-germain-cocktail-860x860.jpg",
+        "description": "The St-Germain Cocktail är en signaturdrink från just St-Germain. Det är en frisk drink med en väl avvägd balans mellan fläder och champagne.",
+        "spirits": [ "Champagne", "Likör" ],
+        "taste": "Fräsch",
+        "color": "Vit",
+        "ingridients": [
+          {
+            "ingridient_name": "Fläderlikör",
+            "quantity": "4.5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Champagne",
+            "quantity": "6",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sodavatten",
+            "quantity": "6",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett glas med is." },
+          { "step": "Tillsätt fläderlikör, champagne och sodavatten." },
+          { "step": "Rör om försiktigt." },
+          { "step": "Garnera." }
+        ]
+      },
+  
+      {
+        "id": "33W8A",
+        "drink_name": "Nomayo",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/nomayo-860x860.jpg",
+        "description": "Nomayo är en god cocktail med en härligt lysande färg.",
+        "spirits": [ "Champagne", "Gin", "Likör" ],
+        "taste": "",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Gin",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Fläderlikör",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Aperol",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Champagne",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Blanda gin, fläderlikör, aperol och citronjuice i en shaker." },
+          { "step": "Fyll shakern med is och skaka." },
+          { "step": "Sila upp drinken i ett glas." },
+          { "step": "Toppa med champagne." },
+          { "step": "Garnera." }
+        ]
+      },
+  
+      {
+        "id": "2xDTT",
+        "drink_name": "Mimosa",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/mimosa-860x860.jpg",
+        "description": "Mimosa är en klassisk och enkel drink. Den fungerar utmärkt som fördrink eller välkomstdrink.",
+        "spirits": [ "Champagne" ],
+        "taste": "",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Champagne",
+            "quantity": "9",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Apelsinjuice",
+            "quantity": "6",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll upp apelsinjuice i ett champagneglas." },
+          { "step": "Tillsätt champagne och rör om lätt." },
+          { "step": "Garnera på valfritt sätt." }
+        ]
+      },
+  
+      {
+        "id": "Lg6_M",
+        "drink_name": "Peachtree Bellini",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/peachtree-bellini-860x860.jpg",
+        "description": "Peachtree Bellini är en förenklad variant av den klassiska drinken Bellini. Den passar perfekt som välkomstdrink eller fördrink.",
+        "spirits": [ "Champagne", "Likör" ],
+        "taste": "",
+        "color": "Vit",
+        "ingridients": [
+          {
+            "ingridient_name": "Persikolikör",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Champagne",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Häll ner Peachtree i ett champagneglas." },
+          { "step": "Fyll upp glaset med Champagne." },
+          { "step": "Garnera med färsk persika." }
+        ]
+      },
+  
+      {
+        "id": "oaZr9",
+        "drink_name": "Aperol Spritz",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/aperol-spritz-860x860.jpg",
+        "description": "Aperol Spritz är kanske den mest somriga drinken som finns. Helt enkelt den perfekta drinken för att svalka sig en varm sommardag.",
+        "spirits": [ "Champagne" ],
+        "taste": "",
+        "color": "",
+        "ingridients": [
+          {
+            "ingridient_name": "Champagne",
+            "quantity": "9",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Aperol",
+            "quantity": "6",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sodavatten",
+            "quantity": "3",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett glas med is." },
+          { "step": "Tillsätt alla ingredienser och rör om lite lätt." },
+          { "step": "Garnera med en apelsinskiva." }
+        ]
+      },
+  
+      {
+        "id": "kPLAH",
+        "drink_name": "Limoncello Spritz",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/limoncello-spritz-860x860.jpg",
+        "description": "Limoncello Spritz är en fräsch och frisk drink. Perfekt att svalka sig med en varm sommardag!",
+        "spirits": [ "Champagne", "Likör" ],
+        "taste": "Fräsch",
+        "color": "Vit",
+        "ingridients": [
+          {
+            "ingridient_name": "Limoncello",
+            "quantity": "6",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Champagne",
+            "quantity": "10",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sodavatten",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "1",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett glas med is." },
+          { "step": "Tillsätt alla ingredienser och rör om försiktigt." },
+          { "step": "Garnera på valfritt vis." }
+        ]
+      },
+  
+      {
+        "id": "Bt_GR",
+        "drink_name": "Capri Libre",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/capri-libre-860x860.jpg",
+        "description": "Capri Libre är en oerhört tjusig och god drink som passar perfekt som välkomstdrink eller fördrink.",
+        "spirits": [ "Champagne", "Likör", "Rom" ],
+        "taste": "",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Limoncello",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Ljus rom",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Jordgubbsjuice",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Champagne",
+            "quantity": "2",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett champagneglas med is." },
+          { "step": "Tillsätt alla ingredienser." },
+          { "step": "Rör om försiktigt och garnera." }
+        ]
+      },
+  
+      {
+        "id": "kUpga",
+        "drink_name": "Pomegranate Punch",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/pomegranate-punch-860x860.jpg",
+        "description": "Pomegranate Punch är en fräsch och spännande drink.",
+        "spirits": [ "Champagne", "Rom" ],
+        "taste": "Fräsch",
+        "color": "Vit",
+        "ingridients": [
+          {
+            "ingridient_name": "Ljus rom",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Granatäpplejuice",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Champagne",
+            "quantity": "6",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Mynta",
+            "quantity": "ca. 12",
+            "measurement": "blad"
+          },
+          {
+            "ingridient_name": "Granatäpple",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Häll ner citronjuice och sockerlag i ett highball-glas." },
+          { "step": "Lägg ett knippe mynta (ca 12 st blad) i ena handen och klappa ihop med din andra hand för att frigöra aromerna i myntan. Lägg sedan bladen i glaset." },
+          { "step": "Muddla myntabladen försiktigt. De ska inte muddlas för hårt eller krossas. Då kan drinken lätt bli besk." },
+          { "step": "Tillsätt rom, granatäpplejuice och granatäpplekärnor." },
+          { "step": "Fyll lite mer än halva glaset med krossad is och rör om." },
+          { "step": "Tillsätt Champagne och fyll resten av glaset med is." },
+          { "step": "Stoppa i sugrör och garnera med en myntakvist och en citronklyfta." }
+        ]
+      },
+  
+      {
+        "id": "iZndU",
+        "drink_name": "French 75",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/french-75-860x860.jpg",
+        "description": "French 75 är en klassisk drink med en historia som sträcker sig så långt tillbaka som 1915. Receptet påminner om en Tom Collins, men i en French 75 är sodavattnet utbytt mot champagne och serveras förslagsvis i ett champagneglas eller en coupette som på bilden ovan.",
+        "spirits": [ "Champagne", "Gin" ],
+        "taste": "Fräsch",
+        "color": "Vit",
+        "ingridients": [
+          {
+            "ingridient_name": "Gin",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Champagne",
+            "quantity": "5",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll ner gin, citronjuice och sockerlag i en shaker." },
+          { "step": "Fyll shakern med is." },
+          { "step": "Skaka tills drinken blivit kall." },
+          { "step": "Sila upp i ett glas och toppa drinken med champagne." },
+          { "step": "Garnera med citronzest." }
+        ]
+      },
+  
+      {
+        "id": "6z2C5",
+        "drink_name": "Old Cuban",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/old-cuban-860x860.jpg",
+        "description": "Old Cuban är en god drink som i det närmaste kan beskrivas som en mojito med en twist.",
+        "spirits": [ "Champagne", "Rom" ],
+        "taste": "",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Mörk rom",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Angostura Bitters",
+            "quantity": "2",
+            "measurement": "stänk"
+          },
+          {
+            "ingridient_name": "Mynta",
+            "quantity": "ca. 12",
+            "measurement": "blad"
+          },
+          {
+            "ingridient_name": "Champagne",
+            "quantity": "2",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll ner mörk rom, limejuice och sockerlag i en shaker." },
+          { "step": "Ta ett knippe mynta (ca 12 st blad) i ena handen och klappa ihop med den andra handen för att frigöra aromerna, och lägga sedan ner myntan i shakern." },
+          { "step": "Stöt myntan lätt med en muddlare tillsammans med de övriga ingredienserna i shakern." },
+          { "step": "Tillsätt två stänk Angostura Bitters och fyll upp shakern med is." },
+          { "step": "Skaka tills drinken blivit kall." },
+          { "step": "Sila upp i ett glas, toppa med champagne och garnera med en liten kvist mynta." }
+        ]
+      },
+  
+      {
+        "id": "JfJDl",
+        "drink_name": "Russian Spring Punch",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/russian-spring-punch.jpg",
+        "description": "Russian Spring Punch är en festlig drink med härlig svartvinbärssmak.",
+        "spirits": [ "Vodka", "Likör", "Champagne" ],
+        "taste": "",
+        "color": "Röd",
+        "ingridients": [
+          {
+            "ingridient_name": "Vodka",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Svartvinbärslikör (Crème de Cassis)",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Champagne",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Häll ner vodka, svartvinbärslikör, citronjuice och sockerlag i en shaker." },
+          { "step": "Fyll shakern med is och skaka." },
+          { "step": "Sila upp i ett isfyllt glas." },
+          { "step": "Fyll upp med champagne och garnera." }
+        ]
+      },
+  
+      {
+        "id": "EqskW",
+        "drink_name": "Mexikanskt Iskaffe",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/mexikanskt-iskaffe-860x860.jpg",
+        "description": "Mexikanskt Iskaffe blandar flera spännande smaker som tillsammans skapar en väldigt smakrik drink.",
+        "spirits": [ "Tequila" ],
+        "taste": "",
+        "color": "Vit",
+        "ingridients": [
+          {
+            "ingridient_name": "Likör 43",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Tequila",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Kaffe",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Mjölk",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Brygg en kopp starkt kaffe." },
+          { "step": "Fyll ett glas med is." },
+          { "step": "Skaka Licor 43, tequila, kaffe och sockerlag med is i en shaker." },
+          { "step": "Sila upp drinken i glaset." },
+          { "step": "Fyll upp med mjölk och smaka eventuellt av med mer sockerlag.." }
+        ]
+      },
+  
+      {
+        "id": "ILK5_",
+        "drink_name": "Tequila Sunrise",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/tequila-sunrise-860x860.jpg",
+        "description": "Tequila Sunrise är en riktig klassiker. Lyckas man med sunrise-effekten är den fröjd för ögat!",
+        "spirits": "Tequila",
+        "taste": "Fruktig",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Tequila",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Grenadin",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Apelsinjuice",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett glas med is och tillsätt tequila" },
+          { "step": "Fyll upp med apelsinjuice och rör om." },
+          { "step": "Håll baksidan av en sked mot kanten av glaset och häll grenadin försiktigt mot skeden så att det sjunker ned mot botten och skapar en sunrise. " },
+          { "step": "Garnera på valfritt sätt." }
+        ]
+      },
+  
+      {
+        "id": "bGUiB",
+        "drink_name": "Mexico Pacifico",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/mexico-pacifico-860x860.jpg",
+        "description": "Mexico Pacifico är en enkel och sofistikerad drink med intressanta smaker.",
+        "spirits": [ "Tequila" ],
+        "taste": "Fruktig",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Tequila",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Passionsfruktjuice",
+            "quantity": "8",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "1",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll alla ingredienser i en shaker och fyll upp med is." },
+          { "step": "Skaka tills drinken blivit kall." },
+          { "step": "Sila upp i ett champagneglas." },
+          { "step": "Garnera med ett limehjul." }
+        ]
+      },
+  
+      {
+        "id": "cDbOM",
+        "drink_name": "Margarita",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/missing-img-2.jpgg",
+        "description": "Margarita är en klassisk drink och finns i en uppsjö av varianter. Det här är originalet.",
+        "spirits": [ "Tequila", "Likör" ],
+        "taste": "",
+        "color": "Vit",
+        "ingridients": [
+          {
+            "ingridient_name": "Tequila",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Appelsinlikör",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "2",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Förbered margarita-glaset genom att först sprida ut ett lager salt på ett fat eller an assiett." },
+          { "step": "Fukta glasets kanter med vatten eller limejuice." },
+          { "step": "Doppa glaset i saltet så att det fastnar." },
+          { "step": "Blanda sedan alla ingredienser i en shaker." },
+          { "step": "Fyll shakern med is och skaka." },
+          { "step": "Sila upp drinken i glaset." },
+          { "step": "Garnera" }
+        ]
+      },
+  
+      {
+        "id": "im8P7",
+        "drink_name": "Southside",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/southside.jpg",
+        "description": "Southside är en klassisk och god cocktail med myntasmak. Grunden till drinken är en gin sour med gin, limejuice och sockerlag.",
+        "spirit": [ "Gin" ],
+        "taste": "Sur",
+        "color": "Grön",
+        "ingridients": [
+          {
+            "ingridient_name": "Gin",
+            "quantity": "5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Mynta",
+            "quantity": "8-10",
+            "measurement": "blad"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll alla ingredienser i en shaker." },
+          { "step": "Fyll shakern med is och skaka ordentligt så att drinken både blir kall och så att smaken från myntan kommer fram ordentligt." },
+          { "step": "Sila upp i ett cocktailglas." },
+          { "step": "Garnera med mynta så att man känner doften varje gång man tar en sipp." }
+        ]
+      },
+  
+      {
+        "id": "yWdEY",
+        "drink_name": "Bijou",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/bijou.jpg",
+        "description": "Bijou är en klassisk cocktail med anor från sent 1800-tal. Drinken skapades av Harry Johnson och namnet Bijou (som betyder juvel) kommer från de tre spritsorternas färger. Gin motsvarar diamant, vermouth rubin och chartreuse smaragd.",
+        "spirit": [ "Gin", "Likör" ],
+        "taste": "",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Gin",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Grön Chartreuse",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Söt Vermouth (Röd)",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Angostura Bitters",
+            "quantity": "1",
+            "measurement": "stänk"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll alla ingredienser i ett rörglas." },
+          { "step": "Tillsätt rikligt med is." },
+          { "step": "Rör drinken tills den blivit nedkyld och balanserat utspädd av vattnet." },
+          { "step": "Sila upp i ett cocktailglas." }
+        ]
+      },
+  
+      {
+        "id": "ZXMa7",
+        "drink_name": "Bee’s Knees",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/bees-knees.jpg",
+        "description": "Bee's Knees är en klassisk drink och en variant av en gin sour. Istället för sockerlag, innehåller en Bee's Knees honungsvatten vilket ger drinken en annan karaktär.",
+        "spirit": [ "Gin" ],
+        "taste": "Sur",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Gin",
+            "quantity": "5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Honung",
+            "quantity": "2",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Börja med att späda ut honungen så att den lättare ska kunna blanda sig med de övriga ingredienserna. Hetta upp 2 delar honung tillsammans med 1 del vatten under omrörning och låt svalna." },
+          { "step": "Häll 2 cl honungsvatten, 5 cl gin och 3 cl citronjuice i en shaker." },
+          { "step": "Fyll shakern med is och skaka drinken kall." },
+          { "step": "Sila upp i ett glas och garnera." }
+        ]
+      },
+  
+      {
+        "id": "Nm9e3",
+        "drink_name": "Singapore Sling",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/singapore-sling.jpg",
+        "description": "Singapore Sling är en väldigt god och fruktig gindrink som skapades för över hundra år sedan av Ngiam Tong Boon som var bartender på Raffles Hotel i Singapore.",
+        "spirit": [ "Gin", "Likör" ],
+        "taste": "Fruktig",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Gin",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Körsbärslikör",
+            "quantity": "1.5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Bénédictine D.O.M",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Cointreau",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Ananasjuice",
+            "quantity": "12",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "1.5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Grenadin",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Angostura Bitters",
+            "quantity": "1",
+            "measurement": "stänk"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll alla ingredienser i en shaker." },
+          { "step": "Fyll shakern med is och skaka tills den blivit kall." },
+          { "step": "Sila upp i ett isfyllt glas (gärna med krossad is)." },
+          { "step": "Garnera med ananas och körsbär." }
+        ]
+      },
+  
+      {
+        "id": "VhtzV",
+        "drink_name": "Rabarber Gin Sour",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/rabarber-gin-sour.jpg",
+        "description": "Rabarber Gin Sour är en god och söt-syrlig variant av en klassisk Gin Sour. Genom att byta ut den vanliga sockerlagen i en Gin Sour mot en rabarbersockerlag, får man här en något fruktigare drink.",
+        "spirit": [ "Gin" ],
+        "taste": "Sur",
+        "color": "Rosa",
+        "ingridients": [
+          {
+            "ingridient_name": "Pink Gin",
+            "quantity": "5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Rabarbersockerlag",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Äggvita",
+            "quantity": "2",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Börja med att göra rabarbersockerlagen." },
+          { "step": "Häll alla ingredienser i en shaker och skaka den utan is för att skumma äggvitan." },
+          { "step": "Fyll sedan shakern med is och skaka igen tills drinken blivit kall." },
+          { "step": "Sila upp i ett cocktailglas och garnera med rabarber." }
+        ]
+      },
+  
+      {
+        "id": "CY5ON",
+        "drink_name": "Clover Club",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/clover-club.jpg",
+        "description": "Clover Club är en klassisk cocktail med frisk hallonsmak. Drinken kan närmast beskrivas som en Gin Sour med hallonsockerlag och har en historia som sträcker sig tillbaka till tidigt 1900-tal.",
+        "spirit": [ "Gin" ],
+        "taste": "Sur",
+        "color": "Rosa",
+        "ingridients": [
+          {
+            "ingridient_name": "Gin",
+            "quantity": "5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Hallonsockerlag",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Äggvita",
+            "quantity": "2",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Börja med att göra hallonsockerlagen." },
+          { "step": "Häll alla ingredienser i en shaker och skaka den utan is för att skapa ett luftigt skum av äggvitan." },
+          { "step": "Fyll sedan shakern med is och skaka igen så att drinken blir kall." },
+          { "step": "Sila upp i ett cocktailglas och garnera med hallon." }
+        ]
+      },
+  
+      {
+        "id": "zxZrG",
+        "drink_name": "Rabarber Collins",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/rabarber-collins.jpg",
+        "description": "Rabarber Collins är en somrig twist på den klassiska drinken Tom Collins. I det här receptet används pink gin istället för old tom gin och en rabarbersockerlag istället för vanlig sockerlag. Detta gör att drinken blir aningen sötare och fruktigare än sitt original.",
+        "spirit": [ "Gin" ],
+        "taste": "Sur",
+        "color": "Rosa",
+        "ingridients": [
+          {
+            "ingridient_name": "Pink Gin",
+            "quantity": "5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Rabarbersockerlag",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sodavatten",
+            "quantity": "5",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Börja med att göra rabarbersockerlagen." },
+          { "step": "Häll pink gin, citronjuice och rabarbersockerlag i en shaker." },
+          { "step": "Fyll shakern med is och skaka drinken kall." },
+          { "step": "Sila upp i ett isfyllt highballglas." },
+          { "step": "Toppa med sodavatten." },
+          { "step": "Garnera förslagsvis med rabarber." }
+        ]
+      },
+  
+      {
+        "id": "_7E7o",
+        "drink_name": "Pink Rhubarb GT",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/pink-rhubarb-gt-1.jpg",
+        "description": "Pink Rhubarb GT är en fruktig och somrig variant av en Gin & Tonic. Fruktigheten i det här receptet kommer dels från rabarbersockerlagen, samt att vi använder en pink gin istället för en \"vanlig\" dry gin.",
+        "spirit": [ "Gin" ],
+        "taste": "Fruktig",
+        "color": "Rosa",
+        "ingridients": [
+          {
+            "ingridient_name": "Pink Gin",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Rabarbersockerlag",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Tonic",
+            "quantity": "10",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Börja med att göra rabarbersockerlagen." },
+          { "step": "Häll alla ingredienser i ett isfyllt glas." },
+          { "step": "Rör om lite lätt." },
+          { "step": "Garnera med rabarber." }
+        ]
+      },
+  
+      {
+        "id": "b5awg",
+        "drink_name": "Saffron Collins",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/saffron-collins.jpg",
+        "description": "Saffron Collins är en frisk och julig variant av den klassiska drinken Tom Collins.",
+        "spirit": [ "Gin" ],
+        "taste": "Fräsch",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Gin",
+            "quantity": "5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Saffranssockerlag",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sodavatten",
+            "quantity": "5",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Börja med att göra saffranssockerlagen." },
+          { "step": "Häll gin, citronjuice och saffranssockerlag i en shaker." },
+          { "step": "Fyll upp shakern med is och skaka tills drinken är kall." },
+          { "step": "Sila upp drinken i ett isfyllt highball-glas." },
+          { "step": "Tillsätt sodavatten och rör om lätt." },
+          { "step": "Garnera med apelsin." }
+        ]
+      },
+  
+      {
+        "id": "Fa7Ah",
+        "drink_name": "Gin Sour",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/gin-sour.jpg",
+        "description": "Gin Sour är en enkel, frisk och sötsyrlig gindrink.",
+        "spirit": [ "Gin" ],
+        "taste": "Sur",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Gin",
+            "quantity": "5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Äggvita",
+            "quantity": "2",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll alla ingredienser i en shaker." },
+          { "step": "Skaka ordentligt utan is så att det bildas ett bra skum." },
+          { "step": "Fyll sedan shakern med is och skaka tills den blir kall." },
+          { "step": "Sila upp i ett glas." },
+          { "step": "Garnera." }
+        ]
+      },
+  
+      {
+        "id": "DyI89",
+        "drink_name": "Negroni",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/negroni-1.jpg",
+        "description": "Negroni är en klassisk drink med anor från tidigt 1900-tal. Det är en så kallad \"spirit-forward\"-drink och passar, med sin pikanta och något beska smak, perfekt som apertif.",
+        "spirit": [ "Gin" ],
+        "taste": "",
+        "color": "Röd",
+        "ingridients": [
+          {
+            "ingridient_name": "Gin",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Campari",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Söt Vermouth (Röd)",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Äggvita",
+            "quantity": "2",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll alla ingredienser i ett rörglas med is. Saknar du rörglas går det bra med någon annan behållare där du kan röra runt drinken med is." },
+          { "step": "Rör drinken i ca 45 sekunder. Smaka av några gånger för att känna efter när du hittat rätt. Att röra drinken är till för att dels kyla drinken, men också för att späda ut den." },
+          { "step": "Sila upp drinken i ett isfyllt glas. En så stor isbit som möjligt är att föredra eftersom det får drinken att inte fortsätta spädas ut i samma tempo som med flera mindre isbitar." },
+          { "step": "Ta en bit apelsinzest och pressa det över drinken för att få ut apelsinskalets oljor. Gnid zesten mot glasets kanter innan du stoppar ner det i drinken." }
+        ]
+      },
+  
+      {
+        "id": "7WVJG",
+        "drink_name": "Kaffe Karlsson",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/kaffe-karlsson.jpg",
+        "description": "Kaffe Karlsson är en varm och god kaffedrink. Drinken passar perfekt efter maten en kall höst- eller vinterkväll.",
+        "spirit": [ "Likör" ],
+        "taste": "",
+        "color": "",
+        "ingridients": [
+          {
+            "ingridient_name": "Baileys",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Cointreau",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Kaffe",
+            "quantity": "15",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Grädde",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Brygg kaffe." },
+          { "step": "Häll Baileys och Cointreau i ett glas." },
+          { "step": "Tillsätt kaffet till glaset och lämna ett par centimeter upp till kanten." },
+          { "step": "Lättvispa grädde (t.ex. genom att skaka den i en shaker en liten stund). Konsistensen ska vara lös och luftig." },
+          { "step": "Häll försiktigt vispgrädden på en sked över ytan så att den lägger sig ovanpå drinken." },
+          { "step": "Garnera med riven choklad." }
+        ]
+      },
+  
+      {
+        "id": "hL2ad",
+        "drink_name": "Fernet Cup N.1",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/fernet-cup-n1.jpg",
+        "description": "Fernet Cup N.1 är en uppfriskande och kryddig drink. Den liknar på många sätt en Moscow Mule eftersom båda drinkar innehåller både lime och Ginger Beer, men här finns en tydlig örtighet från Fernet-Branca som inte går att ta miste på.",
+        "spirit": [ "Likör" ],
+        "taste": "Fräsch",
+        "color": "",
+        "ingridients": [
+          {
+            "ingridient_name": "Fernet-Branca",
+            "quantity": "4.5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Äggvita",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Ginger Beer",
+            "quantity": "12",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll Fernet-Branca, limejuice, sockerlag och äggvita i en shaker." },
+          { "step": "Fyll shakern med is och skaka." },
+          { "step": "Fyll ett glas med krossad is och sila upp drinken över isen." },
+          { "step": "Tillsätt Ginger Beer i glaset och rör om." },
+          { "step": "Garnera." }
+        ]
+      },
+  
+      {
+        "id": "esSRM",
+        "drink_name": "Sloe Gin Sour",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/sloe-gin-sour.jpg",
+        "description": "Sloe Gin Sour är en god drink som är en lite fruktigare variant av en vanlig Gin Sour. I det här receptet byts den vanliga ginen ut mot en Sloe gin, vilket är en slånbärslikör med ginbas.",
+        "spirit": [ "Likör" ],
+        "taste": "Sur",
+        "color": "Röd",
+        "ingridients": [
+          {
+            "ingridient_name": "Sloe gin",
+            "quantity": "5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Äggvita",
+            "quantity": "2",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll alla ingredienser i en shaker." },
+          { "step": "Skaka drinken utan is för att få äggvitan att skumma sig ordentligt." },
+          { "step": "Tillsätt sedan is och skaka drinken kall." },
+          { "step": "Sila upp i ett cocktailglas." }
+        ]
+      },
+  
+      {
+        "id": "CuTrd",
+        "drink_name": "Caribbean Cooler",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/caribbean-cooler.jpg",
+        "description": "Caribbean Cooler är en god och uppfriskande tiki-inspirerad drink. Drinken har tydlig ingefärskaraktär från Ginger Beer och får en trevligt rund smak av mörk rom och Galliano.",
+        "spirit": [ "Likör", "Rom" ],
+        "taste": "Fräsch",
+        "color": "",
+        "ingridients": [
+          {
+            "ingridient_name": "Mörk rom",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Galliano",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "2.5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Ginger Beer",
+            "quantity": "14",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll alla ingredienser förutom Ginger Beer i en shaker." },
+          { "step": "Skaka med is tills drinken är kall." },
+          { "step": "Sila upp i ett glas fyllt med krossad is, gärna en tiki-mugg om du har." },
+          { "step": "Tillsätt Ginger Beer och rör om." },
+          { "step": "Garnera förslagsvis med en myntakvist." }
+        ]
+      },
+  
+      {
+        "id": "SqPI8",
+        "drink_name": "Last Word",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/last-word.jpg",
+        "description": "Last Word är en god och smakrik drink som sägs ha skapats under förbudstiden i USA på 1920-talet. Låt dig inte skrämmas av att merparten av drinkens ingredienser är olika spritsorter. Smaken är faktiskt förvånansvärt balanserad och njutbar.",
+        "spirit": [ "Likör", "Gin" ],
+        "taste": "",
+        "color": "",
+        "ingridients": [
+          {
+            "ingridient_name": "Gin",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Grön Chartreuse",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Maraschinolikör",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "2",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll alla ingredienser i en shaker." },
+          { "step": "Fyll shakern med is." },
+          { "step": "Skaka tills drinken blivit kall." },
+          { "step": "Sila upp i ett cocktailglas." },
+          { "step": "Garnera med lime." }
+        ]
+      },
+  
+      {
+        "id": "aG6DB",
+        "drink_name": "Campari Orange",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/campari-juice.jpg",
+        "description": "Campari Orange eller Campari Juice som den också vanligen kallas, är en klassisk, populär och väldigt enkel drink att tillreda. Receptet består av enbart två ingredienser.",
+        "spirit": [ "Likör" ],
+        "taste": "Fruktig",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Campari",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Apelsinjuice",
+            "quantity": "12",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett glas med is." },
+          { "step": "Häll ner apelsinjuice." },
+          { "step": "Tillsätt Campari." },
+          { "step": "Om du föredrar att drinken är helt blandad, kan du nu röra om. Låt bli att röra om om du istället vill låta drinken ha en sunrise-effekt vilket kan vara trevligt när drinken serveras. Drinken blandar sig sedan allt eftersom man dricker." },
+          { "step": "Garnera med apelsin." }
+        ]
+      },
+  
+      {
+        "id": "87uAF",
+        "drink_name": "Sloe Down",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/sloe-down.jpg",
+        "description": "Sloe Down är lite av en variant av den klassiska drinken Negroni. Istället för vanlig gin används här sloe gin, vilket är en ginbaserad slånbärslikör. Detta skapar en söt och fruktig cocktail som ändå får en tydlig beska från Campari.",
+        "spirit": [ "Likör" ],
+        "taste": "Fruktig",
+        "color": "Röd",
+        "ingridients": [
+          {
+            "ingridient_name": "Sloe gin",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Campari",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Söt Vermouth (Röd)",
+            "quantity": "2",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll alla ingredienser i ett rörglas (eller annan lämplig behållare)." },
+          { "step": "Tillsätt is." },
+          { "step": "Rör om tills drinken är riktigt kall. Detta gör även att en viss mängd vatten blandas in (vilket är tanken)." },
+          { "step": "Sila upp i ett cocktailglas." },
+          { "step": "Garnera med apelsinzest." }
+        ]
+      },
+  
+      {
+        "id": "SqN-u",
+        "drink_name": "Americano",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/americano.jpg",
+        "description": "Americano är en klassisk drink med mycket friskhet och viss beska. Drinken har sitt ursprung i en annan drink vid namn Milano-Torino (efter de två ingredienserna, vermouth och Camparis, härkomst) och har en historia som sträcker sig ända tillbaka till 1860-talet. Det sägs att Americano uppstod då amerikanska turister ville ha sin Milano-Torino något svagare, vilket ledde till att bartenders började tillsätta sodavatten. Enligt sägen ska Americano även i sin tur ha varit föregångare till den numera välkända drinken Negroni. Detta efter att greve Camillo Negroni ska ha beställt en Americano med gin. Nog med historia. Här nedan hittar du receptet på Americano!",
+        "spirit": [ "Likör" ],
+        "taste": "Fräsch",
+        "color": "Röd",
+        "ingridients": [
+          {
+            "ingridient_name": "Campari",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Söt Vermouth (Röd)",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sodavatten",
+            "quantity": "6",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett glas med is." },
+          { "step": "Fyll ett glas med is." },
+          { "step": "Toppa med sodavatten." },
+          { "step": "Rör om lite lätt." },
+          { "step": "Garnera med en apelsinskiva och citronzest." }
+        ]
+      },
+  
+      {
+        "id": "1xd51",
+        "drink_name": "Alabama Slammer",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/alabama-slammer.jpg",
+        "description": "Alabama Slammer är en fruktig och god drink som sägs ha uppstått i början av 70-talet.",
+        "spirit": [ "Likör" ],
+        "taste": "Fruktig",
+        "color": "Röd",
+        "ingridients": [
+          {
+            "ingridient_name": "Sloe gin",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Southern Comfort",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Amaretto",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Apelsinjuice",
+            "quantity": "12",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Grenadin",
+            "quantity": "1",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett highballglas med is." },
+          { "step": "Tillsätt alla ingredienser och rör om." },
+          { "step": "Garnera." }
+        ]
+      },
+  
+      {
+        "id": "GOlK-",
+        "drink_name": "Kanelkyss",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/kanelkyss.jpg",
+        "description": "Kanelkyss är en julig drink med sötsyrlig kanelsmak.",
+        "spirit": [ "Likör" ],
+        "taste": "Söt",
+        "color": "",
+        "ingridients": [
+          {
+            "ingridient_name": "Cognac",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Amaretto",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Kanelsockerlag",
+            "quantity": "2",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Gör kanelsockerlag. Koka upp 1 dl strösocker, 1 dl vatten och 1,5 tsk kanel. Rör om tills sockret löst sig." },
+          { "step": "Häll cognac, amaretto, citronjuice och kanelsockerlag i en shaker." },
+          { "step": "Fyll shakern med is och skaka drinken kall." },
+          { "step": "Sila upp i ett glas och garnera med en kanelstång." }
+        ]
+      },
+  
+      {
+        "id": "6FtPS",
+        "drink_name": "Galliano Sour",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/galliano-sour-1.jpg",
+        "description": "Galliano Sour är en god och sötsyrlig drink som är enkel att blanda. Perfekt för dig som inte vet vad du ska göra av den där flaskan Galliano som bara står och tar plats i barskåpet.",
+        "spirit": [ "Likör" ],
+        "taste": "Sur",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Galliano",
+            "quantity": "6",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Äggvita",
+            "quantity": "2",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll alla ingredienser i en shaker." },
+          { "step": "Torrskaka shakern (skaka utan is för att äggvitan ska blanda och skumma sig bättre)" },
+          { "step": "Fyll sedan  shakern med is och skaka igen tills drinken blivit kall." },
+          { "step": "Sila upp drinken i ett glas och garnera." }
+        ]
+      },
+  
+      {
+        "id": "_NWTZ",
+        "drink_name": "Hallon Ballon",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/hallon-ballon-860x860.jpg",
+        "description": "Hallon Ballon är en enkel och läskande drink med somrig smak av hallon.",
+        "spirits": [ "Likör", "Rom" ],
+        "taste": "",
+        "color": "Röd",
+        "ingridients": [
+          {
+            "ingridient_name": "Bacardi Razz",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Hallonlikör",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "7 Up",
+            "quantity": "12",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett glas med krossad is." },
+          { "step": "Tillsätt alla ingredienser och rör om." },
+          { "step": "Garnera med hallon." }
+        ]
+      },
+  
+      {
+        "id": "IYnLc",
+        "drink_name": "Havana Sidecar",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/havana-sidecar-860x860.jpg",
+        "description": "Havana Sidecar är en variant på den klassiska cocktailen Sidecar. Istället för cognac som i originalreceptet används istället mörk rom. Smakmässigt är det en välbalanserad drink som drar lite åt det söt-syrliga hållet.",
+        "spirits": [ "Rom" ],
+        "taste": "",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Mörk rom",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Cointreau",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "3",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll alla ingredienser i en shaker." },
+          { "step": "Fyll shakern med is och skaka drinken så att den blir kall." },
+          { "step": "Sila upp i ett cocktailglas och garnera." }
+        ]
+      },
+  
+      {
+        "id": "W3Dw5",
+        "drink_name": "Rabarbermojito",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/rabarbermojito-860x860.jpg",
+        "description": "Rabarbermojito är väldigt god drink som för samman de kubanska smakerna med något av det somrigaste vi har här i Sverige - rabarber!",
+        "spirits": [ "Rom" ],
+        "taste": "",
+        "color": "Rosa",
+        "ingridients": [
+          {
+            "ingridient_name": "Ljus rom",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Rabarbersockerlag",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sodavatten",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Mynta",
+            "quantity": "ca. 12",
+            "measurement": "blad"
+          }
+        ],
+        "instructions": [
+          { "step": "Börja med att göra rabarbersockerlagen." },
+          { "step": "Häll limejuice och rabarbersockerlag i ett glas." },
+          { "step": "Lägg ett knippe mynta (ca 12 st blad) i glaset." },
+          { "step": "Stöt myntabladen lite lätt med en muddlare eller annat trubbigt föremål så att de släpper ifrån sig sina aromer." },
+          { "step": "Tillsätt rom och fyll glaset med krossad is." },
+          { "step": "Tillsätt sodavatten och rör om." },
+          { "step": "Garnera förslagsvis med sugrör, en kvist mynta och rabarber." }
+        ]
+      },
+  
+      {
+        "id": "cGaMa",
+        "drink_name": "Frozen Pineapple Mango Daiquiri",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/frozen-pinapple-mango-daiquiri-860x860.jpg",
+        "description": "Frozen Pineapple Mango Daiquiri är en god och fruktig drink. Drinkens \"slush-konsistens\" gör att den passar perfekt som sommardrink att svalka sig med i solen.",
+        "spirits": [ "Rom" ],
+        "taste": "",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Ljus rom",
+            "quantity": "10",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "6",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "6",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Fryst Ananas",
+            "quantity": "150",
+            "measurement": "g"
+          },
+          {
+            "ingridient_name": "Fryst Mango",
+            "quantity": "150",
+            "measurement": "g"
+          },
+          {
+            "ingridient_name": "Is",
+            "quantity": "150",
+            "measurement": "g"
+          }
+        ],
+        "instructions": [
+          { "step": "Tillsätt alla ingredienser i en blender/mixer." },
+          { "step": "\"Mixa drinken i blendern till en \"slushig\" konsistens.\"" },
+          { "step": "Smaka av så att du är nöjd med balansen mellan ingredienserna och justera vid behov. Till exempel mer lime för en syrligare drink." },
+          { "step": "Häll upp i två glas och garnera." }
+        ]
+      },
+  
+      {
+        "id": "kUpTa",
+        "drink_name": "Frozen Strawberry Daiquiri",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/frozen-strawberry-daiquiri-1-860x860.jpg",
+        "description": "Frozen Strawberry Daiquiri är en fruktig och god drink som passar perfekt att svalka sig med en varm sommardag.",
+        "spirits": [ "Rom" ],
+        "taste": "",
+        "color": "Röd",
+        "ingridients": [
+          {
+            "ingridient_name": "Ljus Rom",
+            "quantity": "10",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "6",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "6",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Frysta Jordgubbar",
+            "quantity": "300",
+            "measurement": "g"
+          },
+          {
+            "ingridient_name": "Is",
+            "quantity": "150",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Tillsätt alla ingredienser i en blender." },
+          { "step": "\"Kör blendern tills allt har mixats till en \"slushig\" konsistens.\"" },
+          { "step": "Smaka av så att du är nöjd med balansen mellan ingredienserna och justera vid behov." },
+          { "step": "Häll upp i två glas." },
+          { "step": "Garnera exempelvis med en jordgubbe eller lime." }
+        ]
+      },
+  
+      {
+        "id": "6PlRV",
+        "drink_name": "Caipirissima",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/caipirissima-860x860.jpg",
+        "description": "Caipirissima är en variant av den klassiska drinken Caipirinha. Istället för cachaça som används i originalet, använder man här ljus rom. Till smaken är drinken härligt frisk och sötsyrlig.",
+        "spirits": [ "Rom" ],
+        "taste": "",
+        "color": "Vit",
+        "ingridients": [
+          {
+            "ingridient_name": "Ljus rom",
+            "quantity": "4-6",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Lime",
+            "quantity": "0.5-1",
+            "measurement": "st"
+          },
+          {
+            "ingridient_name": "Socker",
+            "quantity": "1.5-2",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Skär av båda ändarna på en lime och dela den på längden." },
+          { "step": "\"Skär bort den vita \"strängen\" i mitten av varje limehalva för att undvika att drinken blir för besk.\"" },
+          { "step": "Dela sedan varje halva i fyra delar och lägg önskat antal limebitar (minst fyra, men anpassa efter smak) i ett glas." },
+          { "step": "Tillsätt socker. En del föredrar rörsocker och andra vanligt vitt strösocker. Mängden socker brukar variera mellan 1,5 cl (1 msk) - 2 cl." },
+          { "step": "Muddla limebitarna ganska ordentligt för att få ut limejuicen och lösa upp sockret" },
+          { "step": "Fyll glaset med is." },
+          { "step": "Tillsätt ljus rom och rör om så att allt blandar sig." }
+        ]
+      },
+  
+      {
+        "id": "Kcjs5",
+        "drink_name": "Mango Daiquiri",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/mango-daiquiri-860x860.jpg",
+        "description": "Mango Daiquiri är en fruktig och god variant av den klassiska drinken.",
+        "spirits": [ "Rom", "Likör" ],
+        "taste": "Fruktig",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Ljus rom",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Mangolikör",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "1",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll alla ingredienser i en shaker." },
+          { "step": "Fyll shakern med is." },
+          { "step": "Skaka tills drinken är kall." },
+          { "step": "Sila upp i ett cocktailglas." },
+          { "step": "Garnera med ett limehjul." }
+        ]
+      },
+  
+      {
+        "id": "Ru3Te",
+        "drink_name": "Mary Pickford",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/mary-pickford-860x860.jpg",
+        "description": "Mary Pickford är en god och välbalanserad cocktail med trevligt röd färg.",
+        "spirits": [ "Rom", "Likör" ],
+        "taste": "",
+        "color": "Röd",
+        "ingridients": [
+          {
+            "ingridient_name": "Ljus rom",
+            "quantity": "6",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Maraschinolikör",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Grenadin",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Ananasjuice",
+            "quantity": "6",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Blanda alla ingredienser i en shaker." },
+          { "step": "Fyll shakern med is och skaka." },
+          { "step": "Sila upp i ett ganska stort cocktailglas och garnera med maraschinokörsbär." }
+        ]
+      },
+  
+      {
+        "id": "gwGG6",
+        "drink_name": "Between The Sheets",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/between-the-sheets-860x860.jpg",
+        "description": "Between The Sheets är en klassisk drink från början av 1900-talet. Till smaken är den lite spritig med lätt syrlighet.",
+        "spirits": [ "Rom" ],
+        "taste": "",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Cognac",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Ljus rom",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Apelsinlikör (Triple sec)",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "2",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll alla ingredienser i en shaker." },
+          { "step": "Fyll shakern med is och skaka tills drinken blivit kall." },
+          { "step": "Sila upp i ett cocktailglas och garnera med apelsin." }
+        ]
+      },
+  
+      {
+        "id": "M-TuJ",
+        "drink_name": "Strawberry Daiquiri",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/strawberry-daiquiri-860x860.jpg",
+        "description": "Strawberry Daiquiri är en väldigt populär variant av den klassiska Daiquirin. Som namnet avslöjar innehåller den här drinken jordgubbar, till skillnad från en vanlig Daiquiri som bara består av lime, sockerlag och rom.",
+        "spirits": [ "Rom" ],
+        "taste": "",
+        "color": "Röd",
+        "ingridients": [
+          {
+            "ingridient_name": "Ljus rom",
+            "quantity": "4.5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "2.5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "1.5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Jordgubbar",
+            "quantity": "4",
+            "measurement": "st"
+          }
+        ],
+        "instructions": [
+          { "step": "Lägg ca 4 st färska jordgubbar i en shaker och muddla dem till en puréliknande konsistens." },
+          { "step": "Tillsätt ljus rom, limejuice och sockerlag." },
+          { "step": "Fyll shakern med is och skaka den ordentligt kall." },
+          { "step": "Sila upp drinken i ett glas och garnera med lime och/eller en jordgubbe." }
+        ]
+      },
+  
+      {
+        "id": "7rGg7",
+        "drink_name": "Hallonmojito",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/hallonmojito-1-860x860.jpg",
+        "description": "Hallonmojito, eller Raspberry mojito är en av de mest populära varianterna av mojito. Receptet har en väldigt bra balans mellan de söta hallonen, den syrliga limejuicen och den friska myntan, vilket gör det förståeligt att den har blivit en så omtyckt drink",
+        "spirits": [ "Rom" ],
+        "taste": "",
+        "color": "Röd",
+        "ingridients": [
+          {
+            "ingridient_name": "Ljus rom",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sodavatten",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Mynta",
+            "quantity": "ca. 12",
+            "measurement": "blad"
+          },
+          {
+            "ingridient_name": "Hallon",
+            "quantity": "ca. 6-8",
+            "measurement": "st"
+          }
+        ],
+        "instructions": [
+          { "step": "Lägg ca 6-8 hallon i ett highball-glas och muddla tills det inte finns några större bitar kvar." },
+          { "step": "Tillsätt limejuice och sockerlag." },
+          { "step": "Lägg ca 12 st blad mynta i ena handen och klappa ihop med din andra hand för att frigöra aromerna i myntan. Lägg därefter myntan i glaset." },
+          { "step": "Muddla myntabladen försiktigt tillsammans med de andra ingredienserna. De ska inte muddlas för hårt eller krossas eftersom det kan leda till att hallonmojiton blir besk." },
+          { "step": "Tillsätt ljus rom och fyll lite mer än halva glaset med krossad is." },
+          { "step": "Rör om med en sked så att allt blandar sig." },
+          { "step": "Tillsätt sodavatten och fyll upp resten av glaset med krossad is." },
+          { "step": "Stoppa i sugrör och garnera med en myntakvist och några hallon. Ett tips är att placera myntan vid sugröret så att du känner doften av myntan vid varje sipp." }
+        ]
+      },
+  
+      {
+        "id": "q8GGJ",
+        "drink_name": "Caipirinha",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/caipirinha.jpg",
+        "description": "Caipirinha är en traditionell brasiliansk drink och anses av många vara deras nationaldrink. Den är väldigt god och enkel att göra, och består endast av lime, socker och cachaça (en brasiliansk spritsort).",
+        "spirits": [ "Rom" ],
+        "taste": "",
+        "color": "Vit",
+        "ingridients": [
+          {
+            "ingridient_name": "Cachaça",
+            "quantity": "4-6",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Lime",
+            "quantity": "0.5-1",
+            "measurement": "st"
+          },
+          {
+            "ingridient_name": "Socker",
+            "quantity": "1.5-2",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Skär av ändarna på en lime och dela den på längden." },
+          { "step": "\"Skär bort den vita \"strängen\" i mitten av varje limehalva. Detta är för att undvika att drinken blir för besk.\"" },
+          { "step": "Dela sedan varje halva i fyra delar och lägg ner önskat antal limebitar (minst fyra, men anpassa efter smak) i ett glas." },
+          { "step": "Tillsätt sockret. Vissa föredrar rörsocker och andra vanligt vitt strösocker. Mängden socker brukar variera mellan 1,5 cl (1 msk) - 2 cl." },
+          { "step": "Muddla limebitarna för att få ut limejuicen och lösa upp sockret." },
+          { "step": "Fyll glaset med is." },
+          { "step": "Tillsätt cachaça och rör om." },
+          { "step": "Njut av din Caipirinha!" }
+        ]
+      },
+  
+      {
+        "id": "aSGz3",
+        "drink_name": "Jordgubbsmojito",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/jordgubbsmojito-1-860x860.jpg",
+        "description": "Jordgubbsmojito, eller Strawberry mojito, är en av många fruktiga varianter av den klassiska drinken. Jordgubbar och mynta är ju som bekant en väldigt trevlig kombination och gör det här till den perfekta sommardrinken.",
+        "spirits": [ "Rom" ],
+        "taste": "Fruktig",
+        "color": "Röd",
+        "ingridients": [
+          {
+            "ingridient_name": "Ljus rom",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sodavatten",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Mynta",
+            "quantity": "ca. 12",
+            "measurement": "blad"
+          },
+          {
+            "ingridient_name": "Jordgubbar",
+            "quantity": "2-3",
+            "measurement": "st"
+          }
+        ],
+        "instructions": [
+          { "step": "Lägg 2-3 jordgubbar i ett highball-glas och muddla tills det inte finns några stora bitar kvar." },
+          { "step": "Tillsätt limejuice och sockerlag." },
+          { "step": "Ta ett knippe mynta (ca 12 st blad) i ena handen och klappa ihop med din andra hand för att frigöra myntans aromer. Lägg därefter bladen i glaset." },
+          { "step": "Stöt försiktigt myntabladen med en muddlare. De ska inte muddlas för hårt eller krossas eftersom det kan leda till att jordgubbsmojiton blir besk." },
+          { "step": "Häll ner rom och fyll lite mer än halva glaset med krossad is." },
+          { "step": "Rör om med en sked så att allt blandar sig." },
+          { "step": "Tillsätt sodavatten och fyll resten av glaset med krossad is." },
+          { "step": "Stoppa i sugrör och garnera med en kvist mynta och en jordgubbe. Myntan bör placeras vid sugröret så att du känner doften av myntan vid varje sipp." }
+        ]
+      },
+  
+      {
+        "id": "0Quit",
+        "drink_name": "Blåbärsmojito",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/blabarsmojito-1-860x860.jpg",
+        "description": "Blåbärsmojito är en smarrig variant av den klassiska drinken.",
+        "spirits": [ "Rom" ],
+        "taste": "",
+        "color": "Blå",
+        "ingridients": [
+          {
+            "ingridient_name": "Ljus rom",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sodavatten",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Mynta",
+            "quantity": "ca. 12",
+            "measurement": "blad"
+          },
+          {
+            "ingridient_name": "Blåbär",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Lägg färska blåbär (helst svenska) i botten av ett glas och muddla dem (mosa tills det inte finns några större bitar kvar)." },
+          { "step": "Tillsätt limejuice och sockerlag." },
+          { "step": "Ta ett knippe myntablad (ca 12 st) i ena handen och klappa ihop med din andra hand för att frigöra aromer. Lägg sedan myntan i glaset." },
+          { "step": "Stöt myntabladen försiktigt tillsammans med de andra ingredienserna. De ska inte muddlas för hårt eller krossas eftersom blåbärsmojiton då kan bli besk." },
+          { "step": "Tillsätt ljus rom och fyll lite mer än halva glaset med krossad is." },
+          { "step": "Rör om med en sked så att allt blandar sig." },
+          { "step": "Tillsätt sodavatten och fyll upp resten av glaset med krossad is." },
+          { "step": "Stoppa i sugrör och garnera med en myntakvist och några blåbär." }
+        ]
+      },
+  
+      {
+        "id": "n7UGR",
+        "drink_name": "Daiquiri",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/daiquiri-860x860.jpg",
+        "description": "Daiquiri är en klassisk drink med anor långt bak i tiden. Det sägs att Ernest Hemingway var förtjust i drinken.",
+        "spirits": [ "Rom" ],
+        "taste": "",
+        "color": "Rosa",
+        "ingridients": [
+          {
+            "ingridient_name": "Ljus rom",
+            "quantity": "4.5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "2.5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "1.5",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll alla ingredienser i en shaker." },
+          { "step": "Fyll shakern med is och skaka." },
+          { "step": "Sila upp i ett cocktailglas och garnera." }
+        ]
+      },
+  
+      {
+        "id": "wbMUw",
+        "drink_name": "Dark 'N' Stormy",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/dark-n-stormy-860x860.jpg",
+        "description": "Dark 'N' Stormy är en enkel drink med med kraftig smak av ingefära.",
+        "spirits": [ "Rom" ],
+        "taste": "",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Mörk rom",
+            "quantity": "5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Ginger Beer",
+            "quantity": "10",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett glas med is." },
+          { "step": "Tillsätt ingredienserna." },
+          { "step": "Rör om och garnera." }
+        ]
+      },
+  
+      {
+        "id": "qtJeS",
+        "drink_name": "Cubata",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/cubata-1-860x860.jpg",
+        "description": "Cubata är en läskande drink med den välkända kombinationen rom och cola. Till skillnad från Cuba Libre används här mörk rom istället för ljus.",
+        "spirits": [ "Rom" ],
+        "taste": "",
+        "color": "",
+        "ingridients": [
+          {
+            "ingridient_name": "Mörk rom",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Coca-Cola",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett glas med is." },
+          { "step": "Tillsätt alla ingredienser och rör om." },
+          { "step": "Garnera med lime." }
+        ]
+      },
+  
+      {
+        "id": "662sv",
+        "drink_name": "Planter's Punch",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/planters-punch-860x860.jpg",
+        "description": "Planter's Punch är en klassisk exotisk drink som sägs ha skapats så tidigt som 1878.",
+        "spirits": [ "Rom" ],
+        "taste": "",
+        "color": "Röd",
+        "ingridients": [
+          {
+            "ingridient_name": "Mörk rom",
+            "quantity": "4.5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Apelsinjuice",
+            "quantity": "5.5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Ananasjuice",
+            "quantity": "5.5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Grenadin",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "1.5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Angostura Bitters",
+            "quantity": "2",
+            "measurement": "stänk"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll alla ingredienser förutom Angostura Bitters i en shaker." },
+          { "step": "Fyll shakern med is och skaka drinken kall." },
+          { "step": "Sila upp i ett isfyllt glas." },
+          { "step": "Toppa med 2 stänk bitters och garnera." }
+        ]
+      },
+  
+      {
+        "id": "_Om9z",
+        "drink_name": "Mojito",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/mojito-1-860x860.jpg",
+        "description": "Mojito är kanske världens mest kända och populära drink, och det med all rätt! Det är den ultimata kombinationen av sött, syrligt & fräscht.",
+        "spirits": [ "Rom" ],
+        "taste": "",
+        "color": "Vit",
+        "ingridients": [
+          {
+            "ingridient_name": "Ljus rom",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sodavatten",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Mynta",
+            "quantity": "ca. 12",
+            "measurement": "blad"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll ner limejuice och sockerlag i ett glas." },
+          { "step": "Lägg ett knippe mynta (ca 12 st blad) i ena handen och klappa ihop med din andra hand. Detta hjälper till att frigöra myntans aromer. Lägg därefter myntabladen i glaset." },
+          { "step": "Stöt myntabladen försiktigt med en muddlare eller annat trubbigt föremål. De ska inte muddlas för hårt eller krossas så att de går sönder eftersom det kan leda till att drinken blir besk." },
+          { "step": "Häll ner rom och fyll lite mer än halva glaset med krossad is." },
+          { "step": "Rör om med en sked så att allt blandar sig." },
+          { "step": "Häll ner sodavatten och fyll resten av glaset med krossad is." },
+          { "step": "Stoppa i sugrör och garnera med en kvist mynta och eventuellt en limeklyfta. Placera myntakvisten vid sugröret så att du känner doften av myntan vid varje sipp." }
+        ]
+      },
+  
+      {
+        "id": "095XF",
+        "drink_name": "Fidel Castro",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/fidel-castro-860x860.jpg",
+        "description": "Fidel Castro är en enkel och god romdrink. Varför just den gamla kubanska diktatorn har fått en drink uppkallad efter sig, är dock något oklart.",
+        "spirits": [ "Rom" ],
+        "taste": "",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Mörk rom",
+            "quantity": "5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "1.5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Ginger Ale",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett glas med is." },
+          { "step": "Tillsätt alla ingredienser och rör om." },
+          { "step": "Garnera med limeklyftor." }
+        ]
+      },
+  
+      {
+        "id": "aGewN",
+        "drink_name": "Piña Colada",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/pina-colada-1-860x860.jpg",
+        "description": "Piña Colada går att göra på en mängd olika sätt. Det här receptet är tänkt att vara så likt originalet som möjligt.",
+        "spirits": [ "Rom" ],
+        "taste": "",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Ljus rom",
+            "quantity": "4.5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Coco López Cream of Coconut",
+            "quantity": "6",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Ananasjuice",
+            "quantity": "6",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll alla ingredienser i en shaker." },
+          { "step": "Fyll upp shakern med is och skaka tills drinken blivit kall." },
+          { "step": "Sila upp i ett isfyllt glas." },
+          { "step": "Garnera med ananas och cocktailbär." }
+        ]
+      },
+  
+      {
+        "id": "Esl6i",
+        "drink_name": "Blue Hawaiian",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/blue-hawaiian-1-860x860.jpg",
+        "description": "Blue Hawaiian är en klassisk fruktig drink med en trevlig kombination av kokos och ananas.",
+        "spirits": [ "Rom", "Likör" ],
+        "taste": "",
+        "color": "Blå",
+        "ingridients": [
+          {
+            "ingridient_name": "Ljus rom",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Blå Curaçao",
+            "quantity": "8",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Kokoslikör",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Ananasjuice",
+            "quantity": "14",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett glas med krossad is." },
+          { "step": "Tillsätt rom, blå curaçao och kokoslikör och ananasjuice." },
+          { "step": "Rör om." },
+          { "step": "Garnera med ananas och körsbär." }
+        ]
+      },
+  
+      {
+        "id": "ieTzj",
+        "drink_name": "Zoo",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/zoo-1-860x860.jpg",
+        "description": "Zoo är en väldigt god drink som smakar som de klassiska Zoo-godisarna. Perfekt för dig som inte kan få nog av de röda små aporna!",
+        "spirits": [ "Rom", "Likör" ],
+        "taste": "Söt",
+        "color": "Röd",
+        "ingridients": [
+          {
+            "ingridient_name": "Ljus rom",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Likör 43",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Jordgubbslikör",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Tranbärsjuice",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Ginger Ale",
+            "quantity": "2",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett glas med krossad is." },
+          { "step": "Tillsätt alla ingredienser förutom Ginger Ale." },
+          { "step": "Rör om ordentligt." },
+          { "step": "Tillsätt Ginger Ale och rör om försiktigt så att inte bubblorna försvinner." },
+          { "step": "Fyll upp glaset med ännu mer krossad is om det finns plats och garnera med Zoo-godis." }
+        ]
+      },
+  
+      {
+        "id": "McVah",
+        "drink_name": "Flädermojito",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/fladermojito-860x860.jpg",
+        "description": "Flädermojito är en frisk och blommig variant av den kubanska klassikern.",
+        "spirits": [ "Rom", "Likör" ],
+        "taste": "Fräsch",
+        "color": "Vit",
+        "ingridients": [
+          {
+            "ingridient_name": "Ljus rom",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Fläderlikör",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sodavatten",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Mynta",
+            "quantity": "ca. 12",
+            "measurement": "blad"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll limejuice och sockerlag i ett highball-glas." },
+          { "step": "\"Lägg ett knippe mynta (ca 12 st blad) i ena handen och \"smiska\" bladen med din andra hand för att frigöra myntans aromer. Lägg därefter myntabladen i glaset.\"" },
+          { "step": "Stöt myntan försiktigt med en muddlare eller annat trubbigt föremål. Muddla inte för hårt - då blir drinken besk." },
+          { "step": "Tillsätt rom och fläderlikör och fyll lite mer än halva glaset med krossad is." },
+          { "step": "Rör om med en sked så att allt blandar sig." },
+          { "step": "Tillsätt sodavatten och fyll resten av glaset med krossad is." },
+          { "step": "Garnera." }
+        ]
+      },
+  
+      {
+        "id": "EOkbP",
+        "drink_name": "Philippa",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/philippa-860x860.jpg",
+        "description": "Philippa är en härlig blandning av rom och likörer som tillsammans skapar spännande smaker.",
+        "spirits": [ "Rom", "Likör" ],
+        "taste": "",
+        "color": "Rosa",
+        "ingridients": [
+          {
+            "ingridient_name": "Ljus rom",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Passoã",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sourz Apple",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "7 Up",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett glas med is." },
+          { "step": "Tillsätt ljus rom, Passoã, Sourz Apple och citronjuice." },
+          { "step": "Fyll upp med 7 Up." },
+          { "step": "Rör om och garnera." }
+        ]
+      },
+  
+      {
+        "id": "Xe01r",
+        "drink_name": "Vampire's Dream",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/vampires-dream-860x860.jpg",
+        "description": "Vampire's Dream är en fruktig drink där både sötma och syrlighet kommer fram på ett förtjusande sätt.",
+        "spirits": [ "Rom" ],
+        "taste": "Fruktig",
+        "color": "Röd",
+        "ingridients": [
+          {
+            "ingridient_name": "Mörk rom",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Tranbärsjuice",
+            "quantity": "8",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Ananasjuice",
+            "quantity": "8",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Grenadin",
+            "quantity": "1.5",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett glas med is och tillsätt alla ingredienser." },
+          { "step": "Rör om." },
+          { "step": "Garnera." }
+        ]
+      },
+  
+      {
+        "id": "Dp0g_",
+        "drink_name": "Passion Fruit Punch",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/passion-fruit-punch-860x860.jpg",
+        "description": "Passion Fruit Punch är en fruktig drink som passar perfekt till soliga sommardagar och kvällar .",
+        "spirits": [ "Rom" ],
+        "taste": "Fruktig",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Mörk rom",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Passionsfruktjuice",
+            "quantity": "8",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "1",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll alla ingredienser i en shaker och fyll upp med is." },
+          { "step": "Skaka tills drinken är kall." },
+          { "step": "Sila upp i ett isfyllt glas." },
+          { "step": "Garnera." }
+        ]
+      },
+  
+      {
+        "id": "7-mEQ",
+        "drink_name": "Rum Sour",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/rum-sour-860x860.jpg",
+        "description": "Rum Sour är en syrlig och smakrik drink. Som en Whiskey Sour fast här med rom istället för whiskey.",
+        "spirits": [ "Rom" ],
+        "taste": "Sur",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Mörk rom",
+            "quantity": "5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "2.5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Äggvita",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Angostura Bitters",
+            "quantity": "2",
+            "measurement": "stänk"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll upp alla ingredienser i en shaker." },
+          { "step": "Skaka först shakern utan is, så att äggvitan skummar och blandar sig bättre." },
+          { "step": "Fyll därefter shakern med is och skaka igen tills drinken blivit kall." },
+          { "step": "Sila upp din Rum Sour i ett glas och garnera på valfritt sätt." }
+        ]
+      },
+  
+      {
+        "id": "muKd4",
+        "drink_name": "Cuba Libre",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/cuba-libre-1-860x860.jpg",
+        "description": "Cuba Libre är en klassisk drink med rom, Coca-Cola och limejuice.",
+        "spirits": [ "Rom" ],
+        "taste": "",
+        "color": "",
+        "ingridients": [
+          {
+            "ingridient_name": "Ljus rom",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Coca-Cola",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett glas med is." },
+          { "step": "Tillsätt rom och limejuice." },
+          { "step": "Fyll upp glaset med Coca-Cola och rör om." },
+          { "step": "Garnera med lime." }
+        ]
+      },
+  
+      {
+        "id": "seSnK",
+        "drink_name": "Back To Back",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/back-to-back-860x860.jpg",
+        "description": "Back To Back är en visuellt tjusig drink med trevlig smak.",
+        "spirits": [ "Rom", "Gin" ],
+        "taste": "",
+        "color": "Rosa",
+        "ingridients": [
+          {
+            "ingridient_name": "Ljus rom",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Xanté",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Passoã",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Tranbärsjuice",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "7 Up",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett glas med is." },
+          { "step": "Häll ner ljus rom, Xanté, Passoã och tranbärsjuice och rör om." },
+          { "step": "Fyll upp glaset med 7 Up, rör om försiktigt och garnera." }
+        ]
+      },
+  
+      {
+        "id": "MbZmQ",
+        "drink_name": "Mai Tai",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/mai-tai-860x860.jpg",
+        "description": "Mai Tai är en riktigt klassisk drink. Det här receptet är en variant och skiljer sig en aning från originalreceptet. Den smakar dock inte sämre för den sakens skull!",
+        "spirits": [ "Rom", "Likör" ],
+        "taste": "",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Mörk rom",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Ljus rom",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Apelsinlikör (Triple sec)",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Amaretto",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Grenadin",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Apelsinjuice",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Ananasjuice",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "2",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll alla ingredienser i en shaker." },
+          { "step": "Fyll upp med is och skaka." },
+          { "step": "Sila upp i ett isfyllt glas." },
+          { "step": "Garnera på valfritt sätt." }
+        ]
+      },
+  
+      {
+        "id": "0X_kv",
+        "drink_name": "Passoã Rum Bon",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/passoa-rum-bon-860x860.jpg",
+        "description": "Passoã Rum Bon är en god drink med läcker färg.",
+        "spirits": [ "Rom", "Likör" ],
+        "taste": "",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Passoã",
+            "quantity": "6",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Mörk rom",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Apelsinjuice",
+            "quantity": "10",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll ner alla ingredienser i en shaker och fyll upp med is." },
+          { "step": "Skaka tills drinken blivit kall." },
+          { "step": "Sila upp i ett isfyllt glas." },
+          { "step": "Garnera efter eget tycke." }
+        ]
+      },
+  
+      {
+        "id": "pkzpf",
+        "drink_name": "Buffy",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/buffy-860x860.jpg",
+        "description": "",
+        "spirits": [ "Rom", "Likör" ],
+        "taste": "",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Mörk rom",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Passoã",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "1.5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Apelsinjuice",
+            "quantity": "12",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Passionsfrukt",
+            "quantity": "1",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Blanda alla ingredienser förutom passionsfrukt i en shaker." },
+          { "step": "Fyll upp shakern med is och skaka." },
+          { "step": "Sila upp drinken i ett glas med krossad is." },
+          { "step": "Dela en passionsfrukt, gröp ur kärnorna ur den ena halvan och blanda ner i drinken." },
+          { "step": "Garnera med apelsinzest och den andra halvan passionsfrukt." }
+        ]
+      },
+  
+      {
+        "id": "AdHma",
+        "drink_name": "Vattenmelonmojito",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/vattenmelonmojito-860x860.jpg",
+        "description": "Vattenmelonmojito är en god och fruktig variant av den klassiska drinken.",
+        "spirits": [ "Rom" ],
+        "taste": "Fruktig",
+        "color": "Röd",
+        "ingridients": [
+          {
+            "ingridient_name": "Ljus rom",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sodavatten",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Mynta",
+            "quantity": "ca. 12",
+            "measurement": "blad"
+          },
+          {
+            "ingridient_name": "Vattenmelon",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Lägg några tärningar av en god vattenmelon i ett highball-glas och muddla dem." },
+          { "step": "Tillsätt limejuice och sockerlag." },
+          { "step": "Ta ett knippe mynta (ca 12 st blad) i ena handen och klappa ihop med din andra hand för att frigöra myntans aromer. Lägg därefter bladen i glaset." },
+          { "step": "Stöt myntabladen försiktigt med en muddlare. Muddla inte för hårt så att myntan krossas eftersom det kan leda till att vattenmelonmojiton blir besk." },
+          { "step": "Tillsätt rom och fyll lite mer än halva glaset med krossad is." },
+          { "step": "Rör om med en sked så att allt blandar sig." },
+          { "step": "Tillsätt sodavatten och fyll resten av glaset med krossad is." },
+          { "step": "Stoppa i sugrör och garnera med en kvist mynta och en bit vattenmelon." }
+        ]
+      },
+  
+      {
+        "id": "mSjsF",
+        "drink_name": "Blue Ocean",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/blue-ocean.jpg",
+        "description": "Blue Ocean är en enkel och god drink med härligt blå färg.",
+        "spirits": [ "Rom", "Likör" ],
+        "taste": "",
+        "color": "Blå",
+        "ingridients": [
+          {
+            "ingridient_name": "Ljus rom",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Blå Curaçao",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "7 Up",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett glas med is." },
+          { "step": "Tillsätt ljus rom, blå curaçao och citronjuice." },
+          { "step": "Fyll upp med 7 Up och rör om försiktigt." },
+          { "step": "Garnera." }
+        ]
+      },
+  
+      {
+        "id": "QuHMD",
+        "drink_name": "Alaska Iced Tea",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/alaska-iced-tea.jpg",
+        "description": "Alaska Iced Tea är en variant av de klassiska drinken Long Island Iced Tea.",
+        "spirits": [ "Rom", "Vodka", "Gin", "Tequila", "Likör" ],
+        "taste": "",
+        "color": "Blå",
+        "ingridients": [
+          {
+            "ingridient_name": "Gin",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Vodka",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Ljus rom",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Tequila",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Blå Curaçao",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "7 Up",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett glas med is." },
+          { "step": "Tillsätt alla spritsorter samt citronjuice, limejuice och sockerlag." },
+          { "step": "Toppa med 7 Up och rör om." },
+          { "step": "Garnera." }
+        ]
+      },
+  
+      {
+        "id": "lEo2Y",
+        "drink_name": "Lemon Mojito",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/lemon-mojito.jpg",
+        "description": "Lemon Mojito är precis som en vanlig mojito fast med citronjuice istället för limejuice, vilket ger drinken en lite annorlunda karaktär.",
+        "spirits": [ "Rom" ],
+        "taste": "",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Ljus rom",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sodavatten",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Mynta",
+            "quantity": "ca. 12",
+            "measurement": "blad"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll citronjuice och sockerlag i ett glas." },
+          { "step": "Lägg ca 12 st blad mynta i ena handen och klappa ihop med din andra hand för att frigöra myntans aromer. Lägg därefter bladen i glaset." },
+          { "step": "Stöt myntabladen med en muddlare. Muddla inte för hårt eftersom det kan göra drinken besk. Bladen ska inte gå sönder." },
+          { "step": "Tillsätt rom och fyll lite mer än halva glaset med krossad is." },
+          { "step": "Rör om med en sked så att allt blandar sig" },
+          { "step": "Häll ner sodavatten och fyll resten av glaset med krossad is." },
+          { "step": "Garnera." }
+        ]
+      },
+  
+      {
+        "id": "pjUpB",
+        "drink_name": "Jamaican Lemonade",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/jamaican-lemonade.jpg",
+        "description": "Jamaican Lemonade är en god drink som påminner mycket om Lynchburg Lemonade. Här används jamaicansk rom istället för whiskey.",
+        "spirits": [ "Rom", "Likör" ],
+        "taste": "",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Mörk rom",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Apelsinlikör (Triple sec)",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "7 Up",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Blanda rom, triple sec och citronjuice i en shaker." },
+          { "step": "Fyll upp med is och skaka tills drinken blivit kall." },
+          { "step": "Sila upp i ett isfyllt glas och fyll upp med 7 Up." },
+          { "step": "Garnera med ett citronhjul." }
+        ]
+      },
+  
+      {
+        "id": "fraOj",
+        "drink_name": "Cojito",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/cojito.jpg",
+        "description": "Cojito är en god drink med kokossmak. Den har sitt ursprung i Mojiton, men här serveras den i cocktail-format.",
+        "spirits": [ "Rom", "Likör" ],
+        "taste": "",
+        "color": "Vit",
+        "ingridients": [
+          {
+            "ingridient_name": "Ljus rom",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Kokoslikör",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Mynta",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Blanda alla ingredienser i en shaker." },
+          { "step": "Fyll shakern med is och skaka." },
+          { "step": "Sila upp i ett cocktailglas och garnera." }
+        ]
+      },
+  
+      {
+        "id": "Wawua",
+        "drink_name": "Tokyo Iced Tea",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/tokyo-iced-tea.jpg",
+        "description": "Tokyo Iced Tea är en läskande drink med relativt hög spritvolym.",
+        "spirits": [ "Rom", "Gin", "Vodka", "Likör" ],
+        "taste": "",
+        "color": "Grön",
+        "ingridients": [
+          {
+            "ingridient_name": "Gin",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Vodka",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Ljus rom",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Apelsinlikör (Triple sec)",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Melonlikör",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "7 Up",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett highball-glas med is och tillsätt alla spritsorter, sockerlag, citronjuice och limejuice." },
+          { "step": "Toppa med 7 Up och rör om lite lätt." },
+          { "step": "Garnera efter eget tycke." }
+        ]
+      },
+  
+      {
+        "id": "V7Gvx",
+        "drink_name": "Long Island Iced Tea",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/missing-img-2.jpg",
+        "description": "Long Island Iced Tea är lite av en ökänd drink på grund av sin höga alkoholvolym. Den är dock både god att dricka och enkel att tillreda.",
+        "spirits": [ "Rom", "Gin", "Tequila", "Vodka", "Likör" ],
+        "taste": "",
+        "color": "",
+        "ingridients": [
+          {
+            "ingridient_name": "Ljus rom",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Tequila",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Gin",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Vodka",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Apelsinlikör (Triple sec)",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Apelsinlikör (Triple sec)",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Coca-Cola",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett highball-glas med is." },
+          { "step": "Tillsätt alla spritsorter samt sockerlag, limejuice och citronjuice." },
+          { "step": "Toppa med en skvätt Coca-Cola och rör om försiktigt." },
+          { "step": "Garnera." }
+        ]
+      },
+  
+      {
+        "id": "z4tvN",
+        "drink_name": "Old Fashioned",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/old-fashioned-860x860.jpg",
+        "description": "Old Fashioned är själva definitionen av en klassisk cocktail. Den innehåller sprit, socker, vatten och bitters, vilket är precis vad som ursprungligen avsågs med en cocktail. Drinken var länge ganska okänd i Sverige, men blev oerhört populär i och med TV-serien Mad Men. Old Fashioned är nämligen huvudkaraktären Don Drapers favoritdrink. Drinken går att göra på en mängd olika sätt, men här nedan hittar du vårt recept som är en bra utgångspunkt för dig som vill testa att göra den själv.",
+        "spirits": [ "Whiskey" ],
+        "taste": "",
+        "color": "",
+        "ingridients": [
+          {
+            "ingridient_name": "Whiskey",
+            "quantity": "6",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Angostura Bitters",
+            "quantity": "4",
+            "measurement": "stänk"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll sockerlag i ett rörglas, shaker eller lämplig behållare att röra drinken i. Sockerlagen i den här drinken görs lämpligen på rårörsocker och med två delar socker och en del vatten." },
+          { "step": "Tillsätt därefter några stänk bitters och slutligen whiskey. Eftersom en Old Fashioned till allra största del består av whiskey är det viktigt att välja en typ av whiskey samt ett fabrikat som du själv tycker om. Vissa föredrar bourbon medan vissa hellre använder rye whiskey." },
+          { "step": "Fyll behållaren med is och rör drinken tills den är riktigt kall. Det här momentet är både till för att kyla drinken, men även för att tillsätta vatten." },
+          { "step": "Sila upp drinken i ett isfyllt glas (förslagsvis med en stor isbit)." },
+          { "step": "Garnera sedan med en bit apelsinskal som du först klämmer ihop för att spreja citrusoljorna över drinken." }
+        ]
+      },
+  
+      {
+        "id": "iAUtV",
+        "drink_name": "Christmas Manhattan",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/christmas-manhattan-1-860x860.jpg",
+        "description": "Christmas Manhattan är en julig twist på den klassiska drinken Manhattan. Här byts vermouth ut mot en skvätt glögg för att bidra till julstämningen. Slutresultatet påverkas till stor del av vilken whiskey och glögg du använder, så var noga med att välja både en glögg och en whiskey som du tycker om.",
+        "spirits": [ "Whiskey" ],
+        "taste": "",
+        "color": "Röd",
+        "ingridients": [
+          {
+            "ingridient_name": "Whiskey",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Glögg",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Angostura Bitters",
+            "quantity": "1",
+            "measurement": "stänk"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll whiskey, glögg och ett stänk bitters i ett rörglas eller annan behållare där du kan röra drinken med is." },
+          { "step": "Rör drinken i ca 45 sekunder för att uppnå rätt nivå av utspädning och kyla. Smaka av så att du är nöjd med balansen." },
+          { "step": "Sila upp i ett cocktailglas och garnera med russin." }
+        ]
+      },
+  
+      {
+        "id": "eV1Ie",
+        "drink_name": "Manhattan",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/manhattan-1-860x860.jpg",
+        "description": "Manhattan är en klassisk och enkel drink för dig som gillar när spritsmaken får ta stor plats. Traditionellt sett görs Manhattan med rye whiskey, men har du inte någon sådan att tillgå, går det lika bra med bourbon. Eftersom drinken praktiskt taget endast innehåller två ingredienser, är det viktigt att välja både en whiskey och en vermouth som du själv tycker är god.",
+        "spirits": [ "Whiskey", "Gin" ],
+        "taste": "",
+        "color": "Röd",
+        "ingridients": [
+          {
+            "ingridient_name": "Whiskey",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Söt Vermouth (Röd)",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Angostura Bitters",
+            "quantity": "1",
+            "measurement": "stänk"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll alla ingredienser i ett rörglas eller annan lämplig behållare." },
+          { "step": "Rör drinken med is i ca 45 sekunder. Smaka av vid några tillfällen för att hitta en balans du själv tycker om. Att röra drinken med is både kyler och späder ut drinken med vatten och det är den perfekta nivån av utspädning man vill hitta." },
+          { "step": "Sila upp i ett cocktailglas och garnera med ett maraschinokörsbär." }
+        ]
+      },
+  
+      {
+        "id": "2t9Uw",
+        "drink_name": "Lynchburg Lemonade",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/lynchburg-lemonade-3-860x860.jpg",
+        "description": "Lynchburg Lemonade är en läskande drink som har fått sitt namn från Lynchburg, Tennessee där Jack Daniel's har sitt ursprung.",
+        "spirits": [ "Whiskey", "Likör" ],
+        "taste": "Fruktig",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Jack Daniel's",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Apelsinlikör (triple sec)",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "7 up",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett glas med is." },
+          { "step": "Tillsätt alla ingredienser och fyll upp med 7 Up." },
+          { "step": "Rör om och garnera med citron." }
+        ]
+      },
+  
+      {
+        "id": "8Vs_2",
+        "drink_name": "Mint Julep",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/mint-julep-860x860.jpg",
+        "description": "Mint Julep är en klassisk drink från de södra delarna av USA. Den nämns för första gången i skrift så tidigt som 1784. Och som så ofta med drinkar som har några år (eller några hundra år) på nacken, så är de riktigt goda. När en drink har överlevt flera decennier, är det ju ofta av en anledning.",
+        "spirits": [ "Whiskey" ],
+        "taste": "",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Bourbon whiskey",
+            "quantity": "6",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Mynta",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Häll sockerlagen i glaset. Traditionellt sett används en speciell typ av metallbägare, en så kallad Julep cup, men egentligen fungerar alla sorters highballglas lika bra." },
+          { "step": "Lägg ca 8 st myntablad i glaset och muddla tillsammans med sockerlagen." },
+          { "step": "Tillsätt whiskey och fyll upp glaset med krossad is." },
+          { "step": "Rör om ordentligt." },
+          { "step": "Addera ytterligare is så att det bildas en liten topp över glasets kant." },
+          { "step": "Garnera med en rejäl kvist mynta och sätt i ett sugrör i glaset." }
+        ]
+      },
+  
+      {
+        "id": "8BFIh",
+        "drink_name": "Irish Coffee",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/irish-coffee-860x860.jpg",
+        "description": "Irish Coffee är en oerhört populär kaffedrink. Många beställer den ute, men tycker att det är för knepigt att göra själv hemma. Med hjälp av vårt enkla och tydliga recept här nedan kan nu vem som helst göra en god Irish Coffee!",
+        "spirits": [ "Whiskey" ],
+        "taste": "",
+        "color": "",
+        "ingridients": [
+          {
+            "ingridient_name": "Irländsk Wiskey",
+            "quantity": "4-6",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Brunt Socker",
+            "quantity": "2",
+            "measurement": "tsk"
+          },
+          {
+            "ingridient_name": "Kaffe",
+            "quantity": "",
+            "measurement": ""
+          },
+          {
+            "ingridient_name": "Grädde",
+            "quantity": "0,5-1",
+            "measurement": "dl"
+          }
+        ],
+        "instructions": [
+          { "step": "Börja med att brygga riktigt gott kaffe. Relativt starkt. Du vill inte att drinken ska smaka blaskigt kaffe." },
+          { "step": "Samtidigt som du brygger kaffet, koka upp vatten och häll i glaset så att det är riktigt varmt sedan när du ska blanda drinken." },
+          { "step": "Förbered även grädden i förväg. Den ska vara lättvispad. Det innebär att den ska vara lite rinnig, men ändå tillräckligt luftig för att att kunna lägga sig som ett täcke ovanpå drinken. Använd riktig vispgrädde (40%)." },
+          { "step": "Häll ut vattnet ur glaset." },
+          { "step": "Tillsätt whiskey. Mängden whiskey kan anpassas efter smak. Någonstans kring 4-6 cl brukar vara rimligt." },
+          { "step": "Tillsätt socker. Gärna ett brunt socker som till exempel farinsocker, rårörsocker eller muscovado." },
+          { "step": "Häll upp kaffe (ca 3/4 av ett normalstort glas) och rör om." },
+          { "step": "Häll på grädden försiktigt så att den skiktar sig som ett lager ovanpå drinken." },
+          { "step": "Garnera på valfritt sätt. Exempelvis med några hela kaffebönor eller genom att strö lite brunt socker på grädden." },
+          { "step": "Servera utan sugrör. Drinken ska drickas genom grädden." }
+        ]
+      },
+  
+      {
+        "id": "P0nt1",
+        "drink_name": "Filthy Mick",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/filthy-mick-860x860.jpg",
+        "description": "Filthy Mick är en god drink med whiskey och Red Bull.",
+        "spirits": [ "Whiskey" ],
+        "taste": "",
+        "color": "Rosa",
+        "ingridients": [
+          {
+            "ingridient_name": "Whiskey",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Red Bull",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett glas med is." },
+          { "step": "Tillsätt whiskey och fyll upp glaset med Red Bull." },
+          { "step": "Rör om och garnera." }
+        ]
+      },
+  
+      {
+        "id": "XVD9n",
+        "drink_name": "Jack & Coke",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/jack-coke-860x860.jpg",
+        "description": "Jack & Coke är en populär drink som består av Jack Daniel's och Coca-Cola.",
+        "spirits": [ "Whiskey" ],
+        "taste": "",
+        "color": "",
+        "ingridients": [
+          {
+            "ingridient_name": "Jack Daniel's",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Coca-Cola",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett glas med is." },
+          { "step": "Tillsätt Jack Daniel's och fyll upp glaset med Coca-Cola." },
+          { "step": "Garnera." }
+        ]
+      },
+  
+      {
+        "id": "onS0j",
+        "drink_name": "Mambo Jack",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/mambo-jack-860x860.jpg",
+        "description": "Mambo Jack är en fruktig drink där alla smaker kommer fram och skapar en väldigt trevlig smakupplevelse.",
+        "spirits": [ "Whiskey", "Likör" ],
+        "taste": "Fruktig",
+        "color": "",
+        "ingridients": [
+          {
+            "ingridient_name": "Jack Daniel's",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Likör 43",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Ananasjuice",
+            "quantity": "12",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Passionfrukt",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Blanda Jack Daniel's, Licor 43 och ananasjuice i en shaker." },
+          { "step": "Fyll upp shakern med is och skaka tills drinken är kall." },
+          { "step": "Sila upp i ett glas fyllt med krossad is." },
+          { "step": "Dela en passionsfrukt, gröp ur kärnorna ur den ena halvan och blanda ner i drinken." },
+          { "step": "Garnera med den andra halvan." }
+        ]
+      },
+  
+      {
+        "id": "5hzyK",
+        "drink_name": "Pineapple Whiskey Sour",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/pineapple-whiskey-sour-860x860.jpg",
+        "description": "Pineapple Whiskey Sour är en variant på den klassiska drinken Whiskey Sour. Här med en touch av ananas.",
+        "spirits": [ "Whiskey" ],
+        "taste": "Fruktig",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Bourbon Whiskey",
+            "quantity": "5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Ananasjuice",
+            "quantity": "6",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "2,5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Äggvita",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Angostura Bitter",
+            "quantity": "2",
+            "measurement": "stänk"
+          }
+        ],
+        "instructions": [
+          { "step": "Tillsätt alla ingredienser till en tom shaker." },
+          { "step": "Skaka shakern utan is (så kallad torrskakning) så att äggvitan skummar och blandar sig bättre." },
+          { "step": "Fyll därefter upp shakern med is och skaka igen tills drinken blivit kall." },
+          { "step": "Sila upp drinken i ett isfyllt glas och garnera på valfritt vis." }
+        ]
+      },
+  
+      {
+        "id": "GlMaf",
+        "drink_name": "The Tropical Jewel",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/the-tropical-jewel-860x860.jpg",
+        "description": "The Tropical Jewel påminner till stor del om en Whiskey Sour, men tillför några nya smakdimensioner tack vare Aperol och ananasjuice.",
+        "spirits": [ "Whiskey" ],
+        "taste": "Fruktig",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Bourbon Whiskey",
+            "quantity": "5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Ananasjuice",
+            "quantity": "5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Aperol",
+            "quantity": "2,5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "2,5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Äggvita",
+            "quantity": "2",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll ner alla ingredienser i en shaker." },
+          { "step": "Skaka alla ingredienser utan is (så kallad torrskakning) så att äggvitan skummar sig ordentligt." },
+          { "step": "Fyll sedan upp shakern med is och skaka igen tills drinken blivit kall." },
+          { "step": "Sila upp i ett isfyllt glas och garnera med cocktailbär." }
+        ]
+      },
+  
+      {
+        "id": "o0Zfq",
+        "drink_name": "Whiskey Sour",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/whiskey-sour-860x860.jpg",
+        "description": "Whiskey Sour är en väldigt klassisk och populär drink som sägs ha uppkommit så tidigt som 1870. Vårt recept ger enligt oss drinken en perfekt balans mellan alla ingredienser och smaker. Prova själv och säg vad du tycker i en kommentar här nedan!",
+        "spirits": [ "Whiskey" ],
+        "taste": "",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Bourbon Whiskey",
+            "quantity": "5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Äggvita",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Angostura Bitters",
+            "quantity": "2",
+            "measurement": "stänk"
+          }
+        ],
+        "instructions": [
+          { "step": "Tillsätt alla ingredienser till en tom shaker." },
+          { "step": "Skaka shakern utan is (så kallad torrskakning) så att äggvitan skummar och blandar sig bättre." },
+          { "step": "Fyll därefter upp shakern med is och skaka igen tills drinken blivit kall." },
+          { "step": "Sila upp din Whiskey Sour i ett glas och garnera på valfritt vis (vanligtvis garneras drinken med ett körsbär och ett citronhjul)." }
+        ]
+      },
+  
+      {
+        "id": "OA8PE",
+        "drink_name": "Jack & Ginger",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/missing-img-2.jpg",
+        "description": "Jack & Ginger är en klassisk drink. Kanske extra populär på nattklubbar och i partysammanhang eftersom den är så enkel.",
+        "spirits": [ "Whiskey" ],
+        "taste": "",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Jack Daniel's",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Ginger Ale",
+            "quantity": "12",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett glas med is." },
+          { "step": "Tillsätt båda ingredienser och rör om försiktigt." },
+          { "step": "Garnera med limeklyftor." }
+        ]
+      },
+  
+      {
+        "id": "8nfbM",
+        "drink_name": "Cranberry Jack",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/cranberry-jack.jpg",
+        "description": "Cranberry Jack är en läskande och god drink med spännande smaker.",
+        "spirits": [ "Whiskey", "Likör" ],
+        "taste": "",
+        "color": "Röd",
+        "ingridients": [
+          {
+            "ingridient_name": "Jack Daniel's",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Hallonlikör",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Tranbärsjuice",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "7 up",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Häll alla ingredienser förutom 7 Up i en shaker." },
+          { "step": "Fyll upp med is och skaka tills drinken är kall." },
+          { "step": "Sila upp i ett isfyllt glas och fyll upp med 7 Up." },
+          { "step": "Rör om försiktigt." },
+          { "step": "Garnera med en limeklyfta." }
+        ]
+      },
+  
+      {
+        "id": "1ilus",
+        "drink_name": "Jameson & Apple",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/jameson-apple.jpg",
+        "description": "Jameson & Apple är en läskande god whiskeydrink med tydlig äpplesmak.",
+        "spirits": [ "Whiskey" ],
+        "taste": "",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Whiskey",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Äppeljuice",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Häll upp Jameson i ett isfyllt glas." },
+          { "step": "Fyll upp med äpplejuice och rör om." },
+          { "step": "Garnera med äpple." }
+        ]
+      },
+  
+      {
+        "id": "m-HMN",
+        "drink_name": "Jack & Soda",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/missing-img-2.jpg",
+        "description": "Jack & Soda är en enkel och populär drink med Jack Daniel's och sodavatten.",
+        "spirits": [ "Whiskey" ],
+        "taste": "",
+        "color": "",
+        "ingridients": [
+          {
+            "ingridient_name": "Jack Daniel's",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sodavatten",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett glas med is och tillsätt Jack Daniel's." },
+          { "step": "Fyll upp glaset med sodavatten och rör om." },
+          { "step": "Garnera." }
+        ]
+      },
+  
+      {
+        "id": "kbIq9",
+        "drink_name": "Skinny Bitch",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/skinny-bitch-1.jpg",
+        "description": "Skinny Bitch är en väldigt enkel och uppfriskande drink vars namn kommer från att drinken innehåller relativt få kalorier. Drinken benämns även ofta som Vodka Soda. Välj gärna en vodka som du tycker om eftersom den har en framträdande roll i drinkens smakkaraktär.",
+        "spirit": [ "Vodka" ],
+        "taste": "Fräsch",
+        "color": "Vit",
+        "ingridients": [
+          {
+            "ingridient_name": "Vodka",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sodavatten",
+            "quantity": "12",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll ingredienserna i ett isfyllt glas." },
+          { "step": "Rör om." },
+          { "step": "Garnera med lime." }
+        ]
+      },
+  
+      {
+        "id": "PrYnG",
+        "drink_name": "Vodka Lime",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/vodka-lime.jpg",
+        "description": "Vodka Lime är en drink som är lika enkel som det låter. Den består enbart av vodka och en skvätt färskpressad lime. Se till att välja en vodka som du tycker om eftersom den utgör en så pass stor del av drinkens smak.",
+        "spirit": [ "Vodka" ],
+        "taste": "Fräsch",
+        "color": "Vit",
+        "ingridients": [
+          {
+            "ingridient_name": "Vodka",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "2",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett glas med krossad is." },
+          { "step": "Tillsätt vodka och limejuice." },
+          { "step": "Rör om och garnera med lime." }
+        ]
+      },
+  
+      {
+        "id": "TIdxo",
+        "drink_name": "Bloody Mary",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/bloody-mary.jpg",
+        "description": "Bloody Mary är en klassisk drink som ofta dricks i syfte att lindra bakfylla. Vi tycker dock att den passar precis lika bra att dricka dagen före. Här nedan hittar du vårt recept!",
+        "spirit": [ "Vodka" ],
+        "taste": "",
+        "color": "Röd",
+        "ingridients": [
+          {
+            "ingridient_name": "Vodka",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Tomatjuice",
+            "quantity": "12",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Tabasco",
+            "quantity": "2",
+            "measurement": "droppar"
+          },
+          {
+            "ingridient_name": "Worcestershiresås",
+            "quantity": "3",
+            "measurement": "stänk"
+          },
+          {
+            "ingridient_name": "Sellerisalt",
+            "quantity": "",
+            "measurement": ""
+          },
+          {
+            "ingridient_name": "Svartpeppar",
+            "quantity": "",
+            "measurement": ""
+          },
+          {
+            "ingridient_name": "Selleri",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Häll vodka, tomatjuice, citronjuice och sockerlag i en shaker." },
+          { "step": "Tillsätt Tabasco och worcestershiresås. Våra mått ovan är en bra riktlinje, men prova dig fram för att hitta en bra balans som du gillar." },
+          { "step": "Tillsätt ett par nypor sellerisalt (eller t.ex. Herbamare örtsalt som innehåller mycket selleri) samt några drag med svartpepparkvarnen. Även här kan du testa dig fram till vilken mängd som du gillar bäst. Smaka av drinken ofta under tillredningen för att inte riskera att överkrydda den." },
+          { "step": "Fyll shakern med is och sätt på den andra shaker-delen." },
+          { "step": "Vänd nu fram och tillbaka på shakern. Tanken är inte att skaka drinken eftersom det skulle göra den lite luftig och skummig. Istället vill man som sagt vända den fram och tillbaka för att lite försiktigt blanda alla ingredienser och kyla ner drinken." },
+          { "step": "Sila upp drinken i ett isfyllt glas och garnera med en selleristav." }
+        ]
+      },
+  
+      {
+        "id": "xru-o",
+        "drink_name": "Sea Breeze",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/sea-breeze.jpg",
+        "description": "Sea Breeze är en frisk och somrig drink som passar perfekt under varma dagar och kvällar.",
+        "spirit": [ "Vodka" ],
+        "taste": "",
+        "color": "Röd",
+        "ingridients": [
+          {
+            "ingridient_name": "Vodka",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Grapefruktjuice",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Tranbärsjuice",
+            "quantity": "12",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett highballglas med is." },
+          { "step": "Tillsätt alla ingredienser och rör om." },
+          { "step": "Garnera med grapefrukt eller en limeklyfta och stoppa i sugrör." }
+        ]
+      },
+  
+      {
+        "id": "DbivT",
+        "drink_name": "Snowball",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/snowball.jpg",
+        "description": "Snowball, eller Snöboll, är en söt och god drink som ofta dricks kring jul och påsk.",
+        "spirit": [ "Vodka" ],
+        "taste": "Söt",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Vodka",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Ägglikör",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "7 Up",
+            "quantity": "20",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett highballglas med is." },
+          { "step": "Tillsätt ägglikör, vodka och limejuice och rör om." },
+          { "step": "Tillsätt 7 Up och rör om igen lite försiktigt för att bevara kolsyran." },
+          { "step": "Garnera med lime." }
+        ]
+      },
+  
+      {
+        "id": "P7ySf",
+        "drink_name": "Moscow Mule",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/moscow-mule-1.jpg",
+        "description": "Moscow Mule är en klassisk och enkel drink med fräsch smak av lime och kryddig ingefära. Eftersom ginger beer utgör en stor del av drinken är det viktigt att välja en sort som du tycker om. Till det här receptet använde vi en ginger beer från Fever-Tree. Skulle du vilja göra en alkoholfri variant, går det utmärkt att bara utesluta vodkan.",
+        "spirit": [ "Vodka" ],
+        "taste": "Fräsch",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Vodka",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Ginger Beer",
+            "quantity": "15",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll vodka och limejuice i ett glas eller kopparmugg." },
+          { "step": "Fyll glaset till hälften med krossad is." },
+          { "step": "Tillsätt ginger beer (inte att förväxla med ginger ale) och rör om varsamt." },
+          { "step": "Fyll upp resten av glaset med is." },
+          { "step": "Garnera med ett limehjul och en kvist mynta." }
+        ]
+      },
+  
+      {
+        "id": "fXi7-",
+        "drink_name": "Vanilla Club",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/vanilla-club-1.jpg",
+        "description": "Vanilla Club är en läskande drink med ljuvlig vaniljsmak.",
+        "spirit": [ "Vodka" ],
+        "taste": "Fräsch",
+        "color": "Vit",
+        "ingridients": [
+          {
+            "ingridient_name": "Vaniljvodka",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Ginger Ale",
+            "quantity": "Fyll upp med",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett glas med is." },
+          { "step": "Tillsätt vaniljvodka och limejuice." },
+          { "step": "Fyll upp med ginger ale och rör om försiktigt." },
+          { "step": "Garnera med lime." }
+        ]
+      },
+  
+      {
+        "id": "JbJai",
+        "drink_name": "P3",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/p3-1.jpg",
+        "description": "Drinken P3 är en variant på P2. Istället för Sourz Apple använder man här Sourz Raspberry. En klassisk partydrink som är härligt läskande och uppfriskande.",
+        "spirit": [ "Vodka" ],
+        "taste": "Sur",
+        "color": "Rosa",
+        "ingridients": [
+          {
+            "ingridient_name": "Vaniljvodka",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sourz Raspberry",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "/ Up",
+            "quantity": "Fyll upp med",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett highballglas med is." },
+          { "step": "Tillsätt vaniljvodka, Sourz Raspberry och limejuice." },
+          { "step": "Fyll upp med 7 Up (ca 12-14 cl) och rör om lätt." },
+          { "step": "Garnera med lime." }
+        ]
+      },
+  
+      {
+        "id": "-57_8",
+        "drink_name": "French Martini",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/french-martini-860x860.jpg",
+        "description": "French Martini är en god och härligt röd cocktail med hallon- och ananassmak.",
+        "spirit": [ "Vodka" ],
+        "taste": "Fruktig",
+        "color": "Röd",
+        "ingridients": [
+          {
+            "ingridient_name": "Vodka",
+            "quantity": "5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Hallonlikör",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Ananasjuice",
+            "quantity": "2",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll alla ingredienser i en shaker." },
+          { "step": "Fyll shakern med is och skaka tills den blir kall." },
+          { "step": "Sila upp drinken i ett cocktailglas och garnera med hallon." }
+        ]
+      },
+  
+      {
+        "id": "6ZCmg",
+        "drink_name": "Grenade",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/grenade-1.jpg",
+        "description": "Grenade är en härligt röd god drink med vodka som bas.",
+        "spirit": [ "Vodka" ],
+        "taste": "",
+        "color": "Röd",
+        "ingridients": [
+          {
+            "ingridient_name": "Vodka",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Grenadin",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "7 Up",
+            "quantity": "10",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett glas med is." },
+          { "step": "Tillsätt vodka, limejuice och grenadin." },
+          { "step": "Fyll upp glaset med 7 Up." },
+          { "step": "Rör om försiktigt." },
+          { "step": "Garnera." }
+        ]
+      },
+  
+      {
+        "id": "EQF5Y",
+        "drink_name": "Midnight Mint",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/midnight-mint.jpg",
+        "description": "Midnight Mint är en gräddig och frisk drink som till exempel passar perfekt efter maten.",
+        "spirit": [ "Vodka" ],
+        "taste": "Fräsch",
+        "color": "Vit",
+        "ingridients": [
+          {
+            "ingridient_name": "Vodka",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Baileys",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "2 cl Grön Mintlikör (Crème de Menthe)",
+            "quantity": "2",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll alla ingredienser i en shaker." },
+          { "step": "Fyll shakern med is och skaka så att drinken blir riktigt kall." },
+          { "step": "Sila upp i ett cocktailglas." },
+          { "step": "Garnera med en kvist mynta." }
+        ]
+      },
+  
+      {
+        "id": "i56ry",
+        "drink_name": "Vanilla Silk",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/vanilla-silk.jpg",
+        "description": "Vanilla Silk är en söt och gräddig drink. Den fungerar utmärkt som efter-maten-drink.",
+        "spirit": [ "Vodka" ],
+        "taste": "Söt",
+        "color": "Rosa",
+        "ingridients": [
+          {
+            "ingridient_name": "Vaniljvodka",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Baileys",
+            "quantity": "6",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Amaretto",
+            "quantity": "1.5",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll alla ingredienser i en shaker." },
+          { "step": "Fyll shakern med is och skaka till den blivit kall." },
+          { "step": "Sila upp i ett isfyllt glas och garnera på valfritt sätt." }
+        ]
+      },
+  
+      {
+        "id": "4pwWj",
+        "drink_name": "White Russian",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/white-russian.jpg",
+        "description": "White Russian är en väldigt god och klassisk drink som förekommer i en mängd olika varianter. Det här är det traditionella receptet med grädde.",
+        "spirit": [ "Vodka" ],
+        "taste": "",
+        "color": "",
+        "ingridients": [
+          {
+            "ingridient_name": "Vodka",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Kaffelikör",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Grädde",
+            "quantity": "2",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett tumblerglas med is." },
+          { "step": "Tillsätt vodka och kaffelikör och rör om." },
+          { "step": "Häll försiktigt över grädden och rör om väldigt lätt (ca ett varv i glaset). Drinken ska inte blandas helt, utan vara skiktad som på bilden ovan." },
+          { "step": "Stoppa i ett sugrör och njut!" }
+        ]
+      },
+  
+      {
+        "id": "D__Uz",
+        "drink_name": "Fizzypop",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/fizzypop.jpg",
+        "description": "Fizzypop är precis vad det låter som - en drink som smakar som Sveriges mest populära godisbit. Vissa kallar dem för Bubblizz, andra för Fizzy Pop. Oavsett vad du kallar dem, så är det här drinkreceptet du har letat efter!",
+        "spirit": [ "Vodka" ],
+        "taste": "Söt",
+        "color": "Rosa",
+        "ingridients": [
+          {
+            "ingridient_name": "Vodka",
+            "quantity": "5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Monin Bubblegum-syrup",
+            "quantity": "5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "7 Up",
+            "quantity": "6",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Blå Curaçao",
+            "quantity": "1",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett glas med krossad is." },
+          { "step": "Tillsätt vodka, bubbelgum-syrup och citronjuice." },
+          { "step": "Rör om." },
+          { "step": "Tillsätt 7 Up och rör om lite försiktigt så att inte bubblorna försvinner." },
+          { "step": "Fyll på med ännu mer is om det finns plats." },
+          { "step": "Häll försiktigt på blå curaçao och rör om i toppen av glaset så att den blå färgen sprider sig lite nedåt." },
+          { "step": "Garnera med Fizzy pop-godis." }
+        ]
+      },
+  
+      {
+        "id": "ABaOY",
+        "drink_name": "Red Bull Vodka",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/red-bull-vodka-1.jpg",
+        "description": "Red Bull Vodka är en populär partydrink där namnet avslöjar hela receptet.",
+        "spirit": [ "Vodka" ],
+        "taste": "Söt",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Vodka",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Red Bull",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett glas med is och tillsätt vodka." },
+          { "step": "Fyll upp glaset med Red Bull och rör om försiktigt." },
+          { "step": "Garnera efter eget tycke." }
+        ]
+      },
+  
+      {
+        "id": "OPOZp",
+        "drink_name": "Screwdriver",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/screwdriver-1.jpg",
+        "description": "Screwdriver är en oerhört enkel drink att tillreda och det är inte sällan den blir lite skrattad åt. Men med några enkla knep går det att göra drinken riktigt njutbar. Se våra tips här nedan!",
+        "spirit": [ "Vodka" ],
+        "taste": "Fruktig",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Vodka",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Apelsinjuice",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett glas med is." },
+          { "step": "Häll ner vodkan i glaset." },
+          { "step": "Fyll upp med apelsinjuice och rör om." },
+          { "step": "Garnera med apelsin." }
+        ]
+      },
+  
+      {
+        "id": "LAKrZ",
+        "drink_name": "Sex On The Beach",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/sex-on-the-beach.jpg",
+        "description": "Sex On The Beach är en klassisk och god drink med exotisk touch.",
+        "spirit": [ "Vodka" ],
+        "taste": "Fruktig",
+        "color": "Röd",
+        "ingridients": [
+          {
+            "ingridient_name": "Vodka",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Persikolikör",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Apelsinjuice",
+            "quantity": "8",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Tranbärsjuice",
+            "quantity": "8",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Blanda alla ingredienser i en shaker och fyll den med is." },
+          { "step": "Skaka tills drinken blivit kall och sila upp i ett isfyllt glas (förslagsvis ett Hurricane-glas)." },
+          { "step": "Garnera på valfritt sätt." }
+        ]
+      },
+  
+      {
+        "id": "W6XGK",
+        "drink_name": "Apple Mint Lemonade",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/apple-mint-lemonade.jpg",
+        "description": "Apple Mint Lemonade är en frisk och fruktig drink. Perfekt att svalka sig med en varm sommardag.",
+        "spirit": [ "Vodka" ],
+        "taste": "Fruktig",
+        "color": "Vit",
+        "ingridients": [
+          {
+            "ingridient_name": "Vodka",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sourz Apple",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Mynta",
+            "quantity": "",
+            "measurement": ""
+          },
+          {
+            "ingridient_name": "Äpple",
+            "quantity": "",
+            "measurement": ""
+          },
+          {
+            "ingridient_name": "7 Up",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Tärna en bit äpple." },
+          { "step": "Lägg äpplebitarna i ett glas och muddla dem. Spara även några till dekoration." },
+          { "step": "Ta ca 6 myntablad i ena handen och smiska till dem med den andra handen. Lägg dem sedan direkt ner i glaset och stöt dem lite lätt med en muddlare." },
+          { "step": "Tillsätt vodka, Sourz Apple och citronjuice, samt is och resterande äppletärningar." },
+          { "step": "Rör om ordentligt och fyll sedan upp glaset med 7 Up." },
+          { "step": "Rör om igen lite försiktigt och dekorera med citron och mynta." }
+        ]
+      },
+  
+      {
+        "id": "1ApFy",
+        "drink_name": "Appletini",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/appletini.jpg",
+        "description": "Appletini är en klassisk drink med frisk äpplesmak.",
+        "spirit": [ "Vodka" ],
+        "taste": "Fräsch",
+        "color": "Grön",
+        "ingridients": [
+          {
+            "ingridient_name": "Vodka",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sourz Apple",
+            "quantity": "6",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "1",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll alla ingredienser i en shaker." },
+          { "step": "Fyll shakern med is och skaka ordentligt tills den blir kall." },
+          { "step": "Sila upp i ett cocktailglas och garnera." }
+        ]
+      },
+  
+      {
+        "id": "FwTVV",
+        "drink_name": "P2",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/p2.jpg",
+        "description": "P2 är en klassisk partydrink som är både enkel och väldigt god.",
+        "spirit": [ "Vodka" ],
+        "taste": "Sur",
+        "color": "Grön",
+        "ingridients": [
+          {
+            "ingridient_name": "Vodka",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sourz Apple",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "7 Up",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett glas med is." },
+          { "step": "Tillsätt vaniljvodka, Sourz Apple och limejuice." },
+          { "step": "Fyll upp med 7 Up och rör om." },
+          { "step": "Garnera." }
+        ]
+      },
+  
+      {
+        "id": "ipb9s",
+        "drink_name": "Blue Lagoon",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/blue-lagoon.jpg",
+        "description": "Blue Lagoon, eller Isbjörn som den ibland kallas är en enkel och festlig drink som går att servera både som longdrink eller som cocktail.",
+        "spirit": [ "Vodka" ],
+        "taste": "",
+        "color": "Blue",
+        "ingridients": [
+          {
+            "ingridient_name": "Vodka",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Blå Curaçao",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "7 Up",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett glas med is." },
+          { "step": "Tillsätt vodka, blå curaçao och limejuice." },
+          { "step": "Fyll upp glaset med 7 Up." },
+          { "step": "Rör om och garnera." }
+        ]
+      },
+  
+      {
+        "id": "iF7Q0",
+        "drink_name": "Frenchy",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/frenchy.jpg",
+        "description": "Frenchy är en härligt rosa drink med spännande smak. Skummet bildas när ananasjuicen skakas.",
+        "spirit": [ "Vodka" ],
+        "taste": "",
+        "color": "Rosa",
+        "ingridients": [
+          {
+            "ingridient_name": "Vodka",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Xanté",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Ananasjuice",
+            "quantity": "8",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Tranbärsjuice",
+            "quantity": "3",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll alla ingredienser i en shaker och fyll upp med is." },
+          { "step": "Skaka tills drinken är kall." },
+          { "step": "Sila upp i ett glas och garnera på valfritt sätt." }
+        ]
+      },
+  
+      {
+        "id": "UZRrd",
+        "drink_name": "Rosa Pantern",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/rosa-pantern.jpg",
+        "description": "Rosa pantern är en härligt söt drink som passar i de allra flesta sammanhang.",
+        "spirit": [ "Vodka" ],
+        "taste": "Söt",
+        "color": "Rosa",
+        "ingridients": [
+          {
+            "ingridient_name": "Vodka",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Likör 43",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Mjölk",
+            "quantity": "12",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Grenadin",
+            "quantity": "1.5",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll ner alla ingredienser i en shaker." },
+          { "step": "Fyll upp shakern med is." },
+          { "step": "Skaka tills drinken är kall." },
+          { "step": "Sila upp drinken i ett glas." },
+          { "step": "Garnera på valfritt sätt." }
+        ]
+      },
+  
+      {
+        "id": "BN3YI",
+        "drink_name": "House Party Punch No.1",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/house-party-punch-no-1.jpg",
+        "description": "House Party Punch No.1 är en fruktig drink med exotiska vibbar.",
+        "spirit": [ "Vodka" ],
+        "taste": "Fruktig",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Vodka",
+            "quantity": "4",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Amaretto",
+            "quantity": "1",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Passionsfruktjuice",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Ananasjuice",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Apelsinjuice",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "1",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll alla ingredienser i en shaker och fyll upp med is." },
+          { "step": "Skaka tills drinken blivit kall och sila upp i ett isfyllt glas." },
+          { "step": "Garnera förslagsvis med ananas och apelsin." }
+        ]
+      },
+  
+      {
+        "id": "Y8j4b",
+        "drink_name": "Passoã Brasil",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/passoa-brasil.jpg",
+        "description": "Passoã Brasil är en härligt röd drink med balanserade smaker.",
+        "spirit": [ "Vodka" ],
+        "taste": "",
+        "color": "Röd",
+        "ingridients": [
+          {
+            "ingridient_name": "Vodka",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Passoã",
+            "quantity": "6",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Tranbärsjuice",
+            "quantity": "10",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett highball-glas med is." },
+          { "step": "Tillsätt alla ingredienser och rör om." },
+          { "step": "Garnera på valfritt sätt." }
+        ]
+      },
+  
+      {
+        "id": "sTtJk",
+        "drink_name": "Strawberry Basil Smash",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/strawberry-basil-smash.jpg",
+        "description": "Strawberry Basil Smash är en härligt fruktig drink som med sin intensiva jordgubbssmak direkt för tankarna till en varm sommarkväll.",
+        "spirit": [ "Vodka" ],
+        "taste": "Fruktig",
+        "color": "Röd",
+        "ingridients": [
+          {
+            "ingridient_name": "Vodka",
+            "quantity": "5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Citronjuice",
+            "quantity": "1.5",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Sockerlag",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Jordgubbar",
+            "quantity": "",
+            "measurement": ""
+          },
+          {
+            "ingridient_name": "Basilika",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Lägg 3-4 st jordgubbar i ett glas och muddla dem tills det inte finns några stora bitar kvar." },
+          { "step": "Häll ner citronjuice och sockerlag i glaset." },
+          { "step": "Lägg ett knippe basilika (ca 12-15 blad) i ena handen och klappa ihop med din andra hand. Detta hjälper till att frigöra aromerna i basilikan. Lägg därefter basilikabladen i glaset." },
+          { "step": "Stöt basilikan med en muddlare tillsammans med de andra ingredienserna." },
+          { "step": "Häll ner vodka i glaset och fyll det med krossad is." },
+          { "step": "Rör om drinken med en sked innan du garnerar med en kvist basilika och en jordgubbe. Ett lite större sugrör är att föredra för att inte jordgubbsbitarna ska fastna." }
+        ]
+      },
+  
+      {
+        "id": "5FS4k",
+        "drink_name": "Cosmopolitan",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/cosmopolitan-1.jpg",
+        "description": "Cosmopolitan är en klassisk drink och troligtvis en av de mest kända. Hoppas det smakar!",
+        "spirit": [ "Vodka" ],
+        "taste": "",
+        "color": "Rosa",
+        "ingridients": [
+          {
+            "ingridient_name": "Vodka",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Apelsinlikör",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Tranbärsjuice",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Limejuice",
+            "quantity": "1.5",
+            "measurement": "cl"
+          }
+        ],
+        "instructions": [
+          { "step": "Häll alla ingredienser i en shaker." },
+          { "step": "Fyll upp shakern med is." },
+          { "step": "Skaka till drinken blivit kall." },
+          { "step": "Sila upp i ett cocktailglas." },
+          { "step": "Garnera med apelsinzest: Skär av en tunn bit av det allra yttersta skalet på en apelsin. Det ska helst inte komma med något vitt. Böj sedan den utskurna biten ovanför glaset så att oljorna strilar ut över drinken. Gnid därefter in kanterna av glaset lite lätt med apelsinskalet innan du lägger det i drinken." }
+        ]
+      },
+  
+      {
+        "id": "hJ7Jx",
+        "drink_name": "San Francisco",
+        "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/san-francisco.jpg",
+        "description": "San Francisco är en klassisk drink som är både söt och fruktig.",
+        "spirit": [ "Vodka" ],
+        "taste": "Fruktig",
+        "color": "Gul",
+        "ingridients": [
+          {
+            "ingridient_name": "Vodka",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Bananlikör",
+            "quantity": "3",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Grenadin",
+            "quantity": "2",
+            "measurement": "cl"
+          },
+          {
+            "ingridient_name": "Apelsinjuice",
+            "quantity": "",
+            "measurement": ""
+          }
+        ],
+        "instructions": [
+          { "step": "Fyll ett glas med is och tillsätt vodka, bananlikör och apelsinjuice," },
+          { "step": "Rör om." },
+          { "step": "Häll försiktigt i grenadin längs kanten på glaset. Ta gärna hjälp av baksidan av en sked." },
+          { "step": "Garnera med en apelsinskiva." }
+        ]
+      }
+    ]
+  }
+  
