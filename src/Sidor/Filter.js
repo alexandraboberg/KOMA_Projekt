@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 import { Collapse, Button, CardBody, Card } from 'reactstrap';
 import '../index.css'
+import {BrowserRouter as Router, Switch, Route, Link, useParams} from 'react-router-dom';
 
 const Filter = (props) => {
   const [basOpen, set1Open] = useState(false);
@@ -34,7 +35,9 @@ const Filter = (props) => {
   return (
     <div className='screen'>
       <div className='header'>
-        <button>Back</button>
+        <Link to='/'>
+          <button>Back</button>
+        </Link>
         <h2>FILTRERA DRINKAR</h2>
       </div>
       <div>
