@@ -1,10 +1,26 @@
 import React from 'react'
 import { useState } from 'react';
-import { Collapse, Button, CardBody, Card, ButtonGroup } from 'reactstrap';
+import { Collapse, Button, CardBody, Card } from 'reactstrap';
 import '../index.css'
 import {BrowserRouter as Router, Switch, Route, Link, useParams} from 'react-router-dom';
 
+//Arrays med namn på drink artiklar
+const bassprit = ["champange", "gin", "likör", "rom", "tequila", "vodka", "whiskey"]
+const frubär = ["apelsin", "basilika", "björnbär", "blåbär", "citron", "granatäpple", "gurka", "hallon", "jordgubbar", 
+                "kanel", "kardemumma", "koriander", "lime", "mynta", "nejlika", "passionsfrukt", "persika", "päron",
+                "russin", "vattenmelon", "äpple"]
+const fruju = ["ananasjuice","apelsinjuice", "citronjuice", "granatäpplejuice","grapefruktjuice", "limejuice",
+                "mangojuice", "passionsfruktjuice", "tranbärsjuice", "äppeljuice"]
+const läsk = ["7 up", "coca-cola", "tonic water", "fruktsoda", "ginger ale", "ginger beer", "grape tonic", "grädde",
+              "hallonsoda", "kaffe", "lemonad", "mjölk", "pommac", "pucko", "päroncider", "red bull", "schweppes bitter lemon",
+              "schweppes indian tonic", "sodavatten", "sprite", "tonic", "varm choklad", "vatten", "äppelcider"]
+const syru = ["angostura bitters", "coco lópez cream of coconut", "grenadin", "kanelsockerlag", "monin bubblegum-syrup",
+              "rose's lime", "saffranssockerlag", "sockerlag", "äggvita"]
+const färg = ["blå", "grön", "gul", "röd", "rosa", "vit"]
+const smak = ["fruktig", "fräsch", "sur", "söt"]
+
 const Filter = (props) => {
+  //Toggle för kategorier
   const [basOpen, set1Open] = useState(false);
   const toggle1 = () => set1Open(!basOpen);
 
@@ -32,8 +48,9 @@ const Filter = (props) => {
   const [syrOpen, set25Open] = useState(false);
   const toggle25 = () => set25Open(!syrOpen);
   
-  //Ingredienser checkboxes
+  //Toggle ingredienser checkboxes
   const [cSelected, setCSelected] = useState([]);
+  //Lista av valda
   const onCheckboxBtnClick = (selected) => {
     const index = cSelected.indexOf(selected);
     if (index < 0) {
@@ -57,13 +74,8 @@ const Filter = (props) => {
         <Collapse isOpen={basOpen}>
           <Card>
             <CardBody>
-              <Button className='filterButt' onClick={() => onCheckboxBtnClick("champange")} active={cSelected.includes("champange")}>CHAMPANGE</Button >
-              <Button className='filterButt' onClick={() => onCheckboxBtnClick("gin")} active={cSelected.includes("gin")}>GIN</Button>
-              <Button className='filterButt' onClick={() => onCheckboxBtnClick("likör")} active={cSelected.includes("likör")}>LIKÖR</Button>
-              <Button className='filterButt' onClick={() => onCheckboxBtnClick("rom")} active={cSelected.includes("rom")}>ROM</Button>
-              <Button className='filterButt' onClick={() => onCheckboxBtnClick("tequila")} active={cSelected.includes("tequila")}>TEQUILA</Button>
-              <Button className='filterButt' onClick={() => onCheckboxBtnClick("vodka")} active={cSelected.includes("vodka")}>VODKA</Button>
-              <Button className='filterButt' onClick={() => onCheckboxBtnClick("whiskey")} active={cSelected.includes("whiskey")}>WHISKEY</Button>
+              {bassprit.map((d, i) => <Button className='filterButt' onClick={() => onCheckboxBtnClick(d)} 
+              active={cSelected.includes(d)}>{d.toUpperCase()}</Button>)}
             </CardBody>
           </Card>
         </Collapse>
@@ -78,9 +90,8 @@ const Filter = (props) => {
                 <Collapse isOpen={fboOpen}>
                   <Card>
                     <CardBody>
-                      <Button className='filterButt' onClick={() => onCheckboxBtnClick("apelsin")} active={cSelected.includes("apelsin")}>APELSIN</Button>
-                      <Button className='filterButt' onClick={() => onCheckboxBtnClick("basilika")} active={cSelected.includes("basilika")}>BASILIKA</Button>
-                      <Button className='filterButt' onClick={() => onCheckboxBtnClick("björnbär")} active={cSelected.includes("björnbär")}>BJÖRNBÄR</Button>
+                    {frubär.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClick(d)} 
+                    active={cSelected.includes(d)}>{d.toUpperCase()}</Button>)}
                     </CardBody>
                   </Card>
                 </Collapse>
@@ -90,9 +101,8 @@ const Filter = (props) => {
                 <Collapse isOpen={fruOpen}>
                   <Card>
                     <CardBody>
-                      <Button className='filterButt'>lll</Button>
-                      <Button className='filterButt'>aaa</Button>
-                      <Button className='filterButt'>ddd</Button>
+                    {fruju.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClick(d)} 
+                    active={cSelected.includes(d)}>{d.toUpperCase()}</Button>)}
                     </CardBody>
                   </Card>
                 </Collapse>
@@ -102,33 +112,19 @@ const Filter = (props) => {
                 <Collapse isOpen={looOpen}>
                   <Card>
                     <CardBody>
-                      <Button className='filterButt'>lll</Button>
-                      <Button className='filterButt'>aaa</Button>
-                      <Button className='filterButt'>ddd</Button>
+                    {läsk.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClick(d)} 
+                    active={cSelected.includes(d)}>{d.toUpperCase()}</Button>)}
                     </CardBody>
                   </Card>
                 </Collapse>
-              </div>
-              <div>
-              <Button className='filterInnerCategory' onClick={toggle24} style={{ marginBottom: '1rem' }}>SPRITDRYCKER</Button>
-              <Collapse isOpen={sprOpen}>
-                <Card>
-                  <CardBody>
-                    <Button className='filterButt'>lll</Button>
-                    <Button className='filterButt'>aaa</Button>
-                    <Button className='filterButt'>ddd</Button>
-                  </CardBody>
-                </Card>
-              </Collapse>
               </div>
               <div>
                 <Button className='filterInnerCategory' onClick={toggle25} style={{ marginBottom: '1rem' }}>SYRUPS & DRINKMIXERS</Button>
                 <Collapse isOpen={syrOpen}>
                   <Card>
                     <CardBody>
-                      <Button className='filterButt'>lll</Button>
-                      <Button className='filterButt'>aaa</Button>
-                      <Button className='filterButt'>ddd</Button>
+                    {syru.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClick(d)} 
+                    active={cSelected.includes(d)}>{d.toUpperCase()}</Button>)}
                     </CardBody>
                   </Card>
                 </Collapse>
@@ -142,13 +138,8 @@ const Filter = (props) => {
         <Collapse isOpen={farOpen}>
           <Card>
             <CardBody>
-              <Button className='filterButt' onClick={() => onCheckboxBtnClick("blå")} active={cSelected.includes("blå")}>BLÅ</Button>
-              <Button className='filterButt' onClick={() => onCheckboxBtnClick("grön")} active={cSelected.includes("grön")}>GRÖN</Button>
-              <Button className='filterButt' onClick={() => onCheckboxBtnClick("gul")} active={cSelected.includes("gul")}>GUL</Button>
-              <Button className='filterButt' onClick={() => onCheckboxBtnClick("röd")} active={cSelected.includes("röd")}>RÖD</Button>
-              <Button className='filterButt' onClick={() => onCheckboxBtnClick("rosa")} active={cSelected.includes("rosa")}>ROSA</Button>
-              <Button className='filterButt' onClick={() => onCheckboxBtnClick("vit")} active={cSelected.includes("vit")}>VIT</Button>
-              <Button className='filterButt' onClick={() => onCheckboxBtnClick("övrigt")} active={cSelected.includes("övrigt")}>ÖVRIGT</Button>
+            {färg.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClick(d)} 
+            active={cSelected.includes(d)}>{d.toUpperCase()}</Button>)}
             </CardBody>
           </Card>
         </Collapse>
@@ -158,15 +149,16 @@ const Filter = (props) => {
         <Collapse isOpen={smaOpen}>
           <Card>
             <CardBody>
-              <Button className='filterButt' onClick={() => onCheckboxBtnClick("fruktig")} active={cSelected.includes("fruktig")}>FRUKTIG</Button>
-              <Button className='filterButt' onClick={() => onCheckboxBtnClick("fräsch")} active={cSelected.includes("fräsch")}>FRÄSCH</Button>
-              <Button className='filterButt' onClick={() => onCheckboxBtnClick("sur")} active={cSelected.includes("sur")}>SUR</Button>
-              <Button className='filterButt' onClick={() => onCheckboxBtnClick("söt")} active={cSelected.includes("söt")}>SÖT</Button>
+            {smak.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClick(d)} 
+                    active={cSelected.includes(d)}>{d.toUpperCase()}</Button>)}
             </CardBody>
           </Card>
         </Collapse>
       </div>
       <p>Selected: {JSON.stringify(cSelected)}</p>
+      <div>
+        <Button className = 'searchButton' size= "lg">SÖK</Button>
+      </div>
     </div>
   )
 }
