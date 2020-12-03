@@ -135,3 +135,31 @@ color: #000000;
 
   background: #E5ECE9;
 }
+
+/*header*/
+.header{
+  position: absolute;
+  width: 245px;
+  height: 30px;
+  left: 65px;
+  top: 64px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.333333px;
+
+  color: #F27C70;
+
+}
+
+.back-button{
+  position: absolute;
+  width: 70px;
+  height: 66px;
+  left: -16px;
+  top: -31px;
+}

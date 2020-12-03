@@ -7,7 +7,7 @@ const Help = () => {
     <div className='screen'>
       <div className='header'>
         <Link to='/'>
-          <button>Back</button>
+          <button className='back-button'>Back</button>
         </Link>
         <h2>FRÅGOR & SVAR</h2>
       </div>

@@ -36,7 +36,7 @@ const Filter = (props) => {
     <div className='screen'>
       <div className='header'>
         <Link to='/'>
-          <button>Back</button>
+          <button className='back-button'>Back</button>
         </Link>
         <h2>FILTRERA DRINKAR</h2>
       </div>
