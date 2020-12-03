@@ -14,10 +14,13 @@ function App () {
   return (
 
     <div className='screen'>
+<<<<<<< HEAD
       <div />
 
       {/* lägg in statusbilder */}
       <div className='statusBar' />
+=======
+>>>>>>> 1556b2eee665a9e4f4850256ecea42d617ee4913
 
       {/* Footer icons */}
       <Router>
