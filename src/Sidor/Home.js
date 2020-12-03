@@ -2,9 +2,17 @@ import React, { useEffect, useState, Component } from 'react'
 import '../index.css'
 import recipes from '../API/API_drinks'
 
-const Home = ({data}) => {
+const Home = data => {
     //const [recipes, setRecipes] = useState([])
     
+
+    return (
+
+        <p>{data.name}</p>
+
+    )
+
+    /*
     useEffect(() => {
         getRecipes()
     }, [])
@@ -13,9 +21,9 @@ const Home = ({data}) => {
         //Add code
     }
 
-    /*Search*/
 
     const [searchString, setSearchString] = useState('')
+    console.log(searchString)
 
     function changeInput(event) {
         setSearchString(event.target.value)
@@ -28,18 +36,21 @@ const Home = ({data}) => {
         const result = lowerCaseWord.indexof(lowerCaseSearchString) === 0
         return result
     }
+    */
+
 }
 
+//const allDrinks = recipes.filter(rec => recipes.drink_name)
+const test2 = recipes.recipes
+    console.log(test2)
+
 function HomeApp () {
-
-    //const result = data.drink_names
-    //console.log(result)
-
+    
     return (
         <div>
 
             <div className='poster'></div>
-
+            
             {/* Searchbar */}
             <form className='search'>
                 <input className='searchBar' type='text' placeholder='Sök drinkar eller ingredienser'/>
@@ -49,7 +60,7 @@ function HomeApp () {
                 </button>
             </form>
             <div>
-                {/*result.map((rec) => (<Home key={rec} />))*/}
+                
             </div>
             <form className='button'>
                 <button className='searchButton' type='submit'>FILTRERA DRINKAR</button>
@@ -58,6 +69,9 @@ function HomeApp () {
             {/* Popular drinks */}
             <div className='popular'>
                 <h2>POPULÄRA DRINKAR</h2>
+
+                {test2.map(d => (<Home name={d.drink_name}/>))}
+                
 
             </div>
             <div className='spinner' />
