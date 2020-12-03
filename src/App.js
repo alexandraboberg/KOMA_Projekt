@@ -13,6 +13,8 @@ import Result from './Sidor/Result'
 function App () {
   return (
 
+    //Nu testar Frida wiho
+
     <div className='screen'>
 
       {/* lägg in statusbilder */}
