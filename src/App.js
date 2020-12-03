@@ -16,7 +16,6 @@ import Result from './Sidor/Result'
    
 
     <div className='screen'>
-      <div></div>
 
       {/*lägg in statusbilder*/}
        <div className='statusBar'></div>
