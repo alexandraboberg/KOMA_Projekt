@@ -39,7 +39,7 @@ code {
   
   background: #F7ACA4;
 }
-
+/*footer*/
 .footer {
   position: absolute;
   width: 375px;
@@ -49,7 +49,24 @@ code {
   
   background: #FFFFFF;
   border: 1px solid #C4C4C4;
+  padding-top: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
 }
+
+a {
+  color: #C4C4C4 !important;
+}
+
+.filter{
+  transform: rotate(90deg);
+}
+
+.penis {
+  color: black !important;
+}
+
+
 
 /* Search */
 .search {
@@ -134,4 +151,32 @@ color: #000000;
   top: 62px;
 
   background: #E5ECE9;
+}
+
+/*header*/
+.header{
+  position: absolute;
+  width: 245px;
+  height: 30px;
+  left: 65px;
+  top: 64px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.333333px;
+
+  color: #F27C70;
+
+}
+
+.back-button{
+  position: absolute;
+  width: 70px;
+  height: 66px;
+  left: -16px;
+  top: -31px;
 }
