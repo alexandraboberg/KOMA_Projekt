@@ -3,24 +3,22 @@ import '../index.css'
 import recipes from '../API/API_drinks'
 
 const Home = data => {
-    //const [recipes, setRecipes] = useState([])
-    
 
     return (
 
         <p>{data.name}</p>
-
     )
 
-    /*
-    useEffect(() => {
-        getRecipes()
-    }, [])
+}
 
-    const getRecipes = () => {
-        //Add code
-    }
 
+//debugger
+const test2 = recipes.recipes
+    console.log(test2)
+
+function HomeApp () {
+
+    //const [recipes, setRecipes] = useState([])
 
     const [searchString, setSearchString] = useState('')
     console.log(searchString)
@@ -30,21 +28,19 @@ const Home = data => {
     }
 
     const match = (recipe) => {
-        const lowerCaseWord = recipe.toLowerCase()
+        const lowerCaseWord = recipe.drink_name.toLowerCase()
         const lowerCaseSearchString = searchString.toLowerCase()
 
         const result = lowerCaseWord.indexof(lowerCaseSearchString) === 0
         return result
     }
-    */
 
-}
+    //is not working
+    //const allDrinks = recipes.filter(rec => recipes.drink_name !== "Rhububble")
+    //const searchedDrinks = test2.filter(match)
+    //const slicedDrinks = searchedDrinks.slice(0,5)
 
-//const allDrinks = recipes.filter(rec => recipes.drink_name)
-const test2 = recipes.recipes
-    console.log(test2)
-
-function HomeApp () {
+    //console.log(searchedDrinks)
     
     return (
         <div>
@@ -53,7 +49,7 @@ function HomeApp () {
             
             {/* Searchbar */}
             <form className='search'>
-                <input className='searchBar' type='text' placeholder='Sök drinkar eller ingredienser'/>
+                <input className='searchBar' type='text' placeholder='Sök drinkar' onChange={changeInput} />
                 <button id='search'><svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
                     <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z' />
                 </svg>
