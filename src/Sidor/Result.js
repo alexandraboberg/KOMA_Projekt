@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Switch, Route, Link, useParams} from 'react-rou
 const Result = () => {
   return (
     <div className='screen'>
+      <div className='headerLine'/>
       <div className='header'>
         <Link to='/'>
           <button className='back-button'>

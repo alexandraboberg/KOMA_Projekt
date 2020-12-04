@@ -63,6 +63,7 @@ const Filter = (props) => {
 
   return (
     <div className='screen'>
+      <div className='headerLine'/>
       <div className='header'>
         <Link to='/'>
           <button className='back-button'>
