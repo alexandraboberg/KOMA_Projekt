@@ -59,14 +59,14 @@ function HomeApp () {
                 
             </div>
             <form className='button'>
-                <button className='searchButton' type='submit'>FILTRERA DRINKAR</button>
+                <button className='filterButton' type='submit'>FILTRERA DRINKAR</button>
             </form>
 
             {/* Popular drinks */}
             <div className='popular'>
                 <h2>POPULÄRA DRINKAR</h2>
 
-                {test2.map(d => (<Home name={d.drink_name}/>))}
+                {test2.map(d => (<Home key={test2.id} name={d.drink_name}/>))}
                 
 
             </div>
