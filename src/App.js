@@ -21,11 +21,12 @@ function App () {
       {/* Footer icons */}
       <Router>
         <Switch>
+          <Route exact path='/'><Home /></Route>
           <Route path='/Filter'><Filter /></Route>
           <Route path='/Pop'><Pop /></Route>
-          <Route path='/'><Home /></Route>
           <Route path='/Save'><Save /></Route>
           <Route path='/Help'><Help /></Route>
+          <Route path='/Result/:FSelected'><Result/></Route>
           {/* <Route path='/Recipe/:id'></Route> */}
         </Switch>
         <div className='footer'>
