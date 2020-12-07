@@ -44,8 +44,8 @@ function HomeApp () {
     
     return (
         <div>
-
-            <div className='poster'></div>
+            {/*ska egentligen va poster2*/} 
+            <img className='poster' src='poster.png' alt='poster!'></img>
             
             {/* Searchbar */}
             <form className='search'>

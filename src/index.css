@@ -40,6 +40,23 @@ code {
   background: #F7ACA4;
 }
 
+statusPic1{
+  position: absolute;
+  width: 56px;
+  height: 23px;
+  left: 21px;
+  top: 8px;
+}
+
+.statusPic2{
+  position: absolute;
+  width: 68px;
+  height: 16px;
+  right: 14px;
+  top: 15px;
+
+}
+
 /*footer*/
 .footer {
   position: absolute;
@@ -173,12 +190,12 @@ color: #000000;
 
 .poster{
   position: absolute;
-  width: 342px;
-  height: 326px;
-  left: 16px;
-  top: 62px;
-
-  background: #E5ECE9;
+  width: 375px;
+  height: 394px;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  
 }
 
 /*header*/
