@@ -12,7 +12,7 @@ const TestRecept = props =>  {
 }
 
 // const testFilter = (drinks, filters) => {
-//   const filterKeys = object.keys(filters)
+//   const filterKeys = filters.
 //   return drinks.filter(drinks => {
 //     return filterKeys.every(key => {
 //       if(!filters[key].length)return true;
@@ -155,11 +155,15 @@ const Result = () => {
   //   drinkMatch = allFilteredDrinks[i].filter(d=> allFilteredDrinks[i+1].some(e => d.id === e.id))
   // }
 
-  for(let i = 0; i < allFilteredDrinks.length-1; ++i){
-    drinkMatch = allFilteredDrinks[i].filter(d=> allFilteredDrinks[i+1].some(e => d.id === e.id))
+  if(allFilteredDrinks.length === 1){
+    drinkMatch = allFilteredDrinks[0]
+
+  }else{
+    for(let i = 0; i < allFilteredDrinks.length-1; ++i){
+      drinkMatch = allFilteredDrinks[i].filter(d=> allFilteredDrinks[i+1].some(e => d.id === e.id))
+    }
   }
 
-  
 
   console.log(drinkMatch)
 
