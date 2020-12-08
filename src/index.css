@@ -234,9 +234,11 @@ color: #000000;
   position: absolute;
   width: 70px;
   height: 66px;
-<<<<<<< HEAD
-  left: -16px;
-  top: -31px;
+  left: -50px;
+  top: -15px;
+  border:none;
+  background-color: rgba(255, 255, 255, 0);
+  color:#f27c70;
 }
 
 
@@ -249,11 +251,4 @@ color: #000000;
 .drinkPic{
   width: 100%;
   height: auto;
-=======
-  left: -50px;
-  top: -15px;
-  border:none;
-  background-color: rgba(255, 255, 255, 0);
-  color:#f27c70;
->>>>>>> 275aeb920de68d81d2d8424c33e4414fdaf9ff01
 }
