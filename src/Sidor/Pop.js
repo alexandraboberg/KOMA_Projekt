@@ -14,13 +14,12 @@ const Pop =  data => {
   
   const link = '/Recipe/' + data.id;
  
-
   return (
       <Link to = {link} className = "linkToDrink">
-        <span>
+        <div className = "outline">
         <img src={data.image} alt={data.name} className = "drinkPic"></img>
-        <p className = "drinkName">{data.name}</p>
-      </span>
+        <p className = "drinkFont">{data.name}</p>
+      </div>
     </Link>
   )
 }
@@ -46,29 +45,28 @@ function PopApp() {
   return (
     <div className='screen'>
       <div className='headerLine'/>
-      <div className='header'>
-        <Link to='/'>
-          <button className='back-button'>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 16l-4-4m0 0l4-4m-4 4h18" />
-            </svg>
-          </button>
-        </Link>
-        <h2>POPULÄRA DRINKAR</h2>
-        {testPop.map(d => <Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}
-        {testPop2.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
-        {testPop3.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
-        {testPop4.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
-        {testPop5.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
-        {testPop6.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
-        {testPop7.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
-        {testPop8.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
-        {testPop9.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
-        {testPop10.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))} 
-        
-      </div>
-      <div>
-      </div>
+        <div className='header'>
+          <Link to='/'>
+            <button className='back-button'>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 16l-4-4m0 0l4-4m-4 4h18" />
+              </svg>
+            </button>
+          </Link>
+          <h2>POPULÄRA DRINKAR</h2>
+        </div>
+        <div>
+            {testPop.map(d => <Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}
+            {testPop2.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
+            {testPop3.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
+            {testPop4.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
+            {testPop5.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
+            {testPop6.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
+            {testPop7.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
+            {testPop8.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
+            {testPop9.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
+            {testPop10.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
+        </div>
     </div>
   )
 }
