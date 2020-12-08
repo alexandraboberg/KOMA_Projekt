@@ -249,6 +249,9 @@ color: #000000;
   height: 170px;
   background: #FFFFFF;
   box-sizing: border-box;
+  float: left;
+  margin: 20px;
+  
 }
 
 .outline{
@@ -284,4 +287,16 @@ color: #000000;
   letter-spacing: -0.333333px;
   
   color: #000000;
+  }
+
+  .saveButton{
+    stroke: #FFDF81;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    height: 20px;
+    position: absolute;
+    right: 20px;
+    bottom: 45px;
   }
