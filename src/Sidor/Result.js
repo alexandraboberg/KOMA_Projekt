@@ -12,7 +12,7 @@ const TestRecept = props =>  {
 }
 
 // const testFilter = (drinks, filters) => {
-//   const filterKeys = filters.
+//   const filterKeys = filters.keys(filters)
 //   return drinks.filter(drinks => {
 //     return filterKeys.every(key => {
 //       if(!filters[key].length)return true;
@@ -147,7 +147,7 @@ const Result = () => {
   console.log(allFilteredDrinks)
 
   //Skapar en ny array för sista filtreringen 
-  let drinkMatch = []
+  let finalDrinks = []
 
   //Går igenom alla arrays i allFilteredDrinks och kollar om id matchar 
   //Om det gör det, lägger in den i drinkMatch
@@ -156,16 +156,15 @@ const Result = () => {
   // }
 
   if(allFilteredDrinks.length === 1){
-    drinkMatch = allFilteredDrinks[0]
+    finalDrinks = allFilteredDrinks[0]
 
   }else{
-    for(let i = 0; i < allFilteredDrinks.length-1; ++i){
-      drinkMatch = allFilteredDrinks[i].filter(d=> allFilteredDrinks[i+1].some(e => d.id === e.id))
+    finalDrinks = allFilteredDrinks[0].filter(d=> allFilteredDrinks[1].some(e => d.id === e.id))
+    for(let i = 0; i < allFilteredDrinks.length-2; ++i){
+      finalDrinks = finalDrinks.filter(d=> allFilteredDrinks[i+2].some(e => d.id === e.id))
     }
   }
-
-
-  console.log(drinkMatch)
+  console.log(finalDrinks)
 
   {/*Split i loop med ingridienserna*/}
   return (
@@ -182,7 +181,7 @@ const Result = () => {
         <h2>FILTRERADE DRINKAR</h2>
         <div>
           <p>Selected: {JSON.stringify(basfilter)}{JSON.stringify(ingfilter)}{JSON.stringify(farfilter)}{JSON.stringify(smafilter)}</p>
-          {drinkMatch.map( d => <TestRecept key = {d.id} data = {d}/>)}
+          {finalDrinks.map( d => <TestRecept key = {d.id} data = {d}/>)}
         </div>
       </div>
       
