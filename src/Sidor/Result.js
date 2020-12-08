@@ -138,16 +138,19 @@ const Result = () => {
 
   //Går igenom alla arrays i allFilteredDrinks och kollar om id matchar 
   //Om det gör det, lägger in den i finalDrinks
-
-  if(allFilteredDrinks.length === 1){
-    finalDrinks = allFilteredDrinks[0]
-
+  if(basfilter[0] === "" && ingfilter[0] === "" && farfilter[0] === "" && smafilter[0] === ""){
+    finalDrinks = drinks;
   }else{
-    finalDrinks = allFilteredDrinks[0].filter(d=> allFilteredDrinks[1].some(e => d.id === e.id))
-    for(let i = 0; i < allFilteredDrinks.length-2; ++i){
-      finalDrinks = finalDrinks.filter(d=> allFilteredDrinks[i+2].some(e => d.id === e.id))
+    if(allFilteredDrinks.length === 1){
+      finalDrinks = allFilteredDrinks[0]
+    }else{
+      finalDrinks = allFilteredDrinks[0].filter(d=> allFilteredDrinks[1].some(e => d.id === e.id))
+      for(let i = 0; i < allFilteredDrinks.length-2; ++i){
+        finalDrinks = finalDrinks.filter(d=> allFilteredDrinks[i+2].some(e => d.id === e.id))
+      }
     }
   }
+  
   console.log(finalDrinks)
 
   {/*Split i loop med ingridienserna*/}
