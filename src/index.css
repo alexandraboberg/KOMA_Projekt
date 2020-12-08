@@ -305,7 +305,7 @@ h3{
 }
 
 /*Answer*/
-#answer1, #answer2, #answer3, #answer4, #answer5, #answer6, #answer7{
+.ans {
   position: absolute;
   width: 375px;
   height: 705px;
