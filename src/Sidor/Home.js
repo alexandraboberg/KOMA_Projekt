@@ -44,29 +44,30 @@ function HomeApp () {
     
     return (
         <div>
-
-            <div className='poster'></div>
+            {/*ska egentligen va poster2*/} 
+            <img className='poster' src='poster.png' alt='poster!'></img>
             
             {/* Searchbar */}
             <form className='search'>
                 <input className='searchBar' type='text' placeholder='Sök drinkar' onChange={changeInput} />
-                <button id='search'><svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
-                    <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z' />
-                </svg>
+                <button id='search'>
+                    <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
+                        <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z' />
+                    </svg>
                 </button>
             </form>
             <div>
                 
             </div>
-            <form className='button'>
-                <button className='searchButton' type='submit'>FILTRERA DRINKAR</button>
+            <form className='button' action='/filter'>
+                <button className='filterButton' type='submit'>FILTRERA DRINKAR</button>
             </form>
 
             {/* Popular drinks */}
             <div className='popular'>
                 <h2>POPULÄRA DRINKAR</h2>
 
-                {test2.map(d => (<Home name={d.drink_name}/>))}
+                {test2.map(d => (<Home key={test2.id} name={d.drink_name}/>))}
                 
 
             </div>

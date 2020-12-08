@@ -6,7 +6,7 @@
         "id": "jag är unik",
         "title": "pärondrink",
         "taste": "god",
-        "spirit": "Vodka",
+        "spirits": "Vodka",
         "tags": [ "vodka", "sur" ],
         "ingredients": [
           {
@@ -29,7 +29,7 @@
         "id": "jag är unik",
         "title": "pärondrink",
         "taste": "god",
-        "spirit": "Vodka",
+        "spirits": "Vodka",
         "tags": [ "vodka", "sur" ],
         "ingredients": [
           {

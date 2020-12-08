@@ -2,10 +2,10 @@ import React from 'react'
 import { useState } from 'react';
 import { Collapse, Button, CardBody, Card } from 'reactstrap';
 import '../index.css'
-import {BrowserRouter as Router, Switch, Route, Link, useParams} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 //Arrays med namn på drink artiklar
-const bassprit = ["champange", "gin", "likör", "rom", "tequila", "vodka", "whiskey"]
+const bassprit = ["champagne", "gin", "likör", "rom", "tequila", "vodka", "whiskey"]
 const frubär = ["apelsin", "basilika", "björnbär", "blåbär", "citron", "granatäpple", "gurka", "hallon", "jordgubbar", 
                 "kanel", "kardemumma", "koriander", "lime", "mynta", "nejlika", "passionsfrukt", "persika", "päron",
                 "russin", "vattenmelon", "äpple"]
@@ -48,24 +48,66 @@ const Filter = (props) => {
   const [syrOpen, set25Open] = useState(false);
   const toggle25 = () => set25Open(!syrOpen);
   
-  //Toggle ingredienser checkboxes
-  const [cSelected, setCSelected] = useState([]);
-  //Lista av valda
-  const onCheckboxBtnClick = (selected) => {
-    const index = cSelected.indexOf(selected);
+  //Toggle checkboxes
+  const [basSelected, setbasSelected] = useState([]);
+  const [ingSelected, setingSelected] = useState([]);
+  const [farSelected, setfarSelected] = useState([]);
+  const [smaSelected, setsmaSelected] = useState([]);
+
+  //Lista av valda basspriter
+  const onCheckboxBtnClickBas = (selected) => {
+    const index = basSelected.indexOf(selected);
     if (index < 0) {
-      cSelected.push(selected);
+      basSelected.push(selected);
     } else {
-      cSelected.splice(index, 1);
+      basSelected.splice(index, 1);
     }
-    setCSelected([...cSelected]);
+    setbasSelected([...basSelected]);
   }
+  //Lista av valda ingredienser
+  const onCheckboxBtnClickIng = (selected) => {
+    const index = ingSelected.indexOf(selected);
+    if (index < 0) {
+      ingSelected.push(selected);
+    } else {
+      ingSelected.splice(index, 1);
+    }
+    setingSelected([...ingSelected]);
+  }
+  //Lista av valda färger
+  const onCheckboxBtnClickFar = (selected) => {
+    const index = farSelected.indexOf(selected);
+    if (index < 0) {
+      farSelected.push(selected);
+    } else {
+      farSelected.splice(index, 1);
+    }
+    setfarSelected([...farSelected]);
+  }
+  //Lista av valda smaker
+  const onCheckboxBtnClickSma = (selected) => {
+    const index = smaSelected.indexOf(selected);
+    if (index < 0) {
+      smaSelected.push(selected);
+    } else {
+      smaSelected.splice(index, 1);
+    }
+    setsmaSelected([...smaSelected]);
+  }
+
+  //Länk till resultat sidan
+  const link = '/Result/' + basSelected + '*' + ingSelected + '*' + farSelected + '*' + smaSelected
 
   return (
     <div className='screen'>
+      <div className='headerLine'/>
       <div className='header'>
         <Link to='/'>
-          <button className='back-button'>Back</button>
+          <button className='back-button'>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M7 16l-4-4m0 0l4-4m-4 4h18" />
+            </svg>
+          </button>
         </Link>
         <h2>FILTRERA DRINKAR</h2>
       </div>
@@ -74,8 +116,8 @@ const Filter = (props) => {
         <Collapse isOpen={basOpen}>
           <Card>
             <CardBody>
-              {bassprit.map((d, i) => <Button className='filterButt' onClick={() => onCheckboxBtnClick(d)} 
-              active={cSelected.includes(d)}>{d.toUpperCase()}</Button>)}
+              {bassprit.map((d, i) => <Button className='filterButt' onClick={() => onCheckboxBtnClickBas(d)} 
+              active={basSelected.includes(d)}>{d.toUpperCase()}</Button>)}
             </CardBody>
           </Card>
         </Collapse>
@@ -90,8 +132,8 @@ const Filter = (props) => {
                 <Collapse isOpen={fboOpen}>
                   <Card>
                     <CardBody>
-                    {frubär.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClick(d)} 
-                    active={cSelected.includes(d)}>{d.toUpperCase()}</Button>)}
+                    {frubär.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClickIng(d)} 
+                    active={ingSelected.includes(d)}>{d.toUpperCase()}</Button>)}
                     </CardBody>
                   </Card>
                 </Collapse>
@@ -101,8 +143,8 @@ const Filter = (props) => {
                 <Collapse isOpen={fruOpen}>
                   <Card>
                     <CardBody>
-                    {fruju.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClick(d)} 
-                    active={cSelected.includes(d)}>{d.toUpperCase()}</Button>)}
+                    {fruju.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClickIng(d)} 
+                    active={ingSelected.includes(d)}>{d.toUpperCase()}</Button>)}
                     </CardBody>
                   </Card>
                 </Collapse>
@@ -112,8 +154,8 @@ const Filter = (props) => {
                 <Collapse isOpen={looOpen}>
                   <Card>
                     <CardBody>
-                    {läsk.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClick(d)} 
-                    active={cSelected.includes(d)}>{d.toUpperCase()}</Button>)}
+                    {läsk.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClickIng(d)} 
+                    active={ingSelected.includes(d)}>{d.toUpperCase()}</Button>)}
                     </CardBody>
                   </Card>
                 </Collapse>
@@ -123,8 +165,8 @@ const Filter = (props) => {
                 <Collapse isOpen={syrOpen}>
                   <Card>
                     <CardBody>
-                    {syru.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClick(d)} 
-                    active={cSelected.includes(d)}>{d.toUpperCase()}</Button>)}
+                    {syru.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClickIng(d)} 
+                    active={ingSelected.includes(d)}>{d.toUpperCase()}</Button>)}
                     </CardBody>
                   </Card>
                 </Collapse>
@@ -138,8 +180,8 @@ const Filter = (props) => {
         <Collapse isOpen={farOpen}>
           <Card>
             <CardBody>
-            {färg.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClick(d)} 
-            active={cSelected.includes(d)}>{d.toUpperCase()}</Button>)}
+            {färg.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClickFar(d)} 
+            active={farSelected.includes(d)}>{d.toUpperCase()}</Button>)}
             </CardBody>
           </Card>
         </Collapse>
@@ -149,15 +191,17 @@ const Filter = (props) => {
         <Collapse isOpen={smaOpen}>
           <Card>
             <CardBody>
-            {smak.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClick(d)} 
-                    active={cSelected.includes(d)}>{d.toUpperCase()}</Button>)}
+            {smak.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClickSma(d)} 
+                    active={smaSelected.includes(d)}>{d.toUpperCase()}</Button>)}
             </CardBody>
           </Card>
         </Collapse>
       </div>
-      <p>Selected: {JSON.stringify(cSelected)}</p>
+      <p>Selected: {JSON.stringify(basSelected)}, {JSON.stringify(ingSelected)}, {JSON.stringify(farSelected)}, {JSON.stringify(smaSelected)}</p>
       <div>
-        <Button className = 'searchButton' size= "lg">SÖK</Button>
+        <Link className='searchLink' to={link}>
+          <Button className ='searchButton'>SÖK</Button>
+        </Link>
       </div>
     </div>
   )
