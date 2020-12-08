@@ -1,11 +1,14 @@
 import React, { useEffect, useState, Component } from 'react'
 import '../index.css'
+import { BrowserRouter as Router, Switch, Route, Link, useParams } from 'react-router-dom'
 import recipes from '../API/API_drinks'
 
 const Home = data => {
+  const link = '/Recipe/' + data.id
+
   return (
 
-    <p>{data.name}</p>
+    <Link to={link}><p>{data.name}</p></Link>
   )
 }
 
@@ -51,7 +54,7 @@ function HomeApp () {
       <div className='popular'>
         <h2>POPULÄRA DRINKAR</h2>
 
-        {limRec.map(d => (<Home key={test2.id} name={d.drink_name} />))}
+        {limRec.map(d => (<Home id={d.id} name={d.drink_name} />))}
 
       </div>
       <div className='spinner' />
