@@ -349,3 +349,66 @@ color: #FFFFFF;
 
   color: #FFFAFA;
 }
+
+/*pop*/
+
+.linkToDrink{
+  width: 145px;
+  height: 170px;
+  background: #FFFFFF;
+  box-sizing: border-box;
+  float: left;
+  margin: 20px;
+  
+}
+
+.outline{
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.1));
+  background: #FFFFFF;
+  width: 145px;
+  height: 170px;
+  }
+
+.drinkPic{
+  position: relative;
+  width: 130px;
+  height: auto;
+  left: 5%;
+  right: 5%;
+  top: 4%;
+  bottom: 19%;
+}
+
+.drinkFont{
+  position: absolute;
+  left: 4%;
+  right: 4%;
+  top: 85.03%;
+  bottom: 0%;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: -0.333333px;
+  
+  color: #000000;
+  }
+
+  .saveButton{
+    stroke: #FFDF81;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    height: 20px;
+    position: absolute;
+    right: 20px;
+    bottom: 45px;
+  }
+
+  .content{
+    padding-top: 150px;
+  }

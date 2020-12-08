@@ -3,6 +3,14 @@ import './../index.css'
 import { Link, useParams} from 'react-router-dom';
 import recipes from '../API/API_drinks'
 
+
+const TestRecept = props =>  {
+  const data = props.data
+  return (
+    <p>{data.drink_name}</p>
+  )
+}
+
 const Result = () => {
 
   //Converts API to an array
@@ -48,7 +56,7 @@ const Result = () => {
     //Filter 
     //let filteredWords = drinks.filter(d => (d.ingridients.map(p => (match(p.ingridient_name)))))
     let filteredWords = drinks.filter(d => (test(d.spirits) === true))
-    console.log(filteredWords)
+    //console.log(filteredWords)
     return filteredWords;
   }
   
@@ -69,75 +77,96 @@ const Result = () => {
     //Filter 
     //let filteredWords = drinks.filter(d => (d.ingridients.map(p => (match(p.ingridient_name)))))
     let filteredWords = drinks.filter(d => (test(d.ingridients) === true))
-    console.log(filteredWords)
+    //console.log(filteredWords)
     return filteredWords;
   }
 
   //Filter färger
   function farfiltering(s){
     let filteredWords = drinks.filter(d => (match(d.color, s)))
-    console.log(filteredWords)
+    //console.log(filteredWords)
     return filteredWords;
   }
 
   //Filter smak
   function smafiltering(s){
     let filteredWords = drinks.filter(d => (match(d.taste, s)))
-    console.log(filteredWords)
+    //console.log(filteredWords)
     return filteredWords;
   }
   
+  //valda string
+  var valda = ""
+
   //Sök genom bassprit array
   let i = 0
-  let basFiltered = [""]
+  let allFilteredDrinks =[]
   if(basfilter[0] !== ""){
     while(i < basfilter.length){
-      basFiltered[i] = basfiltering(basfilter[i])
+      allFilteredDrinks.push(basfiltering(basfilter[i]))
+      valda = valda + basfilter[i] + ", ";
       i++
     }
   }
 
   //Sök genom ingrediens array
   i = 0
-  let ingFiltered = [""]
   if(ingfilter[0] !== ""){
     while(i < ingfilter.length){
-      ingFiltered = ingfiltering(ingfilter[i])
+      allFilteredDrinks.push(ingfiltering(ingfilter[i]))
+      valda = valda + ingfilter[i] + ", ";
       i++
     }
   }
   
   //Sök genom färg array
   i = 0
-  let farFiltered = [""]
   if(farfilter[0] !== ""){
     while(i < farfilter.length){
-      farFiltered = farfiltering(farfilter[i])
+      allFilteredDrinks.push(farfiltering(farfilter[i]))
+      valda = valda + farfilter[i] + ", ";
       i++
     }
   }
   
   //Sök genom smak array
   i = 0
-  let smaFiltered = [""]
   if(smafilter[0] !== ""){
     while(i < smafilter.length){
-      smaFiltered = smafiltering(smafilter[i])
+      allFilteredDrinks.push(smafiltering(smafilter[i]))
+      valda = valda + smafilter[i] + ", ";
       i++
     }
   }
+  console.log(allFilteredDrinks)
 
-  //Lägg ihop de filtrerade resultaten
-  let doneFiltering = basFiltered.concat(ingFiltered, farFiltered, smaFiltered)
-  console.log(doneFiltering)
-  ///////////////////////////////////////////////////////////////KOLLA HÄR
-  //Leta efter de drinkar som finns i varje doneFiltering[j]
-  const size = doneFiltering.length
-  let j = 0
-  // while(j < size){
-  //   doneFiltering[j]
-  //   j++;
-  // }
+  //Skapar en ny array för sista filtreringen 
+  let finalDrinks = []
+  
+
+  //Går igenom alla arrays i allFilteredDrinks och kollar om id matchar 
+  //Om det gör det, lägger in den i finalDrinks
+  //Om man söker tomm aå kommer alla drinkar upp
+  if(basfilter[0] === "" && ingfilter[0] === "" && farfilter[0] === "" && smafilter[0] === ""){
+    finalDrinks = drinks;
+    valda = "Alla drinkar"
+  }else{
+    if(allFilteredDrinks.length === 1){
+      finalDrinks = allFilteredDrinks[0]
+    }else{
+      finalDrinks = allFilteredDrinks[0].filter(d=> allFilteredDrinks[1].some(e => d.id === e.id))
+      for(let i = 0; i < allFilteredDrinks.length-2; ++i){
+        finalDrinks = finalDrinks.filter(d=> allFilteredDrinks[i+2].some(e => d.id === e.id))
+      }
+    }
+  }
+
+  // valda = basfilter.join(', ')
+  // valda = valda + ", " + ingfilter.join(', ')
+  console.log(valda)
+
+  
+  console.log(finalDrinks)
 
   {/*Split i loop med ingridienserna*/}
   return (
@@ -152,6 +181,10 @@ const Result = () => {
           </button>
         </Link>
         <h2>FILTRERADE DRINKAR</h2>
+        <div>
+          <p>Visar: {valda}</p>
+          {finalDrinks.map( d => <TestRecept key = {d.id} data = {d}/>)}
+        </div>
       </div>
       
     </div>
