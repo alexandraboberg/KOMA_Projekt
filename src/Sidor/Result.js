@@ -11,19 +11,6 @@ const TestRecept = props =>  {
   )
 }
 
-// const testFilter = (drinks, filters) => {
-//   const filterKeys = filters.keys(filters)
-//   return drinks.filter(drinks => {
-//     return filterKeys.every(key => {
-//       if(!filters[key].length)return true;
-//       if(Array.isArray(drinks[key])){
-//         return drinks[key].some(keyEle => filters[key].includes(keyEle))
-//       }
-//         return filters[key].includes(drinks[key]);
-//     })
-//   })
-// }
-
 const Result = () => {
 
   //Converts API to an array
