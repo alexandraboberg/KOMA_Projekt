@@ -34,7 +34,7 @@ const Recipe = () => {
         </Link>
         <h2>RECEPT</h2>
       </div>
-      <div className='recipeBody'>
+      <div className='content'>
         <img height = "100" width = "100" src={foundRecipe.picture} alt={foundRecipe.drink_name} />
         <h2>{foundRecipe.drink_name}</h2>
         <p>{foundRecipe.description}</p>

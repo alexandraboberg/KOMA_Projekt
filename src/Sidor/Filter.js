@@ -115,97 +115,99 @@ const Filter = (props) => {
         </Link>
         <h2>FILTRERA DRINKAR</h2>
       </div>
-      <div>
-      <Button className='filterCategory' onClick={toggle1} style={{ marginBottom: '1rem' }}>BASSPRIT</Button>
-        <Collapse isOpen={basOpen}>
-          <Card>
-            <CardBody>
-              {bassprit.map((d, i) => <Button className='filterButt' onClick={() => onCheckboxBtnClickBas(d)} 
-              active={basSelected.includes(d)}>{d.toUpperCase()}</Button>)}
-            </CardBody>
-          </Card>
-        </Collapse>
-      </div>
-      <div>
-      <Button className='filterCategory' onClick={toggle2} style={{ marginBottom: '1rem' }}>INGREDIENSER</Button>
-        <Collapse isOpen={ingOpen}>
-          <Card>
-            <CardBody>
-            <div>
-              <Button className='filterInnerCategory' onClick={toggle21} style={{ marginBottom: '1rem' }}>FRUKT, BÄR & ÖRTER</Button>
-                <Collapse isOpen={fboOpen}>
-                  <Card>
-                    <CardBody>
-                    {frubär.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClickIng(d)} 
-                    active={ingSelected.includes(d)}>{d.toUpperCase()}</Button>)}
-                    </CardBody>
-                  </Card>
-                </Collapse>
-              </div>
+      <div className='content'>
+        <div>
+        <Button className='filterCategory' onClick={toggle1} style={{ marginBottom: '1rem' }}>BASSPRIT</Button>
+          <Collapse isOpen={basOpen}>
+            <Card>
+              <CardBody>
+                {bassprit.map((d, i) => <Button className='filterButt' onClick={() => onCheckboxBtnClickBas(d)} 
+                active={basSelected.includes(d)}>{d.toUpperCase()}</Button>)}
+              </CardBody>
+            </Card>
+          </Collapse>
+        </div>
+        <div>
+        <Button className='filterCategory' onClick={toggle2} style={{ marginBottom: '1rem' }}>INGREDIENSER</Button>
+          <Collapse isOpen={ingOpen}>
+            <Card>
+              <CardBody>
               <div>
-                <Button className='filterInnerCategory' onClick={toggle22} style={{ marginBottom: '1rem' }}>FRUKTJUICER</Button>
-                <Collapse isOpen={fruOpen}>
-                  <Card>
-                    <CardBody>
-                    {fruju.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClickIng(d)} 
-                    active={ingSelected.includes(d)}>{d.toUpperCase()}</Button>)}
-                    </CardBody>
-                  </Card>
-                </Collapse>
-              </div>
-              <div>
-                <Button className='filterInnerCategory' onClick={toggle23} style={{ marginBottom: '1rem' }}>LÄSK & ÖVRIGA DRYCKER</Button>
-                <Collapse isOpen={looOpen}>
-                  <Card>
-                    <CardBody>
-                    {läsk.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClickIng(d)} 
-                    active={ingSelected.includes(d)}>{d.toUpperCase()}</Button>)}
-                    </CardBody>
-                  </Card>
-                </Collapse>
-              </div>
-              <div>
-                <Button className='filterInnerCategory' onClick={toggle25} style={{ marginBottom: '1rem' }}>SYRUPS & DRINKMIXERS</Button>
-                <Collapse isOpen={syrOpen}>
-                  <Card>
-                    <CardBody>
-                    {syru.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClickIng(d)} 
-                    active={ingSelected.includes(d)}>{d.toUpperCase()}</Button>)}
-                    </CardBody>
-                  </Card>
-                </Collapse>
-              </div>
-            </CardBody>
-          </Card>
-        </Collapse>
-      </div>
-      <div>
-      <Button className='filterCategory' onClick={toggle3} style={{ marginBottom: '1rem' }}>FÄRG</Button>
-        <Collapse isOpen={farOpen}>
-          <Card>
-            <CardBody>
-            {färg.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClickFar(d)} 
-            active={farSelected.includes(d)}>{d.toUpperCase()}</Button>)}
-            </CardBody>
-          </Card>
-        </Collapse>
-      </div>
-      <div>
-      <Button className='filterCategory' onClick={toggle4} style={{ marginBottom: '1rem' }}>SMAK</Button>
-        <Collapse isOpen={smaOpen}>
-          <Card>
-            <CardBody>
-            {smak.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClickSma(d)} 
-                    active={smaSelected.includes(d)}>{d.toUpperCase()}</Button>)}
-            </CardBody>
-          </Card>
-        </Collapse>
-      </div>
-      <p>Valda filter: {valda}</p>
-      <div>
-        <Link className='searchLink' to={link}>
-          <Button className ='searchButton'>SÖK</Button>
-        </Link>
+                <Button className='filterInnerCategory' onClick={toggle21} style={{ marginBottom: '1rem' }}>FRUKT, BÄR & ÖRTER</Button>
+                  <Collapse isOpen={fboOpen}>
+                    <Card>
+                      <CardBody>
+                      {frubär.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClickIng(d)} 
+                      active={ingSelected.includes(d)}>{d.toUpperCase()}</Button>)}
+                      </CardBody>
+                    </Card>
+                  </Collapse>
+                </div>
+                <div>
+                  <Button className='filterInnerCategory' onClick={toggle22} style={{ marginBottom: '1rem' }}>FRUKTJUICER</Button>
+                  <Collapse isOpen={fruOpen}>
+                    <Card>
+                      <CardBody>
+                      {fruju.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClickIng(d)} 
+                      active={ingSelected.includes(d)}>{d.toUpperCase()}</Button>)}
+                      </CardBody>
+                    </Card>
+                  </Collapse>
+                </div>
+                <div>
+                  <Button className='filterInnerCategory' onClick={toggle23} style={{ marginBottom: '1rem' }}>LÄSK & ÖVRIGA DRYCKER</Button>
+                  <Collapse isOpen={looOpen}>
+                    <Card>
+                      <CardBody>
+                      {läsk.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClickIng(d)} 
+                      active={ingSelected.includes(d)}>{d.toUpperCase()}</Button>)}
+                      </CardBody>
+                    </Card>
+                  </Collapse>
+                </div>
+                <div>
+                  <Button className='filterInnerCategory' onClick={toggle25} style={{ marginBottom: '1rem' }}>SYRUPS & DRINKMIXERS</Button>
+                  <Collapse isOpen={syrOpen}>
+                    <Card>
+                      <CardBody>
+                      {syru.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClickIng(d)} 
+                      active={ingSelected.includes(d)}>{d.toUpperCase()}</Button>)}
+                      </CardBody>
+                    </Card>
+                  </Collapse>
+                </div>
+              </CardBody>
+            </Card>
+          </Collapse>
+        </div>
+        <div>
+        <Button className='filterCategory' onClick={toggle3} style={{ marginBottom: '1rem' }}>FÄRG</Button>
+          <Collapse isOpen={farOpen}>
+            <Card>
+              <CardBody>
+              {färg.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClickFar(d)} 
+              active={farSelected.includes(d)}>{d.toUpperCase()}</Button>)}
+              </CardBody>
+            </Card>
+          </Collapse>
+        </div>
+        <div>
+        <Button className='filterCategory' onClick={toggle4} style={{ marginBottom: '1rem' }}>SMAK</Button>
+          <Collapse isOpen={smaOpen}>
+            <Card>
+              <CardBody>
+              {smak.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClickSma(d)} 
+                      active={smaSelected.includes(d)}>{d.toUpperCase()}</Button>)}
+              </CardBody>
+            </Card>
+          </Collapse>
+        </div>
+        <p>Valda filter: {valda}</p>
+        <div>
+          <Link className='searchLink' to={link}>
+            <Button className ='searchButton'>SÖK</Button>
+          </Link>
+        </div>
       </div>
     </div>
   )
