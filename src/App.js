@@ -39,7 +39,7 @@ function App () {
           <Route path='/Save'><Save /></Route>
           <Route path='/Help'><Help /></Route>
           <Route path='/Result/:FSelected'><Result/></Route>
-          <Route path='/Recipe/:id'></Route>
+          <Route path='/Recipe/:id'><Recipe/></Route>
         </Switch>
         <div className='footer'>
           <ul className='icons'>
