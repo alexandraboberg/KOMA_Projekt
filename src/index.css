@@ -29,6 +29,11 @@ code {
   height: 812px;
 
 }
+/* Content inside screen */
+.content{
+  padding-top: 150px;
+}
+
 /*status bar*/
 .statusBar {
   position: absolute;
@@ -301,6 +306,3 @@ color: #000000;
     bottom: 45px;
   }
 
-  .content{
-    padding-top: 150px;
-  }
