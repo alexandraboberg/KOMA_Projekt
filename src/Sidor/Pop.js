@@ -58,7 +58,7 @@ function PopApp() {
           </Link>
           <h2>POPULÄRA DRINKAR</h2>
         </div>
-        <div>
+        <div className = 'popDrinks'>
             {testPop.map(d => <Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}
             {testPop2.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
             {testPop3.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
