@@ -2,15 +2,9 @@ import React, { useState} from 'react'
 import '../index.css'
 import {BrowserRouter as Router, Switch, Route, Link, useParams} from 'react-router-dom';
 import recipes from '../API/API_drinks'
-//import { Collapse, Button, CardBody, Card } from 'reactstrap';
-//import Recipe_Button from '../Recipe_Button.js';
-
-console.log(recipes.recipes[0].id)
-
-
 
 const Pop =  data => {
-  //const data = props.data;
+
   
   const link = '/Recipe/' + data.id;
  
@@ -43,8 +37,6 @@ const testPop10 = recipes.recipes.filter((recipes) => recipes.drink_name === "So
 
 function PopApp() {
 
-      //const [recipes, setRecipes] = useState([])
-
   return (
     <div className='screen'>
       <div className='headerLine'/>
@@ -74,10 +66,5 @@ function PopApp() {
   )
 }
 
-function Recipe_Button(){
-  let{id} = useParams()
-  console.log(id)
-
-}
 
 export default PopApp 
