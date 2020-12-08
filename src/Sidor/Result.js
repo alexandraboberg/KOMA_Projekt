@@ -150,10 +150,7 @@ const Result = () => {
   let finalDrinks = []
 
   //Går igenom alla arrays i allFilteredDrinks och kollar om id matchar 
-  //Om det gör det, lägger in den i drinkMatch
-  // for(let i = 0; i < allFilteredDrinks.length-1; ++i){
-  //   drinkMatch = allFilteredDrinks[i].filter(d=> allFilteredDrinks[i+1].some(e => d.id === e.id))
-  // }
+  //Om det gör det, lägger in den i finalDrinks
 
   if(allFilteredDrinks.length === 1){
     finalDrinks = allFilteredDrinks[0]
