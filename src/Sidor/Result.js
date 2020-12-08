@@ -94,6 +94,9 @@ const Result = () => {
     //console.log(filteredWords)
     return filteredWords;
   }
+  
+  //valda string
+  var valda = ""
 
   //Sök genom bassprit array
   let i = 0
@@ -101,6 +104,7 @@ const Result = () => {
   if(basfilter[0] !== ""){
     while(i < basfilter.length){
       allFilteredDrinks.push(basfiltering(basfilter[i]))
+      valda = valda + basfilter[i] + ", ";
       i++
     }
   }
@@ -110,6 +114,7 @@ const Result = () => {
   if(ingfilter[0] !== ""){
     while(i < ingfilter.length){
       allFilteredDrinks.push(ingfiltering(ingfilter[i]))
+      valda = valda + ingfilter[i] + ", ";
       i++
     }
   }
@@ -119,6 +124,7 @@ const Result = () => {
   if(farfilter[0] !== ""){
     while(i < farfilter.length){
       allFilteredDrinks.push(farfiltering(farfilter[i]))
+      valda = valda + farfilter[i] + ", ";
       i++
     }
   }
@@ -128,6 +134,7 @@ const Result = () => {
   if(smafilter[0] !== ""){
     while(i < smafilter.length){
       allFilteredDrinks.push(smafiltering(smafilter[i]))
+      valda = valda + smafilter[i] + ", ";
       i++
     }
   }
@@ -135,11 +142,14 @@ const Result = () => {
 
   //Skapar en ny array för sista filtreringen 
   let finalDrinks = []
+  
 
   //Går igenom alla arrays i allFilteredDrinks och kollar om id matchar 
   //Om det gör det, lägger in den i finalDrinks
+  //Om man söker tomm aå kommer alla drinkar upp
   if(basfilter[0] === "" && ingfilter[0] === "" && farfilter[0] === "" && smafilter[0] === ""){
     finalDrinks = drinks;
+    valda = "Alla drinkar"
   }else{
     if(allFilteredDrinks.length === 1){
       finalDrinks = allFilteredDrinks[0]
@@ -150,6 +160,11 @@ const Result = () => {
       }
     }
   }
+
+  // valda = basfilter.join(', ')
+  // valda = valda + ", " + ingfilter.join(', ')
+  console.log(valda)
+
   
   console.log(finalDrinks)
 
@@ -167,7 +182,7 @@ const Result = () => {
         </Link>
         <h2>FILTRERADE DRINKAR</h2>
         <div>
-          <p>Selected: {JSON.stringify(basfilter)}{JSON.stringify(ingfilter)}{JSON.stringify(farfilter)}{JSON.stringify(smafilter)}</p>
+          <p>Visar: {valda}</p>
           {finalDrinks.map( d => <TestRecept key = {d.id} data = {d}/>)}
         </div>
       </div>

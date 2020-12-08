@@ -54,6 +54,8 @@ const Filter = (props) => {
   const [farSelected, setfarSelected] = useState([]);
   const [smaSelected, setsmaSelected] = useState([]);
 
+  const [ALLASelected, setALLASelected] = useState([]);
+
   //Lista av valda basspriter
   const onCheckboxBtnClickBas = (selected) => {
     const index = basSelected.indexOf(selected);
@@ -97,6 +99,8 @@ const Filter = (props) => {
 
   //Länk till resultat sidan
   const link = '/Result/' + basSelected + '*' + ingSelected + '*' + farSelected + '*' + smaSelected
+
+  var valda = basSelected.join(", ") + "; " + ingSelected.join(", ") + "; " + farSelected.join(", ") + "; " + smaSelected.join(", ") + "; "
 
   return (
     <div className='screen'>
@@ -197,7 +201,7 @@ const Filter = (props) => {
           </Card>
         </Collapse>
       </div>
-      <p>Selected: {JSON.stringify(basSelected)}, {JSON.stringify(ingSelected)}, {JSON.stringify(farSelected)}, {JSON.stringify(smaSelected)}</p>
+      <p>Valda filter: {valda}</p>
       <div>
         <Link className='searchLink' to={link}>
           <Button className ='searchButton'>SÖK</Button>
