@@ -12,7 +12,7 @@ console.log(recipes.recipes[0].id)
 const Pop =  data => {
   //const data = props.data;
   
-  const link = '/drinks/' + data.key;
+  const link = '/Recipe/' + data.id;
  
 
   return (
@@ -55,16 +55,16 @@ function PopApp() {
           </button>
         </Link>
         <h2>POPULÄRA DRINKAR</h2>
-        {testPop.map(d => <Pop name={d.drink_name} key={d.id} data = {d} image = {d.picture}/>)}
-        {testPop2.map(d => (<Pop name={d.drink_name} key={d.id} data = {d} image = {d.picture}/>))}
-        {testPop3.map(d => (<Pop name={d.drink_name} key={d.id} data = {d} image = {d.picture}/>))}
-        {testPop4.map(d => (<Pop name={d.drink_name} key={d.id} data = {d} image = {d.picture}/>))}
-        {testPop5.map(d => (<Pop name={d.drink_name} key={d.id} data = {d} image = {d.picture}/>))}
-        {testPop6.map(d => (<Pop name={d.drink_name} key={d.id} data = {d} image = {d.picture}/>))}
-        {testPop7.map(d => (<Pop name={d.drink_name} key={d.id} data = {d} image = {d.picture}/>))}
-        {testPop8.map(d => (<Pop name={d.drink_name} key={d.id} data = {d} image = {d.picture}/>))}
-        {testPop9.map(d => (<Pop name={d.drink_name} key={d.id} data = {d} image = {d.picture}/>))}
-        {testPop10.map(d => (<Pop name={d.drink_name} key={d.id} data = {d} image = {d.picture}/>))} 
+        {testPop.map(d => <Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}
+        {testPop2.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
+        {testPop3.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
+        {testPop4.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
+        {testPop5.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
+        {testPop6.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
+        {testPop7.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
+        {testPop8.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
+        {testPop9.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
+        {testPop10.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))} 
         
       </div>
       <div>
