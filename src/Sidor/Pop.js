@@ -26,16 +26,16 @@ const Pop =  data => {
 }
 
 
-const testPop = recipes.recipes.filter((recipes) => recipes.drink_name == "P2")
-const testPop2 = recipes.recipes.filter((recipes) => recipes.drink_name == "Rosa Pantern")  
-const testPop3 = recipes.recipes.filter((recipes) => recipes.drink_name == "Mojito")
-const testPop4 = recipes.recipes.filter((recipes) => recipes.drink_name == "Moscow Mule")
-const testPop5 = recipes.recipes.filter((recipes) => recipes.drink_name == "Piña Colada")
-const testPop6 = recipes.recipes.filter((recipes) => recipes.drink_name == "Frozen Strawberry Daiquiri")
-const testPop7 = recipes.recipes.filter((recipes) => recipes.drink_name == "Aperol Spritz")
-const testPop8 = recipes.recipes.filter((recipes) => recipes.drink_name == "Irish Coffee")
-const testPop9 = recipes.recipes.filter((recipes) => recipes.drink_name == "Fizzypop")
-const testPop10 = recipes.recipes.filter((recipes) => recipes.drink_name == "Southside")
+const testPop = recipes.recipes.filter((recipes) => recipes.drink_name === "P2")
+const testPop2 = recipes.recipes.filter((recipes) => recipes.drink_name === "Rosa Pantern")  
+const testPop3 = recipes.recipes.filter((recipes) => recipes.drink_name === "Mojito")
+const testPop4 = recipes.recipes.filter((recipes) => recipes.drink_name === "Moscow Mule")
+const testPop5 = recipes.recipes.filter((recipes) => recipes.drink_name === "Piña Colada")
+const testPop6 = recipes.recipes.filter((recipes) => recipes.drink_name === "Frozen Strawberry Daiquiri")
+const testPop7 = recipes.recipes.filter((recipes) => recipes.drink_name === "Aperol Spritz")
+const testPop8 = recipes.recipes.filter((recipes) => recipes.drink_name === "Irish Coffee")
+const testPop9 = recipes.recipes.filter((recipes) => recipes.drink_name === "Fizzypop")
+const testPop10 = recipes.recipes.filter((recipes) => recipes.drink_name === "Southside")
 
 
 
