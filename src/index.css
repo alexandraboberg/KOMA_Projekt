@@ -152,7 +152,10 @@ a {
   text-transform: uppercase;
 
   color: #FFFFFF;
+}
 
+.filterButton:active{
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), #ca685d;
 }
 
 
