@@ -133,6 +133,10 @@ a {
   outline:none;
 }
 
+#search:active{
+  color: #ca685d;
+}
+
 
 .filterButton {
   outline: none !important;
@@ -157,7 +161,10 @@ a {
   text-transform: uppercase;
 
   color: #FFFFFF;
+}
 
+.filterButton:active{
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), #ca685d;
 }
 
 
@@ -254,6 +261,10 @@ color: #000000;
 
 .back-button:focus{
   outline: none;
+}
+
+.back-button:active{
+  color: #ca685d;
 }
 
 /*Help*/
