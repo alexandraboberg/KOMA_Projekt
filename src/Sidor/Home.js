@@ -46,7 +46,10 @@ function HomeApp () {
         </button>
       </form>
       <div />
-      <form className='button' action='/Filter'>
+      <div className='searchRes'>
+        {limRec.map(d => (<Home id={d.id} name={d.drink_name} />))}
+      </div>
+      <form className='button' action='/filter'>
         <button className='filterButton' type='submit'>FILTRERA DRINKAR</button>
       </form>
 
@@ -54,11 +57,8 @@ function HomeApp () {
       <div className='popular'>
         <h2>POPULÄRA DRINKAR</h2>
 
-        {limRec.map(d => (<Home id={d.id} name={d.drink_name} />))}
-
       </div>
       <div className='spinner' />
-
     </div>
   )
 }

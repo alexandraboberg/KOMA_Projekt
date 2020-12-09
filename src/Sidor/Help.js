@@ -90,7 +90,7 @@ const Help = () => {
             <line y1="-1" x2="12.5128" y2="-1" transform="matrix(0.559426 -0.828881 0.80922 0.587506 17 30)" stroke="black" strokeWidth="2"/>
             <line y1="-1" x2="12.5128" y2="-1" transform="matrix(0.559427 0.82888 0.809221 -0.587505 17 9.25684)" stroke="black" strokeWidth="2"/>
           </svg>
-          <h3> Går det att filtrera på flera saker samtidigt? </h3>
+          <h3> Går det att filtrera på flera saker... </h3>
         </button>
 
         {/* FRÅGA 4 */}
@@ -130,7 +130,7 @@ const Help = () => {
             <line y1="-1" x2="12.5128" y2="-1" transform="matrix(0.559426 -0.828881 0.80922 0.587506 17 30)" stroke="black" strokeWidth="2"/>
             <line y1="-1" x2="12.5128" y2="-1" transform="matrix(0.559427 0.82888 0.809221 -0.587505 17 9.25684)" stroke="black" strokeWidth="2"/>
           </svg>
-          <h3>Varför kommer det inte upp något när jag filtrerar?</h3>
+          <h3>Varför kommer det inte upp något...</h3>
         </button>
 
         {/* FRÅGA 6 */}
