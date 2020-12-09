@@ -47,12 +47,12 @@ code {
   background: #F7ACA4;
 }
 
-statusPic1{
+.statusPic1{
   position: absolute;
   width: 56px;
   height: 23px;
   left: 21px;
-  top: 8px;
+  top: 5px;
 }
 
 .statusPic2{
@@ -148,13 +148,15 @@ a {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
 
-  font-family: Roboto;
+  /*font-family: Roboto;*/
   font-style: normal;
-  font-weight: 900;
+  /*font-weight: 900;*/
+  font-weight: 700;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
-  letter-spacing: 0.04em;
+  /*letter-spacing: 0.04em;*/
+  letter-spacing: 0.06em;
   text-transform: uppercase;
 
   color: #FFFFFF;
@@ -186,20 +188,20 @@ a {
 /*Home*/
 .popular{
   position: absolute;
-width: 249px;
-height: 31px;
-left: 60px;
-top: 462px;
+  width: 249px;
+  height: 31px;
+  left: 60px;
+  top: 462px;
 
-font-family: Vidaloka;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 22px;
-text-align: center;
-letter-spacing: -0.333333px;
+  font-family: Vidaloka;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.333333px;
 
-color: #000000;
+  color: #000000;
 }
 
 .poster{
@@ -351,19 +353,19 @@ h3{
 
 h4{
   position: absolute;
-left: 10.67%;
-right: 10.67%;
-top: 5.73%;
-bottom: 86.22%;
+  left: 10.67%;
+  right: 10.67%;
+  top: 5.73%;
+  bottom: 86.22%;
 
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 42px;
-letter-spacing: -0.333333px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: -0.333333px;
 
-color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .answertext{
