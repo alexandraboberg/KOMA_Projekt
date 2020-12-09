@@ -1,37 +1,8 @@
 import React, { useState} from 'react'
 import '../index.css'
-import {BrowserRouter as Router, Switch, Route, Link, useParams} from 'react-router-dom';
+import { Link} from 'react-router-dom';
 import recipes from '../API/API_drinks'
-import {saveDrink, getDrinks} from '../Saved_Drinks';
-
-const Pop =  data => {
-
-  //Save funktion
-  const initialState = getDrinks().includes(data.id);
-  const [saved, setSaved] = useState(initialState);
-
-  function handleSave(event){
-    event.preventDefault()
-    saveDrink(data.id)
-    setSaved(getDrinks().includes(data.id));
-    
-  }
-
-  //Pop forts.
-  const link = '/Recipe/' + data.id;
- 
-  return (
-      <Link to = {link} className = "linkToDrink">
-        <div className = "outline">
-        <img src={data.image} alt={data.name} className = "drinkPic"></img>
-        <p className = "drinkFont">{data.name}</p>
-        <svg className='saveButton' xmlns='http://www.w3.org/2000/svg' fill={saved ? "#FFDF81" : "none"} viewBox='0 0 22 22' onClick={handleSave}> {/*Save funktion*/}
-          <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z' />
-        </svg>
-        </div>
-    </Link>
-  )
-}
+import Drink from '../Drink'
 
 
 const testPop = recipes.recipes.filter((recipes) => recipes.drink_name === "P2")
@@ -63,16 +34,16 @@ function PopApp() {
           <h2>POPULÄRA DRINKAR</h2>
         </div>
         <div className = 'content'>
-            {testPop.map(d => <Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}
-            {testPop2.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
-            {testPop3.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
-            {testPop4.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
-            {testPop5.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
-            {testPop6.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
-            {testPop7.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
-            {testPop8.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
-            {testPop9.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
-            {testPop10.map(d => (<Pop name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
+            {testPop.map(d => <Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}
+            {testPop2.map(d => (<Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
+            {testPop3.map(d => (<Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
+            {testPop4.map(d => (<Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
+            {testPop5.map(d => (<Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
+            {testPop6.map(d => (<Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
+            {testPop7.map(d => (<Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
+            {testPop8.map(d => (<Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
+            {testPop9.map(d => (<Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
+            {testPop10.map(d => (<Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>))}
         </div>
     </div>
   )
