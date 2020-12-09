@@ -4,8 +4,8 @@ img {
 }
 
 .recipeBody{
-    position: absolute;
-    top: 490px;
+    position: relative;
+    top: -35px;
     width: 445px;
     border: 20px solid #F7ACA4;
     left: -35px;
