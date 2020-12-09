@@ -142,15 +142,15 @@ const Help = () => {
             <path d="M28.9132 28.9136L10.9711 10.9714" stroke="#F27C70" strokeWidth="4"/>
           </svg>
         </button>
-        <h4>Fråga 6</h4>
-        <p className='answertext'>Svar på fråga 6</p>
+        <h4>Går det att söka på ingredienser?</h4>
+        <p className='answertext'>Nej, detta går för tillfället inte, det är något vi jobbar på och som förhoppningsvis snart är möljigt.</p>
         </div>
         <button className='question' onClick={() => showDiv(6)}>
           <svg className='sideButton' width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <line y1="-1" x2="12.5128" y2="-1" transform="matrix(0.559426 -0.828881 0.80922 0.587506 17 30)" stroke="black" strokeWidth="2"/>
             <line y1="-1" x2="12.5128" y2="-1" transform="matrix(0.559427 0.82888 0.809221 -0.587505 17 9.25684)" stroke="black" strokeWidth="2"/>
           </svg>
-          <h3> Fråga 6 </h3>
+          <h3>Går det att söka på ingredienser?</h3>
         </button>
 
         {/* FRÅGA 7 */}
@@ -162,15 +162,15 @@ const Help = () => {
               <path d="M28.9132 28.9136L10.9711 10.9714" stroke="#F27C70" strokeWidth="4"/>
             </svg>
           </button>
-          <h4>Fråga 7</h4>
-            <p className='answertext'>Svar på fråga 7</p>
+          <h4>Hur sparar jag mina drinkar?</h4>
+            <p className='answertext'>Det enda du behöver göra för att spara en drink är att klicka på det gula hjärtat i hörnet av bilden på drinken. Då blir hjärtat ifyllt och hamnar under sparade drinkar i menyn (klicka på hjärtat nere i menyn för att komma till sparade drinkar).</p>
         </div>
         <button className='question' onClick={() => showDiv(7)}>
           <svg className='sideButton' width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <line y1="-1" x2="12.5128" y2="-1" transform="matrix(0.559426 -0.828881 0.80922 0.587506 17 30)" stroke="black" strokeWidth="2"/>
             <line y1="-1" x2="12.5128" y2="-1" transform="matrix(0.559427 0.82888 0.809221 -0.587505 17 9.25684)" stroke="black" strokeWidth="2"/>
           </svg>
-          <h3> Fråga 7 </h3>
+          <h3>Hur sparar jag mina drinkar?</h3>
         </button>
 
 
