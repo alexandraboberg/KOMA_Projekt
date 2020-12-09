@@ -36,6 +36,14 @@ code {
   overflow-y: auto;
 }
 
+.content2{
+  margin-top: 108px !important;
+  margin-bottom: 63px;
+  height: 599px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
 /*status bar*/
 .statusBar {
   position: absolute;
@@ -446,6 +454,7 @@ h4{
 
 /* Recipe */
 .recipeImg {
+ 
   width: 100%;
 }
 
