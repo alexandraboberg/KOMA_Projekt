@@ -484,7 +484,8 @@ h4{
   background-color: rgba(241, 233, 233, 0.479);
 }
 
+/*making scrollbar invisible*/
 ::-webkit-scrollbar{
   width: 0% !important;
-  background: pink;
+  background: transparent;
 }
