@@ -466,3 +466,9 @@ color: #FFFFFF;
 .recipeBody h2 {
   text-align: center;
 }
+
+.searchRes {
+  margin-top: 95px;
+  padding: 5%;
+  background-color: rgba(241, 233, 233, 0.479);
+}
