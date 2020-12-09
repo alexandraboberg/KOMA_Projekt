@@ -115,7 +115,7 @@ const Filter = (props) => {
         </Link>
         <h2>FILTRERA DRINKAR</h2>
       </div>
-      <div className='content'>
+      <div className='content3'>
         <div>
         <Button className='filterCategory' onClick={toggle1} style={{ marginBottom: '1rem' }}>BASSPRIT
         <svg className = 'downButton' width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -267,8 +267,8 @@ const Filter = (props) => {
             </Card>
           </Collapse>
         </div>
-        <p className = "valdaFilter">Valda filter: {valda}</p>
-        <div>
+        <div className='plsCenter'>
+          <p className = "valdaFilter">Valda filter: {valda}</p>
           <Link className='searchLink' to={link}>
             <Button className ='searchButton'>KLAR</Button>
           </Link>

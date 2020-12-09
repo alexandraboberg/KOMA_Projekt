@@ -34,10 +34,22 @@ code {
   height: 599px;
   overflow-x: hidden;
   overflow-y: auto;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  justify-content: space-evenly !important;
 }
 
 .content2{
   margin-top: 108px !important;
+  margin-bottom: 63px;
+  height: 599px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.content3{
+  margin-top: 150px;
   margin-bottom: 63px;
   height: 599px;
   overflow-x: hidden;
@@ -454,7 +466,6 @@ h4{
 
 /* Recipe */
 .recipeImg {
- 
   width: 100%;
 }
 
@@ -478,7 +489,6 @@ h4{
   text-align: center;
 }
 
-<<<<<<< HEAD
 /*-------------FILTER----------------*/
 
 .filterCategory{
@@ -502,6 +512,10 @@ h4{
   margin-bottom: 10px;
   border: 0px !important;
   background-clip: none !important;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  justify-content: space-evenly !important;
 }
 
 .card-body {
@@ -568,15 +582,11 @@ h4{
   box-shadow: none !important;
 }
 
-
 .searchButton{
   /* Sökknapp */
   position: relative;
-
   width: 343px;
   height: 52px;
-  left: 18px;
-
   background-color: rgba(243, 132, 121, 1) !important;
   background-image: linear-gradient(rgba(255,255,255,0.2), rgba(255,255,25,0)) !important;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1)!important;
@@ -595,14 +605,16 @@ h4{
   text-transform: uppercase;
 
   color: #FFFFFF;
-
 }
 
-.valdaFilter {
-  margin: 20px;
+.plsCenter{
+  margin-top: 20px;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
 }
 
-=======
 .searchRes {
   margin-top: 95px;
   padding: 5%;
@@ -613,4 +625,3 @@ h4{
   width: 0% !important;
   background: pink;
 }
->>>>>>> 9302058dfb95183ddf2f6e7ff36252d1d827c720
