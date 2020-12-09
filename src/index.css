@@ -489,10 +489,7 @@ h4{
   text-align: center;
 }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> f5583c9f8323c442dbf3f1ed01277abd50253936
 /*-------------FILTER----------------*/
 
 .filterCategory{
@@ -628,10 +625,5 @@ h4{
 /*making scrollbar invisible*/
 ::-webkit-scrollbar{
   width: 0% !important;
-<<<<<<< HEAD
-  background: pink;
-}
-=======
   background: transparent;
 }
->>>>>>> f5583c9f8323c442dbf3f1ed01277abd50253936
