@@ -361,7 +361,7 @@ h4{
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 28px !important;
   line-height: 42px;
   letter-spacing: -0.333333px;
 
@@ -372,13 +372,13 @@ h4{
   position: absolute;
   left: 10.67%;
   right: 5.87%;
-  top: 13.78%;
+  top: 18%;
   bottom: 12.01%;
 
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 20px !important;
   line-height: 28px;
   letter-spacing: -0.333333px;
 
