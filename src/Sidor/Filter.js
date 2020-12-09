@@ -117,7 +117,13 @@ const Filter = (props) => {
       </div>
       <div className='content'>
         <div>
-        <Button className='filterCategory' onClick={toggle1} style={{ marginBottom: '1rem' }}>BASSPRIT</Button>
+        <Button className='filterCategory' onClick={toggle1} style={{ marginBottom: '1rem' }}>BASSPRIT
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <line y1="-1" x2="12.5128" y2="-1" transform="matrix(0.828881 0.559426 -0.587506 0.80922 10 17)" stroke="black" stroke-width="2"/>
+          <line y1="-1" x2="12.5128" y2="-1" transform="matrix(-0.82888 0.559427 0.587505 0.809221 30.7433 17)" stroke="black" stroke-width="2"/>
+        </svg>
+
+        </Button>
           <Collapse isOpen={basOpen}>
             <Card>
               <CardBody>
@@ -128,7 +134,12 @@ const Filter = (props) => {
           </Collapse>
         </div>
         <div>
-        <Button className='filterCategory' onClick={toggle2} style={{ marginBottom: '1rem' }}>INGREDIENSER</Button>
+        <Button className='filterCategory' onClick={toggle2} style={{ marginBottom: '1rem' }}>INGREDIENSER
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <line y1="-1" x2="12.5128" y2="-1" transform="matrix(0.828881 0.559426 -0.587506 0.80922 10 17)" stroke="black" stroke-width="2"/>
+          <line y1="-1" x2="12.5128" y2="-1" transform="matrix(-0.82888 0.559427 0.587505 0.809221 30.7433 17)" stroke="black" stroke-width="2"/>
+        </svg>
+        </Button>
           <Collapse isOpen={ingOpen}>
             <Card>
               <CardBody>
@@ -181,7 +192,13 @@ const Filter = (props) => {
           </Collapse>
         </div>
         <div>
-        <Button className='filterCategory' onClick={toggle3} style={{ marginBottom: '1rem' }}>FÄRG</Button>
+        <Button className='filterCategory' onClick={toggle3} style={{ marginBottom: '1rem' }}>FÄRG
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line y1="-1" x2="12.5128" y2="-1" transform="matrix(0.828881 0.559426 -0.587506 0.80922 10 17)" stroke="black" stroke-width="2"/>
+            <line y1="-1" x2="12.5128" y2="-1" transform="matrix(-0.82888 0.559427 0.587505 0.809221 30.7433 17)" stroke="black" stroke-width="2"/>
+          </svg>
+
+        </Button>
           <Collapse isOpen={farOpen}>
             <Card>
               <CardBody>
@@ -192,7 +209,13 @@ const Filter = (props) => {
           </Collapse>
         </div>
         <div>
-        <Button className='filterCategory' onClick={toggle4} style={{ marginBottom: '1rem' }}>SMAK</Button>
+        <Button className='filterCategory' onClick={toggle4} style={{ marginBottom: '1rem' }}>SMAK
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <line y1="-1" x2="12.5128" y2="-1" transform="matrix(0.828881 0.559426 -0.587506 0.80922 10 17)" stroke="black" stroke-width="2"/>
+          <line y1="-1" x2="12.5128" y2="-1" transform="matrix(-0.82888 0.559427 0.587505 0.809221 30.7433 17)" stroke="black" stroke-width="2"/>
+        </svg>
+
+        </Button>
           <Collapse isOpen={smaOpen}>
             <Card>
               <CardBody>

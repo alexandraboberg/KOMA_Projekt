@@ -122,15 +122,15 @@ const Help = () => {
             <path d="M28.9132 28.9136L10.9711 10.9714" stroke="#F27C70" strokeWidth="4"/>
           </svg>
         </button>
-        <h4>Fråga 5</h4>
-        <p className='answertext'>Svar på fråga 5</p>
+        <h4>Varför kommer det inte upp något när jag filtrerar?</h4>
+        <p className='answertext'>Detta är förmodligen för att kombinationen av ingredienser du söker få inte finns, testa att ta bort något av det du filtrerat på och se om något dyker upp, lycka till!</p>
         </div>
         <button className='question' onClick={() => showDiv(5)}>
           <svg className='sideButton' width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <line y1="-1" x2="12.5128" y2="-1" transform="matrix(0.559426 -0.828881 0.80922 0.587506 17 30)" stroke="black" strokeWidth="2"/>
             <line y1="-1" x2="12.5128" y2="-1" transform="matrix(0.559427 0.82888 0.809221 -0.587505 17 9.25684)" stroke="black" strokeWidth="2"/>
           </svg>
-          <h3> Fråga 5 </h3>
+          <h3>Varför kommer det inte upp något när jag filtrerar?</h3>
         </button>
 
         {/* FRÅGA 6 */}
