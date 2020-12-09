@@ -242,17 +242,22 @@ color: #000000;
   left: -50px;
   top: -15px;
   border:none;
+  outline: none;
   background-color: rgba(255, 255, 255, 0);
   color:#f27c70;
+}
+
+.back-button:focus{
+  outline: none;
 }
 
 /*Help*/
 .questions{
   position: absolute;
-width: 352px;
-height: 422px;
-left: 12px;
-top: 132px;
+  width: 352px;
+  height: 422px;
+  left: 12px;
+  top: 132px;
 }
 
 .question{
@@ -269,10 +274,16 @@ top: 132px;
   box-shadow: 0px 1px 0px #CACCC9;
 }
 
+.question:focus{
+  outline: none;
+}
+
 .sideButton{
   position: relative;
   left: 86%;
   top: 20%;
+  outline: none !important;
+  border:none !important;
 }
 
 h3{
@@ -294,7 +305,7 @@ h3{
 }
 
 /*Answer*/
-#answer1, #answer2, #answer3, #answer4, #answer5, #answer6, #answer7{
+.ans {
   position: absolute;
   width: 375px;
   height: 705px;
@@ -319,6 +330,10 @@ h3{
   border:none;
   outline: none;
   background: none;
+}
+
+.crossButton:focus{
+  outline: none;
 }
 
 h4{
@@ -416,5 +431,6 @@ color: #FFFFFF;
 
   .content{
     padding-top: 150px;
+  
   }
 

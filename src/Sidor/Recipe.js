@@ -2,6 +2,7 @@ import React from 'react'
 import { Link, useParams } from 'react-router-dom';
 import recipes from './../API/API_drinks'
 import '../index.css'
+import './Recipe.css'
 
 function Instructions(data)  {
   return (
@@ -35,13 +36,15 @@ const Recipe = () => {
         <h2>RECEPT</h2>
       </div>
       <div className='content'>
-        <img height = "100" width = "100" src={foundRecipe.picture} alt={foundRecipe.drink_name} />
-        <h2>{foundRecipe.drink_name}</h2>
-        <p>{foundRecipe.description}</p>
-        <h3> Ingredienser</h3>
-        <ul>{foundRecipe.ingridients.map(d=> Ingridients(d))}</ul>
-        <h3>Instruktioner</h3>
-        <ol>{foundRecipe.instructions.map(d=> Instructions(d))}</ol>
+        <img src={foundRecipe.picture} alt={foundRecipe.drink_name} />
+        <div className='recipeBody'>
+          <h2>{foundRecipe.drink_name}</h2>
+          <p>{foundRecipe.description}</p>
+          <h3> Ingredienser</h3>
+          <ul>{foundRecipe.ingridients.map(d=> Ingridients(d))}</ul>
+          <h3>Instruktioner</h3>
+          <ol>{foundRecipe.instructions.map(d=> Instructions(d))}</ol>
+        </div>
       </div>
     </div>
   )
