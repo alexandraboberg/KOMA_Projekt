@@ -21,17 +21,27 @@ code {
 .screen {
   box-shadow: 0 0 5px #333333;
   border-radius: 3px;
-  /*overflow: auto;
-  width: 400px;*/
-
   position: relative;
   width: 375px;
   height: 812px;
+  overflow: hidden;
 
 }
 /* Content inside screen */
 .content{
-  padding-top: 150px;
+  margin-top: 150px;
+  margin-bottom: 63px;
+  height: 599px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.content2{
+  margin-top: 108px !important;
+  margin-bottom: 63px;
+  height: 599px;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 /*status bar*/
@@ -45,12 +55,12 @@ code {
   background: #F7ACA4;
 }
 
-statusPic1{
+.statusPic1{
   position: absolute;
   width: 56px;
   height: 23px;
   left: 21px;
-  top: 8px;
+  top: 5px;
 }
 
 .statusPic2{
@@ -128,6 +138,10 @@ a {
   outline:none;
 }
 
+#search:active{
+  color: #ca685d;
+}
+
 
 .filterButton {
   outline: none !important;
@@ -142,17 +156,22 @@ a {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
 
-  font-family: Roboto;
+  /*font-family: Roboto;*/
   font-style: normal;
-  font-weight: 900;
+  /*font-weight: 900;*/
+  font-weight: 700;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
-  letter-spacing: 0.04em;
+  /*letter-spacing: 0.04em;*/
+  letter-spacing: 0.06em;
   text-transform: uppercase;
 
   color: #FFFFFF;
+}
 
+.filterButton:active{
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), #ca685d;
 }
 
 
@@ -177,20 +196,20 @@ a {
 /*Home*/
 .popular{
   position: absolute;
-width: 249px;
-height: 31px;
-left: 60px;
-top: 462px;
+  width: 249px;
+  height: 31px;
+  left: 60px;
+  top: 462px;
 
-font-family: Vidaloka;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 22px;
-text-align: center;
-letter-spacing: -0.333333px;
+  font-family: Vidaloka;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.333333px;
 
-color: #000000;
+  color: #000000;
 }
 
 .poster{
@@ -251,6 +270,10 @@ color: #000000;
   outline: none;
 }
 
+.back-button:active{
+  color: #ca685d;
+}
+
 /*Help*/
 .questions{
   position: absolute;
@@ -290,12 +313,12 @@ h3{
   position: relative;
   left: 5.4%;
   right: 45.99%;
-  top: -40%;
+  top: -30%;
 
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
+  font-weight: 500 !important;
+  font-size: 18px !important;
   line-height: 21px;
   /* identical to box height */
 
@@ -317,9 +340,9 @@ h3{
 
   background: #F7ACA4;
   border-radius: 10px 10px 0px 0px;
-
-  filter: drop-shadow(-10px 0px 15px rgba(0, 0, 0, 0.2)), drop-shadow(10px 0px 15px rgba(0, 0, 0, 0.2));
+  box-shadow: 0px -5px 10px rgba(100, 100, 100, 0.75);
 }
+
 
 .crossButton{
   position: absolute;
@@ -338,32 +361,32 @@ h3{
 
 h4{
   position: absolute;
-left: 10.67%;
-right: 10.67%;
-top: 5.73%;
-bottom: 86.22%;
+  left: 10.67%;
+  right: 10.67%;
+  top: 5.73%;
+  bottom: 86.22%;
 
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 42px;
-letter-spacing: -0.333333px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px !important;
+  line-height: 42px;
+  letter-spacing: -0.333333px;
 
-color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .answertext{
   position: absolute;
   left: 10.67%;
   right: 5.87%;
-  top: 13.78%;
+  top: 18%;
   bottom: 12.01%;
 
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 20px !important;
   line-height: 28px;
   letter-spacing: -0.333333px;
 
@@ -429,8 +452,28 @@ color: #FFFFFF;
     bottom: 45px;
   }
 
-  .content{
-    padding-top: 150px;
-  
-  }
+/* Recipe */
+.recipeImg {
+ 
+  width: 100%;
+}
 
+.recipeBody{
+  position: relative;
+  top: -35px;
+  width: 445px;
+  border-top: 20px solid #F7ACA4;
+  border-left: 20px solid #F7ACA4;
+  border-right: 20px solid #F7ACA4;
+  left: -35px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  border-top-right-radius: 220px 70px;
+  border-top-left-radius: 220px 70px;
+  background-color: white;
+}
+
+.recipeBody h2 {
+  text-align: center;
+}
