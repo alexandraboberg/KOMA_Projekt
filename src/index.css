@@ -132,6 +132,10 @@ a {
   outline:none;
 }
 
+#search:active{
+  color: #ca685d;
+}
+
 
 .filterButton {
   outline: none !important;
@@ -256,6 +260,10 @@ color: #000000;
 
 .back-button:focus{
   outline: none;
+}
+
+.back-button:active{
+  color: #ca685d;
 }
 
 /*Help*/
