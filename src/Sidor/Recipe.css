@@ -4,15 +4,16 @@ img {
 }
 
 .recipeBody{
-    position: absolute;
-    top: 490px;
+    position: relative;
+    top: -35px;
     width: 445px;
-    border: 20px solid #F7ACA4;
+    border-top: 20px solid #F7ACA4;
+    border-left: 20px solid #F7ACA4;
+    border-right: 20px solid #F7ACA4;
     left: -35px;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 15px;
-    padding-bottom: 15px;
     border-top-right-radius: 220px 70px;
     border-top-left-radius: 220px 70px;
     background-color: white;

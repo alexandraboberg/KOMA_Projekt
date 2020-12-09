@@ -35,7 +35,8 @@ code {
   margin-top: 150px;
   margin-bottom: 63px;
   height: 599px;
-  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 /*status bar*/
