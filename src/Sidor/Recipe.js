@@ -2,7 +2,6 @@ import React from 'react'
 import { Link, useParams } from 'react-router-dom';
 import recipes from './../API/API_drinks'
 import '../index.css'
-import './Recipe.css'
 
 function Instructions(data)  {
   return (
@@ -36,7 +35,7 @@ const Recipe = () => {
         <h2>RECEPT</h2>
       </div>
       <div className='content'>
-        <img src={foundRecipe.picture} alt={foundRecipe.drink_name} />
+        <img className='recipeImg' src={foundRecipe.picture} alt={foundRecipe.drink_name} />
         <div className='recipeBody'>
           <h2>{foundRecipe.drink_name}</h2>
           <p>{foundRecipe.description}</p>
