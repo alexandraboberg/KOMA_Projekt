@@ -32,7 +32,10 @@ code {
 }
 /* Content inside screen */
 .content{
-  padding-top: 150px;
+  margin-top: 150px;
+  margin-bottom: 63px;
+  height: 599px;
+  overflow: auto;
 }
 
 /*status bar*/
@@ -428,12 +431,5 @@ color: #FFFFFF;
     position: absolute;
     right: 20px;
     bottom: 45px;
-  }
-
-  .content{
-    margin-top: 150px;
-    margin-bottom: 63px;
-    height: 599px;
-    overflow: auto;
   }
 
