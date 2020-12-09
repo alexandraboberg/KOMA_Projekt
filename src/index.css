@@ -485,6 +485,6 @@ h4{
 }
 
 ::-webkit-scrollbar{
-  width: none;
-  background: transparent;
+  width: 0% !important;
+  background: pink;
 }
