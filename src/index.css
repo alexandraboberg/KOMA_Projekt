@@ -35,8 +35,7 @@ code {
   margin-top: 150px;
   margin-bottom: 63px;
   height: 599px;
-  overflow-x: hidden;
-  overflow-y: scroll;
+  overflow: auto;
 }
 
 /*status bar*/
@@ -133,10 +132,6 @@ a {
   outline:none;
 }
 
-#search:active{
-  color: #ca685d;
-}
-
 
 .filterButton {
   outline: none !important;
@@ -161,10 +156,7 @@ a {
   text-transform: uppercase;
 
   color: #FFFFFF;
-}
 
-.filterButton:active{
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), #ca685d;
 }
 
 
@@ -261,10 +253,6 @@ color: #000000;
 
 .back-button:focus{
   outline: none;
-}
-
-.back-button:active{
-  color: #ca685d;
 }
 
 /*Help*/
@@ -445,27 +433,39 @@ color: #FFFFFF;
     bottom: 45px;
   }
 
-/* Recipe */
-.recipeImg {
-  width: 100%;
-}
+  /*Filter*/
 
-.recipeBody{
-  position: relative;
-  top: -35px;
-  width: 445px;
-  border-top: 20px solid #F7ACA4;
-  border-left: 20px solid #F7ACA4;
-  border-right: 20px solid #F7ACA4;
-  left: -35px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 15px;
-  border-top-right-radius: 220px 70px;
-  border-top-left-radius: 220px 70px;
-  background-color: white;
-}
+  .sideButton2{
+    position: relative;
+    left: 45%;
+    top: 5%;
+    outline: none !important;
+    border:none !important;
+  }
 
-.recipeBody h2 {
-  text-align: center;
-}
+  .questions{
+    position: absolute;
+    width: 352px;
+    height: 422px;
+    left: 12px;
+    top: 132px;
+  }
+  
+  .question{
+    width: 352px;
+    height: 63px;
+    left: 0px;
+    top: 0px;
+    outline:none;
+    border:none;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: left;
+  
+    box-shadow: 0px 1px 0px #CACCC9;
+    box-shadow: 0px 1px 0px #CACCC9;
+  }
+
+  
+
+
+
