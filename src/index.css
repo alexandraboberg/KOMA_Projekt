@@ -21,9 +21,6 @@ code {
 .screen {
   box-shadow: 0 0 5px #333333;
   border-radius: 3px;
-  /*overflow: auto;
-  width: 400px;*/
-
   position: relative;
   width: 375px;
   height: 812px;
@@ -36,7 +33,7 @@ code {
   margin-bottom: 63px;
   height: 599px;
   overflow-x: hidden;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 /*status bar*/
