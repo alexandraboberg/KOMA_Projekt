@@ -46,7 +46,7 @@ function HomeApp () {
         </button>
       </form>
       <div />
-      <form className='button' action='/filter'>
+      <form className='button' action='/Filter'>
         <button className='filterButton' type='submit'>FILTRERA DRINKAR</button>
       </form>
 
