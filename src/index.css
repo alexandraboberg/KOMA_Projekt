@@ -59,7 +59,7 @@ code {
 
 .content4{
   position: absolute;
-  top: 550px;
+  top: 540px;
   width: 375px;
   overflow-x: auto;
 }
@@ -101,7 +101,7 @@ code {
   top: 749px;
   
   background: #FFFFFF;
-  border-top: 1px solid #C4C4C4;
+  border-top: 1px solid #c4c4c48a !important;
   padding-top: 6px;
   padding-left: 22px;
   padding-right: 22px;
@@ -173,7 +173,7 @@ a {
   height: 59px;
   width:300px;
   left: 38px;
-  top: 362px;
+  top: 364px;
   border: none;
 
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), #f27c70;
@@ -223,17 +223,31 @@ a {
   position: absolute;
   width: 375px;
   height: 31px;
-  top: 462px;
+  top: 480px;
+  
+}
 
+.homedrink{
   font-family: helvetica;
   font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
+  font-weight: bold;
+  font-size: 24px;
   line-height: 22px;
   text-align: center;
   letter-spacing: -0.333333px;
+  color: #afafaf;
+  text-transform: uppercase;
+}
+#homeline{
+  position: absolute;
+  width: 72px;
+  height: 4px;
+  left: 152px;
+  top: 40px;
 
-  color: #000000;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
 .poster{

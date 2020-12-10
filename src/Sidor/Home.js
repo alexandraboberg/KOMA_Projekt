@@ -70,7 +70,8 @@ function HomeApp () {
       
       {/* Popular drinks */}
       <div className='popular'>
-        <h2>VECKANS DRINK</h2>
+      <div id='homeline'/>
+        <h2 className='homedrink'>Säsongens Drinkar:</h2>
       </div>
       <div className='content4'>
         <div className='veckansDrink'>
