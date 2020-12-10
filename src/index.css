@@ -544,7 +544,7 @@ h4{
 .filterInnerCategory{
   background-color: white !important;
   color: rgba(0, 0, 0, 0.7) !important;
-  width: 100%;
+  width: 95%;
   box-shadow: none !important;
   border: none !important;
   margin-bottom: 0px !important;
@@ -557,17 +557,22 @@ h4{
   justify-content: space-between !important;
 }
 
+.innercat{
+  padding-left: 35px;
+}
+
 .downButtonInner{
   color:rgba(0, 0, 0, 0.7)!important;
   outline: none !important;
   border:none !important;
   padding-bottom: 10px;
+  
+ 
 }
 
 .downButton{
   outline: none !important;
   border:none !important;
-
 }
 /*
 @keyframes rotate {

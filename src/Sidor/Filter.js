@@ -149,7 +149,7 @@ const Filter = (props) => {
             <Card>
               <CardBody>
               <div>
-                <Button className='filterInnerCategory' onClick={toggle21} style={{ marginBottom: '1rem' }}>FRUKT, BÄR & ÖRTER
+                <Button className='filterInnerCategory' onClick={toggle21} style={{ marginBottom: '1rem' }}><p className='innercat'> FRUKT, BÄR & ÖRTER</p>
                   <svg className = 'downButtonInner' width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <line y1="-1" x2="12.5128" y2="-1" transform="matrix(0.828881 0.559426 -0.587506 0.80922 10 17)" stroke="black" stroke-width="2"/>
                     <line y1="-1" x2="12.5128" y2="-1" transform="matrix(-0.82888 0.559427 0.587505 0.809221 30.7432 17)" stroke="black" stroke-width="2"/>
@@ -169,7 +169,7 @@ const Filter = (props) => {
                   </Collapse>
                 </div>
                 <div>
-                  <Button className='filterInnerCategory' onClick={toggle22} style={{ marginBottom: '1rem' }}>FRUKTJUICER
+                  <Button className='filterInnerCategory' onClick={toggle22} style={{ marginBottom: '1rem' }}><p className='innercat'> FRUKTJUICER</p>
                     <svg className = 'downButtonInner' width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <line y1="-1" x2="12.5128" y2="-1" transform="matrix(0.828881 0.559426 -0.587506 0.80922 10 17)" stroke="black" stroke-width="2"/>
                       <line y1="-1" x2="12.5128" y2="-1" transform="matrix(-0.82888 0.559427 0.587505 0.809221 30.7432 17)" stroke="black" stroke-width="2"/>
@@ -188,7 +188,7 @@ const Filter = (props) => {
                   </Collapse>
                 </div>
                 <div>
-                  <Button className='filterInnerCategory' onClick={toggle23} style={{ marginBottom: '1rem' }}>LÄSK & ÖVRIGA DRYCKER
+                  <Button className='filterInnerCategory' onClick={toggle23} style={{ marginBottom: '1rem' }}><p className='innercat'> LÄSK & ÖVRIGA DRYCKER</p>
                     <svg className = 'downButtonInner' width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <line y1="-1" x2="12.5128" y2="-1" transform="matrix(0.828881 0.559426 -0.587506 0.80922 10 17)" stroke="black" stroke-width="2"/>
                         <line y1="-1" x2="12.5128" y2="-1" transform="matrix(-0.82888 0.559427 0.587505 0.809221 30.7432 17)" stroke="black" stroke-width="2"/>
@@ -207,7 +207,7 @@ const Filter = (props) => {
                   </Collapse>
                 </div>
                 <div>
-                  <Button className='filterInnerCategory' onClick={toggle25} style={{ marginBottom: '1rem' }}>SYRUPS & DRINKMIXERS
+                  <Button className='filterInnerCategory' onClick={toggle25} style={{ marginBottom: '1rem' }}><p className='innercat'>SYRUPS & DRINKMIXERS</p>
                     <svg className = 'downButtonInner' width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <line y1="-1" x2="12.5128" y2="-1" transform="matrix(0.828881 0.559426 -0.587506 0.80922 10 17)" stroke="black" stroke-width="2"/>
                         <line y1="-1" x2="12.5128" y2="-1" transform="matrix(-0.82888 0.559427 0.587505 0.809221 30.7432 17)" stroke="black" stroke-width="2"/>
