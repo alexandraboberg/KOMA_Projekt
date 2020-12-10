@@ -221,9 +221,8 @@ a {
 /*Home*/
 .popular{
   position: absolute;
-  width: 249px;
+  width: 375px;
   height: 31px;
-  left: 60px;
   top: 462px;
 
   font-family: helvetica;
