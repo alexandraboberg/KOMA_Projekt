@@ -444,15 +444,15 @@ h4{
 
 .drinkFont{
   position: absolute;
-  left: 4%;
-  right: 4%;
+  left: 1%;
+  right: 1%;
   top: 85.03%;
   bottom: 0%;
   
   font-family: helvetica;
   font-style: normal;
   font-weight: 300;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 21px;
   text-align: center;
   letter-spacing: -0.333333px;
@@ -622,18 +622,17 @@ h4{
   border: none !important;
 
   /* KLAR */
-  font-family: helvetica;
+
+
+  color: #FFFFFF;
+  font-family: Helvetica;
   font-style: normal;
-  font-weight: 900;
-  font-size: 14px;
-  line-height: 16px;
-  display: flex;
-  align-items: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
   text-align: center;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-
-  color: #FFFFFF;
 }
 
 .plsCenter{
