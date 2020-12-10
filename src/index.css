@@ -240,6 +240,14 @@ a {
   
 }
 
+.veckansDrink{
+  margin-top: 200px;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+}
+
 /*header*/
 .header{
   position: absolute;
