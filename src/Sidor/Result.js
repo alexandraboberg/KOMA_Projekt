@@ -8,7 +8,6 @@ const Result = () => {
 
   //Converts API to an array
   const drinks = recipes.recipes
-  //console.log(drinks)
 
   //Takes the selected filters from url
   let {FSelected} = useParams()
@@ -154,6 +153,11 @@ const Result = () => {
     }
   }
 
+  //Sorterar resultatet i bokstavsordning
+  finalDrinks.sort(function (a, b) {
+    return a.drink_name.localeCompare(b.drink_name); //using String.prototype.localCompare()
+  });
+
   // valda = basfilter.join(', ')
   // valda = valda + ", " + ingfilter.join(', ')
   console.log(valda)
@@ -168,12 +172,12 @@ const Result = () => {
       <div className='header'>
         <Link to='/Filter'>
           <button className='back-button'>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 30" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M7 16l-4-4m0 0l4-4m-4 4h18" />
             </svg>
           </button>
         </Link>
-        <h2>FILTRERADE DRINKAR</h2>
+        <h2  className='headertext'>FILTRERADE DRINKAR</h2>
         
       </div>
       <div className='content'>

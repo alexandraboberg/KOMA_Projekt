@@ -2,6 +2,7 @@ import React, { useEffect, useState, Component } from 'react'
 import '../index.css'
 import { BrowserRouter as Router, Switch, Route, Link, useParams } from 'react-router-dom'
 import recipes from '../API/API_drinks'
+import Drink from '../Drink'
 
 var show = false
 const showDiv = () => {
@@ -26,6 +27,9 @@ const Home = data => {
 // debugger
 const test2 = recipes.recipes
 console.log(test2)
+
+//VECKANS DRINK :)
+const veckansDrink = recipes.recipes.filter((recipes) => recipes.drink_name === "House Party Punch No.1")
 
 function HomeApp () {
   const sort = inputRec => {
@@ -66,10 +70,13 @@ function HomeApp () {
 
       {/* Popular drinks */}
       <div className='popular'>
-        <h2>POPULÄRA DRINKAR</h2>
-
+        <h2>VECKANS DRINK</h2>
       </div>
-      <div className='spinner' />
+      
+      <div className='veckansDrink'>
+      {veckansDrink.map(d => <Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}
+      </div>
+
     </div>
   )
 }
