@@ -8,8 +8,10 @@ var show = false
 const showDiv = () => {
   show = !show
   var x = document.getElementById('searchRes')
-  if (x) {
-    x.style.display = show ? 'block' : 'none'
+  if (x.style.display === 'none') {
+    x.style.display = 'block'
+  } else {
+    x.style.display = 'none'
   }
 }
 
