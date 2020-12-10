@@ -28,8 +28,13 @@ const Home = data => {
 const test2 = recipes.recipes
 console.log(test2)
 
-//VECKANS DRINK :)
-const veckansDrink = recipes.recipes.filter((recipes) => recipes.drink_name === "House Party Punch No.1")
+//SÄSONGENS DRINKAR :)
+const sesDrink1 = recipes.recipes.filter((recipes) => recipes.drink_name === "Hot Apple Pie")
+const sesDrink2 = recipes.recipes.filter((recipes) => recipes.drink_name === "Christmas Spirit")
+const sesDrink3 = recipes.recipes.filter((recipes) => recipes.drink_name === "Polkagris")
+const sesDrink4 = recipes.recipes.filter((recipes) => recipes.drink_name === "Snowball")
+const sesDrink5 = recipes.recipes.filter((recipes) => recipes.drink_name === "Saffron Collins")
+const sesDrink6 = recipes.recipes.filter((recipes) => recipes.drink_name === "Kaffe Karlsson")
 
 function HomeApp () {
   const sort = inputRec => {
@@ -68,11 +73,13 @@ function HomeApp () {
         <button className='filterButton' type='submit'>FILTRERA DRINKAR</button>
       </form>
       
-      {/* Popular drinks */}
+      {/* Säsongens drinkar */}
       <div className='popular'>
-        <h2>VECKANS DRINK</h2>
+      <div id='homeline'/>
+        <h2 className='homedrink'>Säsongens Drinkar:</h2>
       </div>
       <div className='content4'>
+<<<<<<< HEAD
       <div class="gallery js-flickity" data-flickity-options='{ "freeScroll": true, "wrapAround": true }'>
           <div className='veckansDrink'>
           <div class="gallery-cell">{veckansDrink.map(d => <Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}</div>
@@ -82,6 +89,15 @@ function HomeApp () {
           <div class="gallery-cell">{veckansDrink.map(d => <Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}</div>
           <div class="gallery-cell">{veckansDrink.map(d => <Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}</div>
           </div>
+=======
+        <div className='veckansDrink'>
+          {sesDrink1.map(d => <Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}
+          {sesDrink2.map(d => <Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}
+          {sesDrink3.map(d => <Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}
+          {sesDrink4.map(d => <Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}
+          {sesDrink5.map(d => <Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}
+          {sesDrink6.map(d => <Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}
+>>>>>>> f9d44eef149cbdfa26cc0de5663bbebb516a9650
         </div>
       </div>
     </div>
