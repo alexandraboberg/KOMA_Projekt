@@ -7,7 +7,7 @@ import Drink from '../Drink'
 const Result = () => {
 
   //Converts API to an array
-  const drink s = recipes.recipes
+  const drinks = recipes.recipes
   //console.log(drinks)
 
   //Takes the selected filters from url
