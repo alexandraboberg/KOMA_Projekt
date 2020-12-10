@@ -8,7 +8,10 @@ import Drink from '../Drink'
 
 const savedIds = getDrinks()
 const testSave = recipes.recipes.filter((recipe) =>  savedIds.includes(recipe.id))
-
+//Sorterar resultatet i bokstavsordning
+testSave.sort(function (a, b) {
+  return a.drink_name.localeCompare(b.drink_name); //using String.prototype.localCompare()
+});
 
 function SaveApp(){
   return (

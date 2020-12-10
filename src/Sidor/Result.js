@@ -8,7 +8,6 @@ const Result = () => {
 
   //Converts API to an array
   const drinks = recipes.recipes
-  //console.log(drinks)
 
   //Takes the selected filters from url
   let {FSelected} = useParams()
@@ -153,6 +152,11 @@ const Result = () => {
       }
     }
   }
+
+  //Sorterar resultatet i bokstavsordning
+  finalDrinks.sort(function (a, b) {
+    return a.drink_name.localeCompare(b.drink_name); //using String.prototype.localCompare()
+  });
 
   // valda = basfilter.join(', ')
   // valda = valda + ", " + ingfilter.join(', ')
