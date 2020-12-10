@@ -268,7 +268,6 @@ const Filter = (props) => {
           </Collapse>
         </div>
         <div className='plsCenter'>
-          <p className = "valdaFilter">Valda filter: {valda}</p>
           <Link className='searchLink' to={link}>
             <Button className ='searchButton'>KLAR</Button>
           </Link>
