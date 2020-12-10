@@ -13,7 +13,7 @@ export const Drink = data => {
       event.preventDefault()
       saveDrink(data.id)
       setSaved(getDrinks().includes(data.id));
-      location.reload(); //ladda om sidan
+      window.location.reload(); //ladda om sidan
     }
   
   //save forts.
