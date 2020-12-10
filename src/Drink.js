@@ -16,7 +16,7 @@ export const Drink = data => {
       window.location.reload(); //ladda om sidan
     }
   
-  //save forts.
+    //Drink
     const link = '/Recipe/' + data.id;
   
     return (

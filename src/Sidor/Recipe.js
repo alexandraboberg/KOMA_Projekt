@@ -32,7 +32,7 @@ const Recipe = () => {
     event.preventDefault()
     saveDrink(foundRecipe.id)
     setSaved(getDrinks().includes(foundRecipe.id));
-    
+    window.location.reload(); //ladda om sidan
   }
 
   return (
