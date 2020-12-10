@@ -46,7 +46,7 @@ const Recipe = () => {
             </svg>
           </button>
         </Link>
-        <h2>RECEPT</h2>
+        <h2 className='headertext'>RECEPT</h2>
         
       </div>
       <div className='content2'>
