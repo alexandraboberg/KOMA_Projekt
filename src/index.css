@@ -454,7 +454,7 @@ h4{
 
 /* Recipe */
 .recipeImg {
- 
+  
   width: 100%;
 }
 
@@ -476,6 +476,19 @@ h4{
 
 .recipeBody h2 {
   text-align: center;
+}
+
+.recipeSaveButton{
+  stroke: #FFDF81;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  height: 38px;
+  position: relative; /*Relative to content2*/
+  left: 300px;
+  top: 320px;
+  z-index: 1;
 }
 
 
