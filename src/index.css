@@ -616,7 +616,7 @@ h4{
   justify-content: center !important;
 }
 
-.searchRes {
+#searchRes {
   margin-top: 95px;
   padding: 5%;
   background-color: rgba(241, 233, 233, 0.479);
