@@ -117,7 +117,7 @@ const Filter = (props) => {
       </div>
       <div className='content3'>
         <div>
-        <Button className='filterCategory' onClick={toggle1} style={{ marginBottom: '1rem' }}>BASSPRIT
+        <Button className='filterCategory' onClick={toggle1} style={{ marginBottom: '1rem' }}> <h3 className='category'>BASSPRIT</h3>
         <svg className="downbutton" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
           <line y1="-1" x2="12.5128" y2="-1" transform="matrix(0.828881 0.559426 -0.587506 0.80922 10 17)" stroke="black" stroke-width="2"/>
           <line y1="-1" x2="12.5128" y2="-1" transform="matrix(-0.82888 0.559427 0.587505 0.809221 30.7433 17)" stroke="black" stroke-width="2"/>
@@ -136,7 +136,7 @@ const Filter = (props) => {
           </Collapse>
         </div>
         <div>
-        <Button className='filterCategory' onClick={toggle2} style={{ marginBottom: '1rem' }}>INGREDIENSER
+        <Button className='filterCategory' onClick={toggle2} style={{ marginBottom: '1rem' }}><h3 className='category'>INGREDIENSER</h3>
         <svg className = 'downButton'width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
           <line y1="-1" x2="12.5128" y2="-1" transform="matrix(0.828881 0.559426 -0.587506 0.80922 10 17)" stroke="black" stroke-width="2"/>
           <line y1="-1" x2="12.5128" y2="-1" transform="matrix(-0.82888 0.559427 0.587505 0.809221 30.7433 17)" stroke="black" stroke-width="2"/>
@@ -230,7 +230,7 @@ const Filter = (props) => {
           </Collapse>
         </div>
         <div>
-        <Button className='filterCategory' onClick={toggle3} style={{ marginBottom: '1rem' }}>FÄRG
+        <Button className='filterCategory' onClick={toggle3} style={{ marginBottom: '1rem' }}><h3 className='category'>FÄRG</h3>
           <svg className = 'downButton' width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <line y1="-1" x2="12.5128" y2="-1" transform="matrix(0.828881 0.559426 -0.587506 0.80922 10 17)" stroke="black" stroke-width="2"/>
             <line y1="-1" x2="12.5128" y2="-1" transform="matrix(-0.82888 0.559427 0.587505 0.809221 30.7433 17)" stroke="black" stroke-width="2"/>
@@ -249,7 +249,7 @@ const Filter = (props) => {
           </Collapse>
         </div>
         <div>
-        <Button className='filterCategory' onClick={toggle4} style={{ marginBottom: '1rem' }}>SMAK
+        <Button className='filterCategory' onClick={toggle4} style={{ marginBottom: '1rem' }}><h3 className='category'>SMAK</h3>
         <svg className = 'downButton' width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
           <line y1="-1" x2="12.5128" y2="-1" transform="matrix(0.828881 0.559426 -0.587506 0.80922 10 17)" stroke="black" stroke-width="2"/>
           <line y1="-1" x2="12.5128" y2="-1" transform="matrix(-0.82888 0.559427 0.587505 0.809221 30.7433 17)" stroke="black" stroke-width="2"/>
