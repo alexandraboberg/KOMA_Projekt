@@ -59,12 +59,7 @@ code {
 
 .content4{
   position: absolute;
-<<<<<<< HEAD
-  top: 550px;
-  left: 0px;
-=======
   top: 540px;
->>>>>>> f9d44eef149cbdfa26cc0de5663bbebb516a9650
   width: 375px;
   overflow-x: auto;
 }

@@ -79,17 +79,6 @@ function HomeApp () {
         <h2 className='homedrink'>Säsongens Drinkar:</h2>
       </div>
       <div className='content4'>
-<<<<<<< HEAD
-      <div class="gallery js-flickity" data-flickity-options='{ "freeScroll": true, "wrapAround": true }'>
-          <div className='veckansDrink'>
-          <div class="gallery-cell">{veckansDrink.map(d => <Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}</div>
-          <div class="gallery-cell">{veckansDrink.map(d => <Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}</div>
-          <div class="gallery-cell">{veckansDrink.map(d => <Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}</div>
-          <div class="gallery-cell">{veckansDrink.map(d => <Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}</div>
-          <div class="gallery-cell">{veckansDrink.map(d => <Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}</div>
-          <div class="gallery-cell">{veckansDrink.map(d => <Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}</div>
-          </div>
-=======
         <div className='veckansDrink'>
           {sesDrink1.map(d => <Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}
           {sesDrink2.map(d => <Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}
@@ -97,7 +86,6 @@ function HomeApp () {
           {sesDrink4.map(d => <Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}
           {sesDrink5.map(d => <Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}
           {sesDrink6.map(d => <Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}
->>>>>>> f9d44eef149cbdfa26cc0de5663bbebb516a9650
         </div>
       </div>
     </div>
