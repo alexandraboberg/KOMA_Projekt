@@ -1,4 +1,4 @@
-import React, { useState} from 'react'
+import React, {useState} from 'react'
 import './index.css'
 import {Link} from 'react-router-dom';
 import {saveDrink, getDrinks} from './Saved_Drinks';
@@ -13,10 +13,10 @@ export const Drink = data => {
       event.preventDefault()
       saveDrink(data.id)
       setSaved(getDrinks().includes(data.id));
-      
+      window.location.reload(); //ladda om sidan
     }
   
-  //save forts.
+    //Drink
     const link = '/Recipe/' + data.id;
   
     return (

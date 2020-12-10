@@ -2,7 +2,6 @@ import React from 'react'
 import '../index.css'
 import {BrowserRouter as Router, Switch, Route, Link, useParams} from 'react-router-dom';
 
-var selected = ""
 var show = false;
 const showDiv = (a) => {
   show = ! show;
@@ -18,12 +17,12 @@ const Help = () => {
       <div className='header'>
         <Link to='/'>
           <button className='back-button'>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 30" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M7 16l-4-4m0 0l4-4m-4 4h18" />
             </svg>
           </button>
         </Link>
-        <h2>FRÅGOR & SVAR</h2>
+        <h2 className='headertext'>FRÅGOR & SVAR</h2>
       </div>
 
       {/* FRÅGA 1 */}

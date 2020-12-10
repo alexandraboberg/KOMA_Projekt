@@ -2,24 +2,7 @@ import React from 'react'
 import './../index.css'
 import { Link, useParams} from 'react-router-dom';
 import recipes from '../API/API_drinks'
-
-
-const TestRecept = props =>  {
-  const data = props.data
-  const link = '/Recipe/' + data.id;
- 
-  return (
-      <Link to = {link} className = "linkToDrink">
-        <div className = "outline">
-        <img src={data.picture} alt={data.drink_name} className = "drinkPic"></img>
-        <p className = "drinkFont">{data.drink_name}</p>
-        <svg className='saveButton' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 22 22'>
-          <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z' />
-        </svg>
-        </div>
-    </Link>
-  )
-}
+import Drink from '../Drink'
 
 const Result = () => {
 
@@ -194,8 +177,8 @@ const Result = () => {
         
       </div>
       <div className='content'>
-        <p>Visar: {valda}</p>
-        {finalDrinks.map( d => <TestRecept key = {d.id} data = {d}/>)}
+        <p className = 'visar'>Visar: {valda}</p>
+        {finalDrinks.map( d => <Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}
       </div>
     </div>
   )

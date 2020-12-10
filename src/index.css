@@ -27,17 +27,18 @@ code {
   overflow: hidden;
 
 }
+
 /* Content inside screen */
 .content{
-  margin-top: 150px;
+  margin-top: 130px;
   margin-bottom: 63px;
-  height: 599px;
+  height: 619px;
   overflow-x: hidden;
   overflow-y: auto;
-  display: flex !important;
-  flex-direction: row !important;
-  flex-wrap: wrap !important;
-  justify-content: space-evenly !important;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  justify-content: space-evenly;
 }
 
 .content2{
@@ -49,9 +50,9 @@ code {
 }
 
 .content3{
-  margin-top: 150px;
+  margin-top: 130px;
   margin-bottom: 63px;
-  height: 599px;
+  height: 619px;
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -150,6 +151,10 @@ a {
   outline:none;
 }
 
+.searchBar{
+  font-family: Helvetica;
+}
+
 #search:active{
   color: #ca685d;
 }
@@ -169,14 +174,15 @@ a {
   border-radius: 5px;
 
   /*font-family: Roboto;*/
+  font-family: Helvetica;
   font-style: normal;
   /*font-weight: 900;*/
-  font-weight: 700;
+  font-weight: 500;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
   /*letter-spacing: 0.04em;*/
-  letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
 
   color: #FFFFFF;
@@ -213,7 +219,7 @@ a {
   left: 60px;
   top: 462px;
 
-  font-family: Vidaloka;
+  font-family: helvetica;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -237,21 +243,23 @@ a {
 /*header*/
 .header{
   position: absolute;
-  width: 245px;
+  width: 260px;
   height: 30px;
   left: 65px;
   top: 64px;
+  color: #F27C70;
 
-  font-family: Roboto;
+}
+
+.headertext{
+  font-family: Helvetica;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 28px;
   text-align: center;
-  letter-spacing: -0.333333px;
-
-  color: #F27C70;
-
+  letter-spacing: -0.4px;
+  padding-top: 5px;
 }
 
 .headerLine{
@@ -270,12 +278,13 @@ a {
   position: absolute;
   width: 70px;
   height: 66px;
-  left: -50px;
-  top: -15px;
+  left: -58px;
+  top: -10px;
   border:none;
   outline: none;
   background-color: rgba(255, 255, 255, 0);
   color:#f27c70;
+  
 }
 
 .back-button:focus{
@@ -327,10 +336,10 @@ h3{
   right: 45.99%;
   top: -30%;
 
-  font-family: Roboto;
+  font-family: helvetica;
   font-style: normal;
   font-weight: 500 !important;
-  font-size: 18px !important;
+  font-size: 16px !important;
   line-height: 21px;
   /* identical to box height */
 
@@ -374,14 +383,14 @@ h3{
 h4{
   position: absolute;
   left: 10.67%;
-  right: 10.67%;
+  right: 16%;
   top: 5.73%;
   bottom: 86.22%;
 
-  font-family: Roboto;
+  font-family: helvetica;
   font-style: normal;
   font-weight: bold;
-  font-size: 28px !important;
+  font-size: 24px !important;
   line-height: 42px;
   letter-spacing: -0.333333px;
 
@@ -391,14 +400,14 @@ h4{
 .answertext{
   position: absolute;
   left: 10.67%;
-  right: 5.87%;
+  right: 10.67%;
   top: 18%;
   bottom: 12.01%;
 
-  font-family: Roboto;
+  font-family: helvetica;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px !important;
+  font-size: 18px !important;
   line-height: 28px;
   letter-spacing: -0.333333px;
 
@@ -436,15 +445,15 @@ h4{
 
 .drinkFont{
   position: absolute;
-  left: 4%;
-  right: 4%;
+  left: 1%;
+  right: 1%;
   top: 85.03%;
   bottom: 0%;
   
-  font-family: Roboto;
+  font-family: helvetica;
   font-style: normal;
   font-weight: 300;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 21px;
   text-align: center;
   letter-spacing: -0.333333px;
@@ -466,6 +475,7 @@ h4{
 
 /* Recipe */
 .recipeImg {
+  
   width: 100%;
 }
 
@@ -483,10 +493,24 @@ h4{
   border-top-right-radius: 220px 70px;
   border-top-left-radius: 220px 70px;
   background-color: white;
+  font-family: helvetica;
 }
 
 .recipeBody h2 {
   text-align: center;
+}
+
+.recipeSaveButton{
+  stroke: #FFDF81;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  height: 38px;
+  position: relative; /*Relative to content2*/
+  left: 300px;
+  top: 320px;
+  z-index: 1;
 }
 
 
@@ -507,6 +531,11 @@ h4{
   flex-direction: row !important;
   flex-wrap: wrap !important;
   justify-content: space-between !important;
+  font-family: helvetica !important;
+}
+
+.category{
+  top: 2px;
 }
 
 .card{
@@ -530,7 +559,7 @@ h4{
 .filterInnerCategory{
   background-color: white !important;
   color: rgba(0, 0, 0, 0.7) !important;
-  width: 100%;
+  width: 95%;
   box-shadow: none !important;
   border: none !important;
   margin-bottom: 0px !important;
@@ -543,18 +572,45 @@ h4{
   justify-content: space-between !important;
 }
 
+.innercat{
+  padding-left: 35px;
+}
+
 .downButtonInner{
   color:rgba(0, 0, 0, 0.7)!important;
   outline: none !important;
   border:none !important;
   padding-bottom: 10px;
+  
+ 
 }
 
 .downButton{
   outline: none !important;
   border:none !important;
-
 }
+
+.downbuttondiv{
+  padding-right: 10px;
+}
+/*
+@keyframes rotate {
+  0% { 
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+100% {
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+}*/
 
 .filterButt{
   background-color: white !important;
@@ -592,20 +648,20 @@ h4{
   background-image: linear-gradient(rgba(255,255,255,0.2), rgba(255,255,25,0)) !important;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1)!important;
   border: none !important;
+  margin-top: 20px;
 
   /* KLAR */
-  font-family: Roboto;
+
+
+  color: #FFFFFF;
+  font-family: Helvetica;
   font-style: normal;
-  font-weight: 900;
-  font-size: 14px;
-  line-height: 16px;
-  display: flex;
-  align-items: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
   text-align: center;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-
-  color: #FFFFFF;
 }
 
 .plsCenter{
@@ -626,4 +682,14 @@ h4{
 ::-webkit-scrollbar{
   width: 0% !important;
   background: transparent;
+}
+
+
+/* Result */
+.visar {
+  width: 100%;
+  font-family: helvetica;
+  font-style: normal;
+  font-size: 15x;
+  margin: 15px;
 }
