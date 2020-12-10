@@ -59,12 +59,9 @@ code {
 
 .content4{
   position: absolute;
-<<<<<<< HEAD
   top: 550px;
   left: 0px;
-=======
   top: 540px;
->>>>>>> f9d44eef149cbdfa26cc0de5663bbebb516a9650
   width: 375px;
   overflow-x: auto;
 }
@@ -738,26 +735,4 @@ h4{
   font-style: normal;
   font-size: 15x;
   margin: 15px;
-}
-
-/* external css: flickity.css */
-* {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-body { font-family: sans-serif; }
-
-.gallery {
-  background: #EEE;
-}
-
-.gallery-cell {
-  counter-increment: gallery-cell;
-}
-
-/* cell number */
-.gallery-cell:before {
-  display: block;
-  text-align: center;
 }
