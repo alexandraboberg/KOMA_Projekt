@@ -46,19 +46,18 @@ const Recipe = () => {
             </svg>
           </button>
         </Link>
-        <h2>RECEPT</h2>
+        <h2 className='headertext'>RECEPT</h2>
         
       </div>
       <div className='content2'>
+        {/* RECIPE IMAGE */}
+        <img className='recipeImg' src={foundRecipe.picture} alt={foundRecipe.drink_name} />
 
         {/* SAVE BUTTON */}
         <svg className='recipeSaveButton' xmlns='http://www.w3.org/2000/svg' fill={saved ? "#FFDF81" : "none"} viewBox='0 0 22 22' onClick={handleSave}>
           <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z' />
         </svg>
 
-        {/* RECIPE IMAGE */}
-        <img className='recipeImg' src={foundRecipe.picture} alt={foundRecipe.drink_name} />
-        
         <div className='recipeBody'>
           <h2>{foundRecipe.drink_name}</h2>
           <p>{foundRecipe.description}</p>
