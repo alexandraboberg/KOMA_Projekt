@@ -1,5 +1,5 @@
 import React, { useState}  from 'react'
-import { Link, useParams } from 'react-router-dom';
+import { Link, useHistory, useParams } from 'react-router-dom';
 import recipes from './../API/API_drinks'
 import '../index.css'
 import {saveDrink, getDrinks} from '../Saved_Drinks';
@@ -15,8 +15,6 @@ function Ingridients(data)  {
   <li>{data.ingridient_name} {data.quantity} {data.measurement}</li>
   )
 }
-
-
 
 const Recipe = () => {
   //Get id from url

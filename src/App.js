@@ -1,5 +1,5 @@
 import React, { useEffect, useState, Component } from 'react'
-import { BrowserRouter as Router, Switch, Route, NavLink, useParams } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route, NavLink, useParamsm, useHistory } from 'react-router-dom'
 import './index.css'
 import recipes from './API/API_drinks'
 import Pop from './Sidor/Pop'
@@ -11,6 +11,7 @@ import Recipe from './Sidor/Recipe'
 import Result from './Sidor/Result'
 
 function App () {
+
   return (
 
     <div className='screen'>
@@ -33,7 +34,7 @@ function App () {
       </div>
 
       {/* Footer icons */}
-      <Router>
+      <Router history = {useHistory} >
         <Switch>
           <Route exact path='/'><Home /></Route>
           <Route path='/Filter'><Filter /></Route>
