@@ -67,16 +67,21 @@ function HomeApp () {
       <form className='button' action='/filter'>
         <button className='filterButton' type='submit'>FILTRERA DRINKAR</button>
       </form>
-
+      
       {/* Popular drinks */}
       <div className='popular'>
         <h2>VECKANS DRINK</h2>
       </div>
-      
-      <div className='veckansDrink'>
-      {veckansDrink.map(d => <Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}
+      <div className='content4'>
+        <div className='veckansDrink'>
+          {veckansDrink.map(d => <Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}
+          {veckansDrink.map(d => <Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}
+          {veckansDrink.map(d => <Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}
+          {veckansDrink.map(d => <Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}
+          {veckansDrink.map(d => <Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}
+          {veckansDrink.map(d => <Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}
+        </div>
       </div>
-
     </div>
   )
 }
