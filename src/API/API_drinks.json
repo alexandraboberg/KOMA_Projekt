@@ -6396,6 +6396,138 @@
           "step": "Garnera med en apelsinskiva."
         }
       ]
+    },
+    {
+      "id": "5Jf2L",
+      "drink_name": "Hot Apple Pie",
+      "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/hot-apple-pie-860x860.jpg",
+      "description": "Hot Apple Pie är en söt och god drink som smakar som varm äppelpaj.",
+      "spirits": [ "Likör"],
+      "taste": "Söt",
+      "color": "",
+      "ingridients": [
+        {
+          "ingridient_name": "Likör 43",
+          "quantity": "5",
+          "measurement": "cl"
+        },
+        {
+          "ingridient_name": "Äppeljuice",
+          "quantity": "15",
+          "measurement": "cl"
+        },
+        {
+          "ingridient_name": "Grädde",
+          "quantity": "",
+          "measurement": ""
+        },
+        {
+          "ingridient_name": "Kanel",
+          "quantity": "",
+          "measurement": ""
+        }
+      ],
+      "instructions": [
+        { "step": "Värm upp äppeljuicen tillsammans med en kanelstång." },
+        { "step": "Tillsätt Likör 43 och rör om ordentligt så att kanelstången släpper ifrån sig mycket smak." },
+        { "step": "Plocka ur kanelstången och häll upp i ett värmetåligt glas." },
+        { "step": "Lättvispa grädda och häll den försiktigt på toppen så att den lägger sig ovanpå drinken. Ta hjälp av en sked för att enklare få grädden att stanna på toppen och inte sjunka ner i drinken." },
+        { "step": "Garnera med riven kanel på toppen." }
+      ]
+    },
+    {
+      "id": "jhU76",
+      "drink_name": "Christmas Spirit",
+      "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/christmas-spirit-860x860.jpg",
+      "description": "Christmas Spirit är en relativt söt drink som förenar många av julens vanligaste kryddor och smaker.",
+      "spirits": [ "Likör" , "Gin"],
+      "taste": "",
+      "color": "Gul",
+      "ingridients": [
+        {
+          "ingridient_name": "Gin",
+          "quantity": "3",
+          "measurement": "cl"
+        },
+        {
+          "ingridient_name": "Likör 43",
+          "quantity": "2",
+          "measurement": "cl"
+        },
+        {
+          "ingridient_name": "Saffranssockerlag",
+          "quantity": "2",
+          "measurement": "cl"
+        },
+        {
+          "ingridient_name": "Citronjuice",
+          "quantity": "1",
+          "measurement": "cl"
+        },
+        {
+          "ingridient_name": "Apelsinjuice",
+          "quantity": "1",
+          "measurement": "cl"
+        },
+        {
+          "ingridient_name": "Angostura Bitters",
+          "quantity": "2",
+          "measurement": "stänk"
+        },
+        {
+          "ingridient_name": "Tonic",
+          "quantity": "2",
+          "measurement": "cl"
+        },
+        {
+          "ingridient_name": "Nejlika",
+          "quantity": "1",
+          "measurement": "st"
+        }
+      ],
+      "instructions": [
+        { "step": "Börja med att göra saffranssockerlagen, gärna en dag i förväg eftersom den blir allra bäst när den får dra till sig i kylskåpet i några timmar." },
+        { "step": "Lös 3 delar strösocker i 2 delar vatten under upphettning." },
+        { "step": "När sockret har löst sig helt, tillsätt saffran och rör om. Mängden saffran beror givetvis på mängden vatten och socker. Till 6 dl socker och 4 dl vatten använde vi ca 3/4 av en saffranspåse (0,5 g). Tanken är att sockerlagen ska ha kraftig smak av saffran." },
+        { "step": "Häll upp sockerlagen på flaska och förvara i kylskåp." },
+        { "step": "Häll gin, Likör 43, saffranssockerlag, citronjuice, apelsinjuice, bitters samt en nejlika i en shaker." },
+        { "step": "Fyll shakern med is och skaka drinken riktigt kall." },
+        { "step": "Sila upp drinken i ett isfyllt glas med en finmaskig sil för att få bort eventuella bitar av nejlika." },
+        { "step": "Tillsätt tonic och rör om lätt." },
+        { "step": "Garnera med apelsinzest och en hel kanelstång." }
+      ]
+    },
+    {
+      "id": "kE0k3",
+      "drink_name": "Polkagris",
+      "picture": "https://cdn-0.drinkoteket.se/wp-content/uploads/polkagris-860x860.jpg",
+      "description": "Polkagris är en frisk drink med tydlig polkasmak.",
+      "spirits": [ "Likör" ],
+      "taste": "Söt",
+      "color": "Rosa",
+      "ingridients": [
+        {
+          "ingridient_name": "Mintlikör",
+          "quantity": "6",
+          "measurement": "cl"
+        },
+        {
+          "ingridient_name": "Mjölk",
+          "quantity": "16",
+          "measurement": "cl"
+        },
+        {
+          "ingridient_name": "Grenadin",
+          "quantity": "1",
+          "measurement": "cl"
+        }
+      ],
+      "instructions": [
+        { "step": "Fyll ett glas med is." },
+        { "step": "Tillsätt mintlikör, mjölk och grenadin och rör om." },
+        { "step": "Garnera gärna med en polkagris." }
+      ]
     }
+
   ]
 }
