@@ -47,7 +47,7 @@ const Filter = (props) => {
   
   const [syrOpen, set25Open] = useState(false);
   const toggle25 = () => set25Open(!syrOpen);
-  
+
   //Toggle checkboxes
   const [basSelected, setbasSelected] = useState([]);
   const [ingSelected, setingSelected] = useState([]);
@@ -108,17 +108,17 @@ const Filter = (props) => {
       <div className='header'>
         <Link to='/'>
           <button className='back-button'>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 30" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M7 16l-4-4m0 0l4-4m-4 4h18" />
             </svg>
           </button>
         </Link>
-        <h2>FILTRERA DRINKAR</h2>
+        <h2 className='headertext'>FILTRERA DRINKAR</h2>
       </div>
       <div className='content3'>
         <div>
         <Button className='filterCategory' onClick={toggle1} style={{ marginBottom: '1rem' }}>BASSPRIT
-        <svg className = 'downButton' width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className="downbutton" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
           <line y1="-1" x2="12.5128" y2="-1" transform="matrix(0.828881 0.559426 -0.587506 0.80922 10 17)" stroke="black" stroke-width="2"/>
           <line y1="-1" x2="12.5128" y2="-1" transform="matrix(-0.82888 0.559427 0.587505 0.809221 30.7433 17)" stroke="black" stroke-width="2"/>
         </svg>
@@ -276,6 +276,8 @@ const Filter = (props) => {
       </div>
     </div>
   )
+
+
 }
 
 export default Filter
