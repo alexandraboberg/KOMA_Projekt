@@ -84,6 +84,16 @@ function App () {
           </ul>
         </div>
       </Router>
+
+      <div id='loadscreen' >
+        <div id='dots'>
+          <span id='dot1'></span>
+          <span id='dot2'></span>
+          <span id='dot3'></span>
+        </div>
+        <img src='loadscreen.png' alt='load screen' />
+      </div>
+
     </div>
   )
 }

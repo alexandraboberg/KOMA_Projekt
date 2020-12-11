@@ -25,7 +25,6 @@ code {
   width: 375px;
   height: 812px;
   overflow: hidden;
-
 }
 
 /* Content inside screen */
@@ -74,6 +73,7 @@ code {
   top: 0px;
   
   background: #F7ACA4;
+  z-index: 1;
 }
 
 .statusPic1{
@@ -705,8 +705,9 @@ h4{
 #searchRes {
   margin-top: 95px;
   padding: 5%;
-  background-color: rgba(241, 233, 233, 0.479);
+  background-color: rgba(255, 255, 255, 0.89);
   display:none;
+  height: 225px;
 }
 
 /*making scrollbar invisible*/
@@ -723,4 +724,52 @@ h4{
   font-style: normal;
   font-size: 15x;
   margin: 15px;
+}
+
+#loadscreen{
+
+  animation: cssAnimation 0.3s 3s forwards;
+  opacity: 1;
+  pointer-events: none;
+}
+
+@keyframes cssAnimation {
+  to {
+    opacity: 0;
+  }
+}
+
+#dots > span{
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  background-color: white;
+  position: absolute;
+  top: 600px;
+  z-index: 100;
+  transform: translate(-50%,-50%);
+  animation-name: dotanim;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+#dot1{
+  left:calc(50% - 20px)
+}
+
+#dot2{
+  left:calc(50%);
+  animation-delay: 0.3s;
+}
+
+#dot3{
+  left:calc(50% + 20px);
+  animation-delay: 0.6s;
+}
+
+@keyframes dotanim {
+  0% {top: 600px;}
+  50% {top: 580px;}
+  100% {top: 600px;}
 }
