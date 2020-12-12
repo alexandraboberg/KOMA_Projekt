@@ -30,7 +30,7 @@ const Recipe = () => {
     event.preventDefault()
     saveDrink(foundRecipe.id)
     setSaved(getDrinks().includes(foundRecipe.id));
-    window.location.reload(); //ladda om sidan
+
   }
 
   //För att back button ska gå till förgående sidan och inte homepage
