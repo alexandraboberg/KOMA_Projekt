@@ -113,9 +113,11 @@ a {
 }
 
 .filter{
-  transform: rotate(90deg);
   color: black !important;
-  
+}
+
+#filter{
+  transform: rotate(90deg);
 }
 
 .filled {
@@ -735,6 +737,16 @@ h4{
   font-style: normal;
   font-size: 15x;
   margin: 15px;
+}
+
+#showres{
+  width: 100%;
+  font-family: helvetica;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  font-size: 15x;
+  color: #afafaf;
 }
 
 #loadscreen{

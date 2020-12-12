@@ -49,7 +49,7 @@ const Search = () => {
         <h2  className='headertext'>SÖKRESULTAT</h2>
       </div>
       <div className='content'>
-        <p className = 'visar'>Visar: {valda}</p>
+        <p id= 'showres'>Söker på  {valda}</p>
         {result.map( d => <Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}
       </div>
     </div>
