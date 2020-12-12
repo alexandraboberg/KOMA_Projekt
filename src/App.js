@@ -23,7 +23,7 @@ function ActiveButton(plats){
       cName = "filter"
     }
     else {
-      cName = "penis";
+      cName = "filled";
     }
     
   } 
