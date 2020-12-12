@@ -126,13 +126,11 @@ a {
 #searchbtn {
 
   display: flex;
-  height: 70px;
+  height: 52px;
   background: #ffffff;
   border: 2px solid #ffffff;
   box-sizing: border-box;
-  padding: 1rem;
   position: absolute;
-  height: 52px;
   left: 0px;
   right: 0px;
   top: 44px;
@@ -161,8 +159,10 @@ a {
 
 .searchBar{
   font-family: Helvetica;
+  outline: none !important;
+  width: 310px;
   border: none;
-  outline: none;
+  padding-left: 15px;;
 }
 
 #search:active{
