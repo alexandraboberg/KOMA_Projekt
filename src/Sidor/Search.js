@@ -13,7 +13,7 @@ const Search = () => {
   let {filter} = useParams()
 
   //Make lowercase
-  filter = filter.toLowerCase()
+  filter = filter.toLowerCase().trim()
 
   //Get drinks that match filter
   let result = drinks.filter(d => d.drink_name.toLowerCase().includes(filter))
