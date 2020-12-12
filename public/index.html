@@ -42,4 +42,22 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script>
+    var showRes = false;
+    window.onclick = function(event) {
+      var btn = document.getElementsByClassName('searchBar')[0];
+      var res = document.getElementById('searchRes');
+      if(event.target !== res){
+        res.style.display = 'none';
+      }
+      if (event.target == btn && showRes == true) {
+        showRes = false;
+        return;
+      }
+      if (event.target == btn && showRes == false) {
+        res.style.display = 'block';
+        showRes = true;
+      }
+    }
+  </script>
 </html>

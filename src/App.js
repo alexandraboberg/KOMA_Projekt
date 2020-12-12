@@ -9,6 +9,7 @@ import Save from './Sidor/Save'
 import Help from './Sidor/Help'
 import Recipe from './Sidor/Recipe'
 import Result from './Sidor/Result'
+import Search from './Sidor/Search'
 
 function showDiv(){
   document.getElementById('loadscreen').style.display = 'block';
@@ -63,6 +64,7 @@ function App () {
           <Route path='/Help'><Help /></Route>
           <Route path='/Result/:FSelected'><Result/></Route>
           <Route path='/Recipe/:id'><Recipe/></Route>
+          <Route path='/Search/:filter'><Search/></Route>
         </Switch>
         <div className='footer'>
           <ul className='icons'>
