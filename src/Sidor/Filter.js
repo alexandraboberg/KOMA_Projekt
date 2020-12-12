@@ -61,53 +61,19 @@ const Filter = (props) => {
   const [farSelected, setfarSelected] = useState([]);
   const [smaSelected, setsmaSelected] = useState([]);
 
-  const [ALLASelected, setALLASelected] = useState([]);
-
-  //Lista av valda basspriter
-  const onCheckboxBtnClickBas = (selected) => {
-    const index = basSelected.indexOf(selected);
+  //Funktion för att lägga till filter i respektive lista
+  function onFilterClick(selected, list, setlist) {
+    const index = list.indexOf(selected);
     if (index < 0) {
-      basSelected.push(selected);
+      list.push(selected);
     } else {
-      basSelected.splice(index, 1);
+      list.splice(index, 1);
     }
-    setbasSelected([...basSelected]);
-  }
-  //Lista av valda ingredienser
-  const onCheckboxBtnClickIng = (selected) => {
-    const index = ingSelected.indexOf(selected);
-    if (index < 0) {
-      ingSelected.push(selected);
-    } else {
-      ingSelected.splice(index, 1);
-    }
-    setingSelected([...ingSelected]);
-  }
-  //Lista av valda färger
-  const onCheckboxBtnClickFar = (selected) => {
-    const index = farSelected.indexOf(selected);
-    if (index < 0) {
-      farSelected.push(selected);
-    } else {
-      farSelected.splice(index, 1);
-    }
-    setfarSelected([...farSelected]);
-  }
-  //Lista av valda smaker
-  const onCheckboxBtnClickSma = (selected) => {
-    const index = smaSelected.indexOf(selected);
-    if (index < 0) {
-      smaSelected.push(selected);
-    } else {
-      smaSelected.splice(index, 1);
-    }
-    setsmaSelected([...smaSelected]);
+    setlist([...list]);
   }
 
   //Länk till resultat sidan
   const link = '/Result/' + basSelected + '*' + ingSelected + '*' + farSelected + '*' + smaSelected
-
-  var valda = basSelected.join(", ") + "; " + ingSelected.join(", ") + "; " + farSelected.join(", ") + "; " + smaSelected.join(", ") + "; "
 
   return (
     <div className='screen'>
@@ -128,7 +94,7 @@ const Filter = (props) => {
           <Collapse isOpen={basOpen}>
             <Card>
               <CardBody>
-                {bassprit.map((d, i) => <Button className='filterButt' onClick={() => onCheckboxBtnClickBas(d)} 
+                {bassprit.map((d, i) => <Button className='filterButt' onClick={() => onFilterClick(d, basSelected, setbasSelected)} 
                 active={basSelected.includes(d)}>{d.toUpperCase()}</Button>)}
               </CardBody>
             </Card>
@@ -144,8 +110,8 @@ const Filter = (props) => {
                   <Collapse isOpen={fboOpen}>
                     <Card>
                       <CardBody>
-                      {frubär.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClickIng(d)} 
-                      active={ingSelected.includes(d)}>{d.toUpperCase()}</Button>)}
+                        {frubär.map((d) => <Button className='filterButt' onClick={() => onFilterClick(d, ingSelected, setingSelected)} 
+                        active={ingSelected.includes(d)}>{d.toUpperCase()}</Button>)}
                       </CardBody>
                     </Card>
                   </Collapse>
@@ -155,8 +121,8 @@ const Filter = (props) => {
                   <Collapse isOpen={fruOpen}>
                     <Card>
                       <CardBody>
-                      {fruju.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClickIng(d)} 
-                      active={ingSelected.includes(d)}>{d.toUpperCase()}</Button>)}
+                        {fruju.map((d) => <Button className='filterButt' onClick={() => onFilterClick(d, ingSelected, setingSelected)} 
+                        active={ingSelected.includes(d)}>{d.toUpperCase()}</Button>)}
                       </CardBody>
                     </Card>
                   </Collapse>
@@ -166,8 +132,8 @@ const Filter = (props) => {
                   <Collapse isOpen={looOpen}>
                     <Card>
                       <CardBody>
-                      {läsk.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClickIng(d)} 
-                      active={ingSelected.includes(d)}>{d.toUpperCase()}</Button>)}
+                        {läsk.map((d) => <Button className='filterButt' onClick={() => onFilterClick(d, ingSelected, setingSelected)} 
+                        active={ingSelected.includes(d)}>{d.toUpperCase()}</Button>)}
                       </CardBody>
                     </Card>
                   </Collapse>
@@ -177,8 +143,8 @@ const Filter = (props) => {
                   <Collapse isOpen={syrOpen}>
                     <Card>
                       <CardBody>
-                      {syru.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClickIng(d)} 
-                      active={ingSelected.includes(d)}>{d.toUpperCase()}</Button>)}
+                        {syru.map((d) => <Button className='filterButt' onClick={() => onFilterClick(d, ingSelected, setingSelected)} 
+                        active={ingSelected.includes(d)}>{d.toUpperCase()}</Button>)}
                       </CardBody>
                     </Card>
                   </Collapse>
@@ -192,8 +158,8 @@ const Filter = (props) => {
           <Collapse isOpen={farOpen}>
             <Card>
               <CardBody>
-              {färg.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClickFar(d)} 
-              active={farSelected.includes(d)}>{d.toUpperCase()}</Button>)}
+                {färg.map((d) => <Button className='filterButt' onClick={() => onFilterClick(d, farSelected, setfarSelected)} 
+                active={farSelected.includes(d)}>{d.toUpperCase()}</Button>)}
               </CardBody>
             </Card>
           </Collapse>
@@ -203,8 +169,8 @@ const Filter = (props) => {
           <Collapse isOpen={smaOpen}>
             <Card>
               <CardBody>
-              {smak.map((d) => <Button className='filterButt' onClick={() => onCheckboxBtnClickSma(d)} 
-                      active={smaSelected.includes(d)}>{d.toUpperCase()}</Button>)}
+                {smak.map((d) => <Button className='filterButt' onClick={() => onFilterClick(d, smaSelected, setsmaSelected)} 
+                active={smaSelected.includes(d)}>{d.toUpperCase()}</Button>)}
               </CardBody>
             </Card>
           </Collapse>
@@ -217,8 +183,6 @@ const Filter = (props) => {
       </div>
     </div>
   )
-
-
 }
 
 export default Filter
