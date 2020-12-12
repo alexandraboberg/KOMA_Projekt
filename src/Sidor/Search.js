@@ -15,13 +15,25 @@ const Search = () => {
   //Make lowercase
   filter = filter.toLowerCase().trim()
 
-  //Get drinks that match filter
-  let result = drinks.filter(d => d.drink_name.toLowerCase().includes(filter))
+  let result
+  let valda
+
+  if(filter === ""){
+    result = drinks
+    valda = "Alla drinkar"
+  }
+  else{
+    //Get drinks that match filter
+    result = drinks.filter(d => d.drink_name.toLowerCase().includes(filter))
+    valda = filter
+  }
+  
   
   //Sorterar resultatet i bokstavsordning
   result.sort(function (a, b) {
     return a.drink_name.localeCompare(b.drink_name); //using String.prototype.localCompare()
   });
+
 
   return (
     <div className='Screen'>
@@ -37,6 +49,7 @@ const Search = () => {
         <h2  className='headertext'>SÖKRESULTAT</h2>
       </div>
       <div className='content'>
+        <p className = 'visar'>Visar: {valda}</p>
         {result.map( d => <Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}
       </div>
     </div>

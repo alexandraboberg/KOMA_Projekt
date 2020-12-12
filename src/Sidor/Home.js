@@ -41,7 +41,7 @@ function HomeApp () {
   )
   const limRec = filteredRec.slice(0, 5)
 
-  const linkToSearch = '/Search/' + filter;
+  const linkToSearch = '/Search/ ' + filter;
 
   return (
     <div>
