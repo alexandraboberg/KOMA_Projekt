@@ -1,9 +1,9 @@
-import React, { useEffect, useState, Component } from 'react'
+import React, { useState } from 'react'
 import '../index.css'
-import { BrowserRouter as Router, Switch, Route, Link, useParams } from 'react-router-dom'
+import { Link} from 'react-router-dom'
 import recipes from '../API/API_drinks'
 import Drink from '../Drink'
-import { getElementError } from '@testing-library/react'
+
 
 const Home = data => {
   const link = '/Recipe/' + data.id

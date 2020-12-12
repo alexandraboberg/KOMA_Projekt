@@ -1,7 +1,5 @@
-import React, { useEffect, useState, Component } from 'react'
-import { BrowserRouter as Router, Switch, Route, useParams, useHistory } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import './index.css'
-import recipes from './API/API_drinks'
 import Pop from './Sidor/Pop'
 import Filter from './Sidor/Filter'
 import Home from './Sidor/Home'

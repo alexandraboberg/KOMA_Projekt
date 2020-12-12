@@ -2,7 +2,7 @@ import React, { useState} from 'react'
 import '../index.css'
 import {Link} from 'react-router-dom';
 import recipes from '../API/API_drinks'
-import {saveDrink, getDrinks} from '../Saved_Drinks';
+import { getDrinks} from '../Saved_Drinks';
 import Drink from '../Drink'
 
 
