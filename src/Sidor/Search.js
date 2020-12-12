@@ -1,5 +1,5 @@
 import '../App.css'
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { Link, useParams } from 'react-router-dom';
 import recipes from '../API/API_drinks'
 import Drink from '../Drink'

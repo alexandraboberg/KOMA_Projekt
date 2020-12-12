@@ -165,7 +165,6 @@ const Result = () => {
   
   console.log(finalDrinks)
 
-  {/*Split i loop med ingridienserna*/}
   return (
     <div className='screen'>
       <div className='headerLine'/>
@@ -178,7 +177,6 @@ const Result = () => {
           </button>
         </Link>
         <h2  className='headertext'>FILTRERADE DRINKAR</h2>
-        
       </div>
       <div className='content'>
         <p className = 'visar'>Visar: {valda}</p>
