@@ -735,10 +735,10 @@ h4{
 }
 
 #loadscreen{
-
-  animation: cssAnimation 0.3s 3s forwards;
+  animation: cssAnimation 0.3s 2s forwards;
   opacity: 1;
   pointer-events: none;
+  display: none;
 }
 
 @keyframes cssAnimation {
@@ -747,37 +747,28 @@ h4{
   }
 }
 
-#dots > span{
-  width: 10px;
-  height: 10px;
-  border-radius: 50px;
-  background-color: white;
+#load{
+  position: absolute; 
+  animation: spin 3s infinite linear; 
+  -webkit-animation: spin 3s infinite linear;
+  left:104px;
+  top: 314px;
+  pointer-events: none;
+}
+
+@keyframes spin{
+  0%{-webkit-transform: rotate(0deg);}
+  100%{-webkit-transform: rotate(360deg);}
+}
+
+@-webkit-keyframes spin{
+  0%{-webkit-transform: rotate(0deg);}
+  100%{-webkit-transform: rotate(360deg);}
+}
+
+#phone{
+  z-index: 1;
   position: absolute;
-  top: 600px;
-  z-index: 100;
-  transform: translate(-50%,-50%);
-  animation-name: dotanim;
-  animation-duration: 1s;
-  animation-timing-function: ease;
-  animation-iteration-count: infinite;
-}
-
-#dot1{
-  left:calc(50% - 20px)
-}
-
-#dot2{
-  left:calc(50%);
-  animation-delay: 0.3s;
-}
-
-#dot3{
-  left:calc(50% + 20px);
-  animation-delay: 0.6s;
-}
-
-@keyframes dotanim {
-  0% {top: 600px;}
-  50% {top: 580px;}
-  100% {top: 600px;}
+  pointer-events: none;
+  width: 446px;
 }
