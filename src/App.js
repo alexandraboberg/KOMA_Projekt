@@ -34,7 +34,7 @@ function App () {
       </div>
 
       {/* Footer icons */}
-      <Router history = {useHistory} >
+      <Router>
         <Switch>
           <Route exact path='/'><Home /></Route>
           <Route path='/Filter'><Filter /></Route>

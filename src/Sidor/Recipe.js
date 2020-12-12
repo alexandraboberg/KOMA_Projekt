@@ -1,5 +1,5 @@
 import React, { useState}  from 'react'
-import { Link, useHistory, useParams } from 'react-router-dom';
+import { Link, useHistory, useParams} from 'react-router-dom';
 import recipes from './../API/API_drinks'
 import '../index.css'
 import {saveDrink, getDrinks} from '../Saved_Drinks';
@@ -33,17 +33,21 @@ const Recipe = () => {
     window.location.reload(); //ladda om sidan
   }
 
+  //För att back button ska gå till förgående sidan och inte homepage
+  let history = useHistory();
+  const goToPreviousPath = () => {
+    history.goBack();
+  }
+
   return (
     <div className='screen'>
       <div className='headerLine'/>
       <div className='header'>
-        <Link to='/'>
-          <button className='back-button'>
+          <button className='back-button' onClick={goToPreviousPath}>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 30" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 16l-4-4m0 0l4-4m-4 4h18" />
             </svg>
           </button>
-        </Link>
         <h2 className='headertext'>RECEPT</h2>
         
       </div>
