@@ -123,7 +123,7 @@ a {
 
 
 /* Search */
-.search {
+#searchbtn {
 
   display: flex;
   height: 70px;
@@ -161,6 +161,8 @@ a {
 
 .searchBar{
   font-family: Helvetica;
+  border: none;
+  outline: none;
 }
 
 #search:active{
@@ -710,8 +712,8 @@ h4{
   margin-top: 95px;
   padding: 5%;
   background-color: rgba(255, 255, 255, 0.89);
-  display:none;
-  height: 225px;
+
+  display: none;
 }
 
 /*making scrollbar invisible*/

@@ -3,17 +3,7 @@ import '../index.css'
 import { BrowserRouter as Router, Switch, Route, Link, useParams } from 'react-router-dom'
 import recipes from '../API/API_drinks'
 import Drink from '../Drink'
-
-var show = false
-const showDiv = () => {
-  show = !show
-  var x = document.getElementById('searchRes')
-  if (x.style.display === 'none') {
-    x.style.display = 'block'
-  } else {
-    x.style.display = 'none'
-  }
-}
+import { getElementError } from '@testing-library/react'
 
 const Home = data => {
   const link = '/Recipe/' + data.id
@@ -55,10 +45,9 @@ function HomeApp () {
     <div>
       {/* ska egentligen va poster2 */}
       <img className='poster' src='poster.png' alt='poster!' />
-
       {/* Searchbar */}
-      <form className='search'>
-        <input className='searchBar' type='text' placeholder='Sök drinkar' onChange={(e) => setFilter(e.target.value)} onClick={() => showDiv()} />
+      <form id='searchbtn'>
+        <input className='searchBar' type='text' placeholder='Sök drinkar' onChange={(e) => setFilter(e.target.value)}  />
         <button id='search'>
           <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
             <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z' />
