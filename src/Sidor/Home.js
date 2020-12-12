@@ -34,11 +34,14 @@ function HomeApp () {
 
   const validRec = sort(recipes.recipes)
 
-  const [filter, setFilter] = useState('')
+  let [filter, setFilter] = useState('')
+  filter = filter.trim()
+  // const filteredRec = validRec.filter(r =>
+  //   r.drink_name.toLowerCase().indexOf(filter.toLowerCase()) === 0
+  // )
 
-  const filteredRec = validRec.filter(r =>
-    r.drink_name.toLowerCase().indexOf(filter.toLowerCase()) === 0
-  )
+  let filteredRec = validRec.filter(d => d.drink_name.toLowerCase().includes(filter))
+  
   const limRec = filteredRec.slice(0, 5)
 
   const linkToSearch = '/Search/ ' + filter;
