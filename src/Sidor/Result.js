@@ -88,7 +88,7 @@ const Result = () => {
   }
   
   //valda string
-  var valda = ""
+  var filter = [];
 
   //Sök genom bassprit array
   let i = 0
@@ -96,7 +96,7 @@ const Result = () => {
   if(basfilter[0] !== ""){
     while(i < basfilter.length){
       allFilteredDrinks.push(basfiltering(basfilter[i]))
-      valda = valda + basfilter[i] + ", ";
+      filter.push(basfilter[i]);
       i++
     }
   }
@@ -106,7 +106,7 @@ const Result = () => {
   if(ingfilter[0] !== ""){
     while(i < ingfilter.length){
       allFilteredDrinks.push(ingfiltering(ingfilter[i]))
-      valda = valda + ingfilter[i] + ", ";
+      filter.push(ingfilter[i]);
       i++
     }
   }
@@ -116,7 +116,7 @@ const Result = () => {
   if(farfilter[0] !== ""){
     while(i < farfilter.length){
       allFilteredDrinks.push(farfiltering(farfilter[i]))
-      valda = valda + farfilter[i] + ", ";
+      filter.push(farfilter[i]);
       i++
     }
   }
@@ -126,7 +126,7 @@ const Result = () => {
   if(smafilter[0] !== ""){
     while(i < smafilter.length){
       allFilteredDrinks.push(smafiltering(smafilter[i]))
-      valda = valda + smafilter[i] + ", ";
+      filter.push(smafilter[i]);
       i++
     }
   }
@@ -141,7 +141,7 @@ const Result = () => {
   //Om man söker tomm aå kommer alla drinkar upp
   if(basfilter[0] === "" && ingfilter[0] === "" && farfilter[0] === "" && smafilter[0] === ""){
     finalDrinks = drinks;
-    valda = "Alla drinkar"
+   // valda = "Alla drinkar"
   }else{
     if(allFilteredDrinks.length === 1){
       finalDrinks = allFilteredDrinks[0]
@@ -160,7 +160,6 @@ const Result = () => {
 
   // valda = basfilter.join(', ')
   // valda = valda + ", " + ingfilter.join(', ')
-  console.log(valda)
 
   
   console.log(finalDrinks)
@@ -179,7 +178,7 @@ const Result = () => {
         <h2  className='headertext'>FILTRERADE DRINKAR</h2>
       </div>
       <div className='content'>
-        <p className = 'visar'>Visar: {valda}</p>
+        <p className = 'visar'>{filter.map(f => <span>{f}</span>)}</p>
         {finalDrinks.map( d => <Drink name={d.drink_name} id={d.id} data = {d} image = {d.picture}/>)}
       </div>
     </div>
