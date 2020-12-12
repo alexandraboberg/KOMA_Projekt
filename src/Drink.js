@@ -13,7 +13,6 @@ export const Drink = data => {
       event.preventDefault()
       saveDrink(data.id)
       setSaved(getDrinks().includes(data.id));
-      window.location.reload(); //ladda om sidan
     }
   
     //Drink

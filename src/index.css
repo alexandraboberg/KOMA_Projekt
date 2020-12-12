@@ -114,12 +114,17 @@ a {
 
 .filter{
   transform: rotate(90deg);
+  color: black !important;
+  
 }
 
 .penis {
   color: black !important;
 }
 
+.none {
+  color: none !important;
+}
 
 
 /* Search */

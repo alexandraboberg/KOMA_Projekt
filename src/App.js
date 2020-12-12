@@ -1,5 +1,5 @@
 import React, { useEffect, useState, Component } from 'react'
-import { BrowserRouter as Router, Switch, Route, NavLink, useParamsm, useHistory } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route, useParams, useHistory } from 'react-router-dom'
 import './index.css'
 import recipes from './API/API_drinks'
 import Pop from './Sidor/Pop'
@@ -12,6 +12,22 @@ import Result from './Sidor/Result'
 
 function showDiv(){
   document.getElementById('loadscreen').style.display = 'block';
+}
+
+function ActiveButton(plats){
+  let cName = 'none'
+  
+  if ((document.URL) == 'http://localhost:3000/' + plats) {
+    if (plats === 'Filter'){
+      cName = "filter"
+    }
+    else {
+      cName = "penis";
+    }
+    
+  } 
+
+  return cName;
 }
 
 function App () {
@@ -51,39 +67,39 @@ function App () {
         <div className='footer'>
           <ul className='icons'>
             <li>
-              <NavLink to='/Filter' activeClassName='penis'>
-                <svg className='filter' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 22 22' stroke='currentcolor' >
+              <a href='/Filter' >
+                <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 22 22' stroke='currentcolor' className ={ActiveButton('Filter')}>
                   <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4' />
                 </svg>
-              </NavLink>
+              </a>
             </li>
             <li>
-              <NavLink to='/Pop' activeClassName='penis'>
-               <svg className='pop' fill='none' stroke='currentcolor' viewBox='0 0 22 22' xmlns='http://www.w3.org/2000/svg'>
+              <a href='/Pop' >
+               <svg fill='none'  color = {ActiveButton('Pop')}  stroke='currentcolor' viewBox='0 0 22 22' xmlns='http://www.w3.org/2000/svg' className ={ActiveButton('Pop')}>
                  <path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z'></path>
                </svg>
-              </NavLink>
+              </a>
             </li>
             <li>
-              <NavLink to='/' exact activeClassName='penis'>
-              <svg className='home' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 22 22' stroke='currentcolor'>
+              <a href='/' exact >
+              <svg className='home' xmlns='http://www.w3.org/2000/svg' fill='none'  color = {ActiveButton('')} viewBox='0 0 22 22' stroke='currentcolor' className ={ActiveButton('')}>
                   <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6' />
                 </svg>
-              </NavLink>
+              </a>
             </li>
             <li>
-              <NavLink to='/Save' activeClassName='penis'>
-                <svg className='save' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 22 22' stroke='currentcolor'>
+              <a href='/Save' >
+                <svg className='save' xmlns='http://www.w3.org/2000/svg' fill='none' color = {ActiveButton('Save')} viewBox='0 0 22 22' stroke='currentcolor' className ={ActiveButton('Save')}>
                   <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z' />
                 </svg>
-              </NavLink>
+              </a>
             </li>
             <li>
-              <NavLink to='/Help' activeClassName='penis'>
-                <svg className='help' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 22 22' stroke='currentcolor'>
+              <a href='/Help' >
+                <svg className='help' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 22 22' stroke='currentcolor' className ={ActiveButton('Help')}>
                   <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z' />
                 </svg>
-              </NavLink>
+              </a>
             </li>
           </ul>
         </div>
