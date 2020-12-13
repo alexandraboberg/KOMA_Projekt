@@ -65,9 +65,10 @@ function HomeApp () {
       <div id='searchRes'>
         {limRec.map(d => (<Home id={d.id} name={d.drink_name} />))}
       </div>
-      <form className='button' action='/filter'>
+      
+      <a href='/Filter' className = 'button'>
         <button className='filterButton' type='submit'>FILTRERA DRINKAR</button>
-      </form>
+      </a>
 
       {/* Säsongens drinkar */}
       <div className='popular'>
