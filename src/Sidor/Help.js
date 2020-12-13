@@ -15,13 +15,13 @@ const Help = () => {
     <div className='screen'>
       <div className='headerLine'/>
       <div className='header'>
-        <Link to='/'>
+        <a href='/'>
           <button className='back-button'>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 30" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M7 16l-4-4m0 0l4-4m-4 4h18" />
             </svg>
           </button>
-        </Link>
+        </a>
         <h2 className='headertext'>FRÅGOR & SVAR</h2>
       </div>
 

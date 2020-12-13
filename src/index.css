@@ -114,11 +114,9 @@ a {
 
 .filter{
   color: black !important;
-}
-
-#filter{
   transform: rotate(90deg);
 }
+
 
 .filled {
   color: black !important;
