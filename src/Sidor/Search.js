@@ -20,7 +20,7 @@ const Search = () => {
 
   if(filter === ""){
     result = drinks
-    valda = "Alla drinkar"
+    valda = "alla drinkar"
   }
   else{
     //Get drinks that match filter
