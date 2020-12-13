@@ -35,7 +35,7 @@ function HomeApp () {
   const validRec = sort(recipes.recipes)
 
   let [filter, setFilter] = useState('')
-  filter = filter.trim()
+  filter = filter.toLowerCase().trim()
   // const filteredRec = validRec.filter(r =>
   //   r.drink_name.toLowerCase().indexOf(filter.toLowerCase()) === 0
   // )
